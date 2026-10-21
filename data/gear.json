@@ -1,0 +1,20 @@
+[
+  {"name":"Cabin-size trolley bag","keyword":"cabin trolley bag 55cm","why":"Fits most airline cabin limits","tags":["all"]},
+  {"name":"Universal travel adapter","keyword":"universal travel adapter","why":"One plug for every country","tags":["all"]},
+  {"name":"Power bank (10,000–20,000 mAh)","keyword":"power bank 20000mah","why":"Keeps your phone alive on long days","tags":["all"]},
+  {"name":"Packing cubes","keyword":"packing cubes travel","why":"Keeps your bag organised","tags":["all"]},
+  {"name":"Reef-safe sunscreen","keyword":"reef safe sunscreen spf 50","why":"Protects you and the coral","tags":["beach","island","diving"]},
+  {"name":"Snorkel mask set","keyword":"snorkel mask set","why":"Better fit and hygiene than rentals","tags":["beach","island","diving"]},
+  {"name":"Quick-dry microfibre towel","keyword":"microfibre travel towel","why":"Light and dries fast","tags":["beach","backpacking","trek","river"]},
+  {"name":"Waterproof phone pouch","keyword":"waterproof phone pouch","why":"For boats, rafting and beaches","tags":["beach","island","river","backwaters"]},
+  {"name":"Trekking shoes","keyword":"trekking shoes men women","why":"Grip and ankle support on trails","tags":["mountain","trek","adventure","hills","waterfalls"]},
+  {"name":"Down / puffer jacket","keyword":"packable puffer jacket","why":"Warm but packs small","tags":["mountain","snow","hills"]},
+  {"name":"Thermal innerwear","keyword":"thermal innerwear set","why":"Essential for cold nights","tags":["mountain","snow","hills","desert"]},
+  {"name":"Trekking poles","keyword":"trekking pole pair","why":"Saves your knees on descents","tags":["trek","mountain","waterfalls"]},
+  {"name":"Daypack (20–30 L)","keyword":"daypack 25l","why":"For day trips and hikes","tags":["all"]},
+  {"name":"Comfortable walking sandals","keyword":"walking sandals","why":"For long city and temple walks","tags":["city","heritage","spiritual","culture"]},
+  {"name":"Neck pillow","keyword":"memory foam neck pillow","why":"For overnight buses and flights","tags":["all"]},
+  {"name":"Insulated water bottle","keyword":"insulated steel water bottle","why":"Cuts plastic and keeps water cool","tags":["all"]},
+  {"name":"Rain jacket / poncho","keyword":"rain jacket packable","why":"Hill weather changes quickly","tags":["hills","waterfalls","nature","tea"]},
+  {"name":"Sunglasses (UV400)","keyword":"uv400 polarised sunglasses","why":"Glare off snow, sand and water","tags":["desert","snow","beach","mountain"]}
+]

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% from "_macros.html" import deal %}
+{% block title %}Today's travel deals — {{ today.strftime('%d %b %Y') }} | {{ site.site_name }}{% endblock %}
+{% block content %}
+<section class="wrap section">
+  <h1 class="page-title">Today's deal searches</h1>
+  <p class="muted">Refreshed every morning. Each card opens a live search with dates already filled in (this weekend from {{ weekend.strftime('%a %d %b') }}, and flights from {{ site.home_airport_name }}). Prices shown on the partner site are the real, current prices.</p>
+  <div class="deals">{% for p in deals %}{{ deal(p) }}{% endfor %}</div>
+</section>
+{% endblock %}
