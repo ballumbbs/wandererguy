@@ -10,6 +10,7 @@ from xml.sax.saxutils import escape
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from affiliates import Links
+from posters import make_poster
 from common import DATA, POSTS, ROOT, STATE_FILE, load_config, load_json, today
 
 OUT = ROOT / "public"
@@ -60,6 +61,7 @@ def main():
         p["url"] = f"/posts/{p['slug']}/"
         p["c1"], p["c2"] = palette(p["slug"])
         p["photo"] = photos.get(p["slug"])
+        p["poster"] = f"/posters/{p['slug']}.svg"
         p["abroad"] = p.get("country") != "India"
         p["route"] = f"{origin} → {p['iata']}" if p.get("iata") and p.get("iata") != origin else None
         posts.append(p)
@@ -106,6 +108,9 @@ def main():
         shutil.rmtree(OUT)
     OUT.mkdir()
     shutil.copytree(ROOT / "static", OUT / "static")
+    (OUT / "posters").mkdir()
+    for p in posts:  # illustrated poster for every guide (used when there's no photo)
+        (OUT / "posters" / f"{p['slug']}.svg").write_text(make_poster(p), encoding="utf-8")
 
     def render(tpl, path, **ctx):
         target = OUT / path
@@ -129,7 +134,7 @@ def main():
 
     # search index used by the search box on every page
     index = [{"n": p["name"], "c": p["country"], "r": p.get("region", ""), "t": p.get("tags", []),
-              "g": p.get("tagline", ""), "u": p["url"], "i": (p["photo"] or {}).get("small", ""),
+              "g": p.get("tagline", ""), "u": p["url"], "i": (p["photo"] or {}).get("small") or p["poster"],
               "a": p["abroad"], "c1": p["c1"], "c2": p["c2"]} for p in by_name]
     (OUT / "search-index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
 

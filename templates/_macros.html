@@ -2,7 +2,7 @@
 {% if p.photo -%}
 <img src="{{ p.photo.url if big else p.photo.small }}" alt="{{ p.name }}, {{ p.country }}" {% if not eager %}loading="lazy" {% endif %}decoding="async">
 {%- else -%}
-<div class="art" style="--c1:{{ p.c1 }};--c2:{{ p.c2 }}" aria-hidden="true"><span>{{ p.name[:1] }}</span></div>
+<img src="{{ p.poster }}" alt="Illustration of {{ p.name }}" {% if not eager %}loading="lazy" {% endif %}decoding="async">
 {%- endif %}
 {%- endmacro %}
 
