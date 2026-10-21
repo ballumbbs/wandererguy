@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_macros.html" import card, deal %}
+{% block content %}
+<section class="hero" style="--c1:{{ today_post.c1 }};--c2:{{ today_post.c2 }}">
+  <div class="wrap hero-inner">
+    <p class="kicker light">Today's destination · {{ today.strftime('%A, %d %B') }}</p>
+    <h1>{{ today_post.icon }} {{ today_post.name }}</h1>
+    <p class="lede">{{ today_post.tagline }}</p>
+    <div class="btns">
+      <a class="btn big" href="{{ today_post.url }}">Read the guide</a>
+      <a class="btn big ghost light" rel="sponsored nofollow noopener" target="_blank" href="{{ today_post.deals.weekend.booking }}">See hotels</a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="section-head"><h2>Featured today</h2><a href="/destinations/">All destinations →</a></div>
+  <div class="grid">{% for p in featured %}{{ card(p) }}{% endfor %}</div>
+</section>
+
+<section class="band">
+  <div class="wrap section">
+    <div class="section-head"><h2>Today's deal searches</h2><a href="/deals/">More deals →</a></div>
+    <p class="muted">Live searches with dates already filled in — click through to see current prices.</p>
+    <div class="deals">{% for p in deals %}{{ deal(p) }}{% endfor %}</div>
+  </div>
+</section>
+
+{% if recent %}
+<section class="wrap section">
+  <div class="section-head"><h2>Recently published</h2></div>
+  <div class="grid">{% for p in recent %}{{ card(p, label=p.featured_on) }}{% endfor %}</div>
+</section>
+{% endif %}
+{% endblock %}

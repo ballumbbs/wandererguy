@@ -1,0 +1,33 @@
+{% macro card(p, label=None) -%}
+<a class="card" href="{{ p.url }}">
+  <div class="card-art" style="--c1:{{ p.c1 }};--c2:{{ p.c2 }}"><span>{{ p.icon }}</span></div>
+  <div class="card-body">
+    {% if label %}<span class="kicker">{{ label }}</span>{% endif %}
+    <h3>{{ p.name }}</h3>
+    <p class="muted">{{ p.country }} · {{ p.cost }}</p>
+    <p>{{ p.tagline }}</p>
+  </div>
+</a>
+{%- endmacro %}
+
+{% macro deal(p) -%}
+<div class="deal">
+  <div class="deal-head" style="--c1:{{ p.c1 }};--c2:{{ p.c2 }}">
+    <span class="deal-icon">{{ p.icon }}</span>
+    <div><h3><a href="{{ p.url }}">{{ p.name }}</a></h3><p>{{ p.country }}</p></div>
+  </div>
+  <div class="deal-row">
+    <span class="muted">This weekend · {{ p.deals.weekend.label }}</span>
+    <div class="btns">
+      <a class="btn" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.weekend.booking }}">Booking.com</a>
+      <a class="btn ghost" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.weekend.agoda }}">Agoda</a>
+    </div>
+  </div>
+  {% if p.deals.flights %}
+  <div class="deal-row">
+    <span class="muted">Flights · {{ p.deals.flight_label }}</span>
+    <div class="btns"><a class="btn accent" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.flights }}">Compare fares</a></div>
+  </div>
+  {% endif %}
+</div>
+{%- endmacro %}
