@@ -1,0 +1,105 @@
+{
+  "slug": "phuket",
+  "name": "Phuket",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "iata": "HKT",
+  "tags": [
+    "beach",
+    "island",
+    "nightlife"
+  ],
+  "cost": "₹₹",
+  "tagline": "Andaman Sea beaches and island hopping",
+  "best_time": "November to April",
+  "highlights": [
+    "Phi Phi Islands day trip",
+    "Phang Nga Bay and James Bond Island",
+    "Old Phuket Town",
+    "Sunset at Promthep Cape"
+  ],
+  "food": [
+    "Tom yum goong",
+    "Fresh seafood at Rawai",
+    "Mee hokkien"
+  ],
+  "stay_areas": [
+    "Kata / Karon for families",
+    "Patong for nightlife",
+    "Kamala for quieter beaches"
+  ],
+  "getting_there": "Fly into Phuket International Airport; direct flights run from several Indian cities.",
+  "tip": "Book island tours that leave early to beat the crowds.",
+  "wiki": "Phi Phi Islands",
+  "intro": "If Phuket has been on your list, consider this your sign. Andaman Sea beaches and island hopping, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Phuket",
+      "paragraphs": [
+        "Phuket (Southeast Asia) is known for its beach, island and nightlife experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Phi Phi Islands day trip",
+        "Phang Nga Bay and James Bond Island",
+        "Old Phuket Town",
+        "Sunset at Promthep Cape"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Tom yum goong",
+        "Fresh seafood at Rawai",
+        "Mee hokkien"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly into Phuket International Airport; direct flights run from several Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Kata / Karon for families",
+        "Patong for nightlife",
+        "Kamala for quieter beaches"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book island tours that leave early to beat the crowds."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Phuket?",
+      "a": "November to April."
+    },
+    {
+      "q": "How do I reach Phuket?",
+      "a": "Fly into Phuket International Airport; direct flights run from several Indian cities."
+    },
+    {
+      "q": "Where should I stay in Phuket?",
+      "a": "Popular choices: Kata / Karon for families; Patong for nightlife; Kamala for quieter beaches."
+    }
+  ],
+  "source": "template",
+  "title": "Phuket Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Andaman Sea beaches and island hopping. Plan your Phuket trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

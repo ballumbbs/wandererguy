@@ -1,0 +1,105 @@
+{
+  "slug": "darjeeling",
+  "name": "Darjeeling",
+  "country": "India",
+  "region": "West Bengal",
+  "iata": "IXB",
+  "tags": [
+    "hills",
+    "tea",
+    "heritage"
+  ],
+  "cost": "₹",
+  "tagline": "Tea gardens, toy trains and Kanchenjunga views",
+  "best_time": "March to May and October to December",
+  "highlights": [
+    "Sunrise over Kanchenjunga from Tiger Hill",
+    "A ride on the Darjeeling Himalayan Railway",
+    "Happy Valley Tea Estate",
+    "Batasia Loop and the Mall"
+  ],
+  "food": [
+    "Momos and thukpa",
+    "Darjeeling first-flush tea",
+    "Breakfast at a colonial-era bakery"
+  ],
+  "stay_areas": [
+    "Near the Mall / Chowrasta for walkability",
+    "Tea-estate bungalows outside town",
+    "Ghoom for quiet"
+  ],
+  "getting_there": "Fly to Bagdogra or take a train to New Jalpaiguri, then about 3 hours by road.",
+  "tip": "Leave for Tiger Hill around 4 AM — the road gets jammed close to sunrise.",
+  "wiki": "Darjeeling Himalayan Railway",
+  "intro": "Darjeeling is one of those places that stays with you long after the trip ends. Tea gardens, toy trains and Kanchenjunga views — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Darjeeling",
+      "paragraphs": [
+        "Darjeeling (West Bengal) is known for its hills, tea and heritage experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to May and October to December."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sunrise over Kanchenjunga from Tiger Hill",
+        "A ride on the Darjeeling Himalayan Railway",
+        "Happy Valley Tea Estate",
+        "Batasia Loop and the Mall"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Momos and thukpa",
+        "Darjeeling first-flush tea",
+        "Breakfast at a colonial-era bakery"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly to Bagdogra or take a train to New Jalpaiguri, then about 3 hours by road."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near the Mall / Chowrasta for walkability",
+        "Tea-estate bungalows outside town",
+        "Ghoom for quiet"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Leave for Tiger Hill around 4 AM — the road gets jammed close to sunrise."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Darjeeling?",
+      "a": "March to May and October to December."
+    },
+    {
+      "q": "How do I reach Darjeeling?",
+      "a": "Fly to Bagdogra or take a train to New Jalpaiguri, then about 3 hours by road."
+    },
+    {
+      "q": "Where should I stay in Darjeeling?",
+      "a": "Popular choices: Near the Mall / Chowrasta for walkability; Tea-estate bungalows outside town; Ghoom for quiet."
+    }
+  ],
+  "source": "template",
+  "title": "Darjeeling Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Tea gardens, toy trains and Kanchenjunga views. Plan your Darjeeling trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

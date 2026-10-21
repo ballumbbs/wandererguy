@@ -1,0 +1,105 @@
+{
+  "slug": "hampi",
+  "name": "Hampi",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "HBX",
+  "tags": [
+    "heritage",
+    "backpacking",
+    "boulders"
+  ],
+  "cost": "₹",
+  "tagline": "Boulder landscapes and the ruins of Vijayanagara",
+  "best_time": "October to February",
+  "highlights": [
+    "Virupaksha Temple",
+    "Vittala Temple and the stone chariot",
+    "Sunset from Matanga Hill",
+    "Coracle ride on the Tungabhadra"
+  ],
+  "food": [
+    "South Indian thalis",
+    "Banana pancakes in backpacker cafés",
+    "Fresh lime soda"
+  ],
+  "stay_areas": [
+    "Hampi Bazaar area for access to ruins",
+    "Hippie Island (Virupapur Gaddi) for chilled stays",
+    "Kamalapur for heritage hotels"
+  ],
+  "getting_there": "Overnight trains or buses to Hosapete (Hospet), about 30 minutes away.",
+  "tip": "Rent a bicycle — the ruins are spread over a large area.",
+  "wiki": "Vittala Temple",
+  "intro": "Looking for your next escape? Hampi delivers: boulder landscapes and the ruins of Vijayanagara. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Hampi",
+      "paragraphs": [
+        "Hampi (Karnataka) is known for its heritage, backpacking and boulders experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to February."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Virupaksha Temple",
+        "Vittala Temple and the stone chariot",
+        "Sunset from Matanga Hill",
+        "Coracle ride on the Tungabhadra"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "South Indian thalis",
+        "Banana pancakes in backpacker cafés",
+        "Fresh lime soda"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Overnight trains or buses to Hosapete (Hospet), about 30 minutes away."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Hampi Bazaar area for access to ruins",
+        "Hippie Island (Virupapur Gaddi) for chilled stays",
+        "Kamalapur for heritage hotels"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Rent a bicycle — the ruins are spread over a large area."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Hampi?",
+      "a": "October to February."
+    },
+    {
+      "q": "How do I reach Hampi?",
+      "a": "Overnight trains or buses to Hosapete (Hospet), about 30 minutes away."
+    },
+    {
+      "q": "Where should I stay in Hampi?",
+      "a": "Popular choices: Hampi Bazaar area for access to ruins; Hippie Island (Virupapur Gaddi) for chilled stays; Kamalapur for heritage hotels."
+    }
+  ],
+  "source": "template",
+  "title": "Hampi Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Boulder landscapes and the ruins of Vijayanagara. Plan your Hampi trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

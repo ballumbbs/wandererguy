@@ -1,0 +1,103 @@
+{
+  "slug": "kutch",
+  "name": "Rann of Kutch",
+  "country": "India",
+  "region": "Gujarat",
+  "iata": "BHJ",
+  "wiki": "Great Rann of Kutch",
+  "tags": [
+    "desert",
+    "culture",
+    "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "The white salt desert under a full moon",
+  "best_time": "November to February",
+  "highlights": [
+    "White Rann at sunset and full moon",
+    "Rann Utsav tent city (seasonal)",
+    "Kalo Dungar viewpoint",
+    "Craft villages around Bhuj"
+  ],
+  "food": [
+    "Kutchi dabeli",
+    "Bajra rotla",
+    "Gujarati thali"
+  ],
+  "stay_areas": [
+    "Dhordo tent city during Rann Utsav",
+    "Bhuj for heritage stays"
+  ],
+  "getting_there": "Fly or take a train to Bhuj; Dhordo is about 1.5 hours by road.",
+  "tip": "A permit is needed for the White Rann — it's usually available at the Bhirandiyara checkpost.",
+  "intro": "The white salt desert under a full moon. That is Rann of Kutch in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Rann of Kutch",
+      "paragraphs": [
+        "Rann of Kutch (Gujarat) is known for its desert, culture and adventure experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to February."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "White Rann at sunset and full moon",
+        "Rann Utsav tent city (seasonal)",
+        "Kalo Dungar viewpoint",
+        "Craft villages around Bhuj"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Kutchi dabeli",
+        "Bajra rotla",
+        "Gujarati thali"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly or take a train to Bhuj; Dhordo is about 1.5 hours by road."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Dhordo tent city during Rann Utsav",
+        "Bhuj for heritage stays"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "A permit is needed for the White Rann — it's usually available at the Bhirandiyara checkpost."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Rann of Kutch?",
+      "a": "November to February."
+    },
+    {
+      "q": "How do I reach Rann of Kutch?",
+      "a": "Fly or take a train to Bhuj; Dhordo is about 1.5 hours by road."
+    },
+    {
+      "q": "Where should I stay in Rann of Kutch?",
+      "a": "Popular choices: Dhordo tent city during Rann Utsav; Bhuj for heritage stays."
+    }
+  ],
+  "source": "template",
+  "title": "Rann of Kutch Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The white salt desert under a full moon. Plan your Rann of Kutch trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

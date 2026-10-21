@@ -1,0 +1,103 @@
+{
+  "slug": "varkala",
+  "name": "Varkala",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "TRV",
+  "wiki": "Varkala Beach",
+  "tags": [
+    "beach",
+    "backpacking",
+    "nature"
+  ],
+  "cost": "₹",
+  "tagline": "Red cliffs over the Arabian Sea",
+  "best_time": "October to March",
+  "highlights": [
+    "North Cliff walk",
+    "Varkala Beach (Papanasam)",
+    "Janardhana Swamy Temple",
+    "Kappil backwaters"
+  ],
+  "food": [
+    "Fresh seafood",
+    "Kerala parotta and curry",
+    "Cliff-top café breakfasts"
+  ],
+  "stay_areas": [
+    "North Cliff for views and cafés",
+    "South Cliff for quiet"
+  ],
+  "getting_there": "About 1 hour from Thiruvananthapuram airport; Varkala has a railway station.",
+  "tip": "Currents can be strong — swim only where lifeguards are present.",
+  "intro": "Varkala is one of those places that stays with you long after the trip ends. Red cliffs over the Arabian Sea — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Varkala",
+      "paragraphs": [
+        "Varkala (Kerala) is known for its beach, backpacking and nature experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "North Cliff walk",
+        "Varkala Beach (Papanasam)",
+        "Janardhana Swamy Temple",
+        "Kappil backwaters"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Fresh seafood",
+        "Kerala parotta and curry",
+        "Cliff-top café breakfasts"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 1 hour from Thiruvananthapuram airport; Varkala has a railway station."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "North Cliff for views and cafés",
+        "South Cliff for quiet"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Currents can be strong — swim only where lifeguards are present."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Varkala?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Varkala?",
+      "a": "About 1 hour from Thiruvananthapuram airport; Varkala has a railway station."
+    },
+    {
+      "q": "Where should I stay in Varkala?",
+      "a": "Popular choices: North Cliff for views and cafés; South Cliff for quiet."
+    }
+  ],
+  "source": "template",
+  "title": "Varkala Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Red cliffs over the Arabian Sea. Plan your Varkala trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

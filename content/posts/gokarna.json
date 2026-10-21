@@ -1,0 +1,105 @@
+{
+  "slug": "gokarna",
+  "name": "Gokarna",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "GOI",
+  "wiki": "Om Beach",
+  "tags": [
+    "beach",
+    "backpacking",
+    "spiritual"
+  ],
+  "cost": "₹",
+  "tagline": "Goa's quieter, wilder neighbour",
+  "best_time": "October to March",
+  "highlights": [
+    "Beach trek: Kudle to Om to Half Moon to Paradise",
+    "Mahabaleshwar Temple",
+    "Sunset at Kudle Beach",
+    "Yoga retreats"
+  ],
+  "food": [
+    "Seafood thalis",
+    "Café food on the beaches",
+    "Banana pancakes"
+  ],
+  "stay_areas": [
+    "Kudle Beach for cafés",
+    "Om Beach for views",
+    "Town for temples"
+  ],
+  "getting_there": "Train to Gokarna Road station or about 3 hours by road from Goa airport.",
+  "tip": "Carry cash and a torch for the beach trek.",
+  "intro": "Gokarna is one of those places that stays with you long after the trip ends. Goa's quieter, wilder neighbour — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Gokarna",
+      "paragraphs": [
+        "Gokarna (Karnataka) is known for its beach, backpacking and spiritual experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Beach trek: Kudle to Om to Half Moon to Paradise",
+        "Mahabaleshwar Temple",
+        "Sunset at Kudle Beach",
+        "Yoga retreats"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Seafood thalis",
+        "Café food on the beaches",
+        "Banana pancakes"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Train to Gokarna Road station or about 3 hours by road from Goa airport."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Kudle Beach for cafés",
+        "Om Beach for views",
+        "Town for temples"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Carry cash and a torch for the beach trek."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Gokarna?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Gokarna?",
+      "a": "Train to Gokarna Road station or about 3 hours by road from Goa airport."
+    },
+    {
+      "q": "Where should I stay in Gokarna?",
+      "a": "Popular choices: Kudle Beach for cafés; Om Beach for views; Town for temples."
+    }
+  ],
+  "source": "template",
+  "title": "Gokarna Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Goa's quieter, wilder neighbour. Plan your Gokarna trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

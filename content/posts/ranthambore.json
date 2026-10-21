@@ -1,0 +1,103 @@
+{
+  "slug": "ranthambore",
+  "name": "Ranthambore",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JAI",
+  "wiki": "Ranthambore National Park",
+  "tags": [
+    "nature",
+    "wildlife",
+    "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "Tigers among ancient ruins",
+  "best_time": "October to June (park closed in monsoon)",
+  "highlights": [
+    "Jeep or canter safari",
+    "Ranthambore Fort",
+    "Padam Talao lake",
+    "Village visits"
+  ],
+  "food": [
+    "Rajasthani thali",
+    "Dal baati",
+    "Lassi"
+  ],
+  "stay_areas": [
+    "Sawai Madhopur for budget stays",
+    "Ranthambore Road for jungle lodges"
+  ],
+  "getting_there": "Sawai Madhopur station is on the Delhi–Mumbai line; Jaipur airport is about 3 hours away.",
+  "tip": "Safari permits sell out — book on the official portal well ahead.",
+  "intro": "Ranthambore is one of those places that stays with you long after the trip ends. Tigers among ancient ruins — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Ranthambore",
+      "paragraphs": [
+        "Ranthambore (Rajasthan) is known for its nature, wildlife and adventure experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to June (park closed in monsoon)."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Jeep or canter safari",
+        "Ranthambore Fort",
+        "Padam Talao lake",
+        "Village visits"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Rajasthani thali",
+        "Dal baati",
+        "Lassi"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Sawai Madhopur station is on the Delhi–Mumbai line; Jaipur airport is about 3 hours away."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Sawai Madhopur for budget stays",
+        "Ranthambore Road for jungle lodges"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Safari permits sell out — book on the official portal well ahead."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Ranthambore?",
+      "a": "October to June (park closed in monsoon)."
+    },
+    {
+      "q": "How do I reach Ranthambore?",
+      "a": "Sawai Madhopur station is on the Delhi–Mumbai line; Jaipur airport is about 3 hours away."
+    },
+    {
+      "q": "Where should I stay in Ranthambore?",
+      "a": "Popular choices: Sawai Madhopur for budget stays; Ranthambore Road for jungle lodges."
+    }
+  ],
+  "source": "template",
+  "title": "Ranthambore Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Tigers among ancient ruins. Plan your Ranthambore trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

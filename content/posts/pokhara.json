@@ -1,0 +1,103 @@
+{
+  "slug": "pokhara",
+  "name": "Pokhara",
+  "country": "Nepal",
+  "region": "South Asia",
+  "iata": "KTM",
+  "wiki": "Phewa Lake",
+  "tags": [
+    "lakes",
+    "mountain",
+    "adventure"
+  ],
+  "cost": "₹",
+  "tagline": "Lakeside calm under the Annapurnas",
+  "best_time": "October to November and March to April",
+  "highlights": [
+    "Sunrise at Sarangkot",
+    "Boating on Phewa Lake",
+    "Paragliding",
+    "World Peace Pagoda"
+  ],
+  "food": [
+    "Dal bhat",
+    "Momos",
+    "Lakeside cafés"
+  ],
+  "stay_areas": [
+    "Lakeside for cafés and views",
+    "Sarangkot for sunrise"
+  ],
+  "getting_there": "Short flight or a scenic road trip from Kathmandu.",
+  "tip": "Pokhara is the starting point for the Annapurna and Poon Hill treks.",
+  "intro": "If Pokhara has been on your list, consider this your sign. Lakeside calm under the Annapurnas, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Pokhara",
+      "paragraphs": [
+        "Pokhara (South Asia) is known for its lakes, mountain and adventure experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to November and March to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sunrise at Sarangkot",
+        "Boating on Phewa Lake",
+        "Paragliding",
+        "World Peace Pagoda"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Dal bhat",
+        "Momos",
+        "Lakeside cafés"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Short flight or a scenic road trip from Kathmandu."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Lakeside for cafés and views",
+        "Sarangkot for sunrise"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Pokhara is the starting point for the Annapurna and Poon Hill treks."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Pokhara?",
+      "a": "October to November and March to April."
+    },
+    {
+      "q": "How do I reach Pokhara?",
+      "a": "Short flight or a scenic road trip from Kathmandu."
+    },
+    {
+      "q": "Where should I stay in Pokhara?",
+      "a": "Popular choices: Lakeside for cafés and views; Sarangkot for sunrise."
+    }
+  ],
+  "source": "template",
+  "title": "Pokhara Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Lakeside calm under the Annapurnas. Plan your Pokhara trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

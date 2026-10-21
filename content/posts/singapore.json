@@ -1,0 +1,105 @@
+{
+  "slug": "singapore",
+  "name": "Singapore",
+  "country": "Singapore",
+  "region": "Southeast Asia",
+  "iata": "SIN",
+  "tags": [
+    "city",
+    "family",
+    "food"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Gardens, hawker food and a skyline by the bay",
+  "best_time": "Year-round; February to April is often driest",
+  "highlights": [
+    "Gardens by the Bay light show",
+    "Hawker centres like Maxwell and Lau Pa Sat",
+    "Sentosa Island",
+    "Little India and Chinatown"
+  ],
+  "food": [
+    "Hainanese chicken rice",
+    "Laksa",
+    "Chilli crab"
+  ],
+  "stay_areas": [
+    "Marina Bay for views",
+    "Chinatown for value",
+    "Orchard for shopping"
+  ],
+  "getting_there": "Direct flights from most major Indian cities to Changi Airport.",
+  "tip": "Eat at hawker centres — great food at a fraction of restaurant prices.",
+  "wiki": "Gardens by the Bay",
+  "intro": "Looking for your next escape? Singapore delivers: gardens, hawker food and a skyline by the bay. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Singapore",
+      "paragraphs": [
+        "Singapore (Southeast Asia) is known for its city, family and food experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is Year-round; February to April is often driest."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Gardens by the Bay light show",
+        "Hawker centres like Maxwell and Lau Pa Sat",
+        "Sentosa Island",
+        "Little India and Chinatown"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Hainanese chicken rice",
+        "Laksa",
+        "Chilli crab"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from most major Indian cities to Changi Airport."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Marina Bay for views",
+        "Chinatown for value",
+        "Orchard for shopping"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Eat at hawker centres — great food at a fraction of restaurant prices."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Singapore?",
+      "a": "Year-round; February to April is often driest."
+    },
+    {
+      "q": "How do I reach Singapore?",
+      "a": "Direct flights from most major Indian cities to Changi Airport."
+    },
+    {
+      "q": "Where should I stay in Singapore?",
+      "a": "Popular choices: Marina Bay for views; Chinatown for value; Orchard for shopping."
+    }
+  ],
+  "source": "template",
+  "title": "Singapore Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Gardens, hawker food and a skyline by the bay. Plan your Singapore trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

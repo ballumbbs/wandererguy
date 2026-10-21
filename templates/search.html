@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Search destinations | {{ site.site_name }}{% endblock %}
+{% block content %}
+<section class="page-head">
+  <div class="wrap">
+    <h1>Search</h1>
+    <form class="hero-search page-search" action="/search/" role="search">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="City, state, country or trip type" autocomplete="off" aria-label="Search destinations" data-results-input>
+      <button class="btn btn-gold" type="submit">Search</button>
+    </form>
+  </div>
+</section>
+<section class="wrap">
+  <p class="count" aria-live="polite" data-results-count></p>
+  <div class="grid" data-results></div>
+</section>
+{% endblock %}

@@ -1,0 +1,103 @@
+{
+  "slug": "agra",
+  "name": "Agra",
+  "country": "India",
+  "region": "Uttar Pradesh",
+  "iata": "AGR",
+  "wiki": "Taj Mahal",
+  "tags": [
+    "heritage",
+    "city",
+    "culture"
+  ],
+  "cost": "₹",
+  "tagline": "The Taj Mahal and the Mughal heartland",
+  "best_time": "October to March",
+  "highlights": [
+    "Taj Mahal at sunrise",
+    "Agra Fort",
+    "Mehtab Bagh for sunset views of the Taj",
+    "Day trip to Fatehpur Sikri"
+  ],
+  "food": [
+    "Agra petha",
+    "Bedai with aloo sabzi",
+    "Mughlai kebabs"
+  ],
+  "stay_areas": [
+    "Taj Ganj for walking access to the Taj",
+    "Fatehabad Road for larger hotels"
+  ],
+  "getting_there": "About 2–3 hours from Delhi by express train or the Yamuna Expressway; Agra also has a small airport.",
+  "tip": "The Taj Mahal is closed on Fridays — plan around it.",
+  "intro": "If Agra has been on your list, consider this your sign. The Taj Mahal and the Mughal heartland, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Agra",
+      "paragraphs": [
+        "Agra (Uttar Pradesh) is known for its heritage, city and culture experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Taj Mahal at sunrise",
+        "Agra Fort",
+        "Mehtab Bagh for sunset views of the Taj",
+        "Day trip to Fatehpur Sikri"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Agra petha",
+        "Bedai with aloo sabzi",
+        "Mughlai kebabs"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 2–3 hours from Delhi by express train or the Yamuna Expressway; Agra also has a small airport."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Taj Ganj for walking access to the Taj",
+        "Fatehabad Road for larger hotels"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "The Taj Mahal is closed on Fridays — plan around it."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Agra?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Agra?",
+      "a": "About 2–3 hours from Delhi by express train or the Yamuna Expressway; Agra also has a small airport."
+    },
+    {
+      "q": "Where should I stay in Agra?",
+      "a": "Popular choices: Taj Ganj for walking access to the Taj; Fatehabad Road for larger hotels."
+    }
+  ],
+  "source": "template",
+  "title": "Agra Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The Taj Mahal and the Mughal heartland. Plan your Agra trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

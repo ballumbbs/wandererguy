@@ -1,0 +1,101 @@
+{
+  "slug": "mount-abu",
+  "name": "Mount Abu",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "UDR",
+  "wiki": "Dilwara Temples",
+  "tags": [
+    "hills",
+    "heritage",
+    "family"
+  ],
+  "cost": "₹",
+  "tagline": "Rajasthan's only hill station",
+  "best_time": "October to June",
+  "highlights": [
+    "Dilwara Jain Temples",
+    "Nakki Lake boating",
+    "Sunset Point",
+    "Guru Shikhar"
+  ],
+  "food": [
+    "Rabri",
+    "Gujarati thali",
+    "Corn on the cob by the lake"
+  ],
+  "stay_areas": [
+    "Near Nakki Lake for walkability"
+  ],
+  "getting_there": "Abu Road station is 28 km away; Udaipur airport is about 3.5 hours by road.",
+  "tip": "Photography is not allowed inside the Dilwara Temples.",
+  "intro": "Mount Abu is one of those places that stays with you long after the trip ends. Rajasthan's only hill station — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Mount Abu",
+      "paragraphs": [
+        "Mount Abu (Rajasthan) is known for its hills, heritage and family experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to June."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Dilwara Jain Temples",
+        "Nakki Lake boating",
+        "Sunset Point",
+        "Guru Shikhar"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Rabri",
+        "Gujarati thali",
+        "Corn on the cob by the lake"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Abu Road station is 28 km away; Udaipur airport is about 3.5 hours by road."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near Nakki Lake for walkability"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Photography is not allowed inside the Dilwara Temples."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Mount Abu?",
+      "a": "October to June."
+    },
+    {
+      "q": "How do I reach Mount Abu?",
+      "a": "Abu Road station is 28 km away; Udaipur airport is about 3.5 hours by road."
+    },
+    {
+      "q": "Where should I stay in Mount Abu?",
+      "a": "Popular choices: Near Nakki Lake for walkability."
+    }
+  ],
+  "source": "template",
+  "title": "Mount Abu Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Rajasthan's only hill station. Plan your Mount Abu trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "udaipur",
+  "name": "Udaipur",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "UDR",
+  "tags": [
+    "heritage",
+    "romantic",
+    "lakes"
+  ],
+  "cost": "₹₹",
+  "tagline": "Lakes, palaces and rooftop sunsets",
+  "best_time": "September to March",
+  "highlights": [
+    "A boat ride on Lake Pichola",
+    "City Palace museum",
+    "Sunset from Ambrai Ghat",
+    "Day trip to Kumbhalgarh Fort"
+  ],
+  "food": [
+    "Gatte ki sabzi",
+    "Laal maas",
+    "Malpua from the old city sweet shops"
+  ],
+  "stay_areas": [
+    "Lal Ghat for lake-view guesthouses",
+    "Hanuman Ghat for sunset views",
+    "Fateh Sagar area for calm stays"
+  ],
+  "getting_there": "Fly to Maharana Pratap Airport or take a train from Delhi, Jaipur or Ahmedabad.",
+  "tip": "Book a lake-view room — it is what makes Udaipur special.",
+  "wiki": "Lake Pichola",
+  "intro": "If Udaipur has been on your list, consider this your sign. Lakes, palaces and rooftop sunsets, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Udaipur",
+      "paragraphs": [
+        "Udaipur (Rajasthan) is known for its heritage, romantic and lakes experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is September to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "A boat ride on Lake Pichola",
+        "City Palace museum",
+        "Sunset from Ambrai Ghat",
+        "Day trip to Kumbhalgarh Fort"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Gatte ki sabzi",
+        "Laal maas",
+        "Malpua from the old city sweet shops"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly to Maharana Pratap Airport or take a train from Delhi, Jaipur or Ahmedabad."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Lal Ghat for lake-view guesthouses",
+        "Hanuman Ghat for sunset views",
+        "Fateh Sagar area for calm stays"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book a lake-view room — it is what makes Udaipur special."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Udaipur?",
+      "a": "September to March."
+    },
+    {
+      "q": "How do I reach Udaipur?",
+      "a": "Fly to Maharana Pratap Airport or take a train from Delhi, Jaipur or Ahmedabad."
+    },
+    {
+      "q": "Where should I stay in Udaipur?",
+      "a": "Popular choices: Lal Ghat for lake-view guesthouses; Hanuman Ghat for sunset views; Fateh Sagar area for calm stays."
+    }
+  ],
+  "source": "template",
+  "title": "Udaipur Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Lakes, palaces and rooftop sunsets. Plan your Udaipur trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

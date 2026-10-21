@@ -1,0 +1,104 @@
+{
+  "slug": "maldives",
+  "name": "Maldives",
+  "country": "Maldives",
+  "region": "Indian Ocean",
+  "iata": "MLE",
+  "tags": [
+    "beach",
+    "island",
+    "luxury",
+    "romantic"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Overwater villas and house reefs",
+  "best_time": "November to April",
+  "highlights": [
+    "Snorkelling a house reef",
+    "Sandbank picnic",
+    "Manta and whale shark trips (seasonal)",
+    "Local-island stays on Maafushi"
+  ],
+  "food": [
+    "Mas huni",
+    "Garudhiya fish soup",
+    "Fresh reef fish"
+  ],
+  "stay_areas": [
+    "Resort islands for luxury",
+    "Maafushi / Thulusdhoo for budget local islands"
+  ],
+  "getting_there": "Direct flights from several Indian cities to Malé, then speedboat or seaplane.",
+  "tip": "Local islands are a budget-friendly alternative to resorts.",
+  "wiki": "Maafushi",
+  "intro": "Looking for your next escape? Maldives delivers: overwater villas and house reefs. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Maldives",
+      "paragraphs": [
+        "Maldives (Indian Ocean) is known for its beach, island, luxury and romantic experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Snorkelling a house reef",
+        "Sandbank picnic",
+        "Manta and whale shark trips (seasonal)",
+        "Local-island stays on Maafushi"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Mas huni",
+        "Garudhiya fish soup",
+        "Fresh reef fish"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from several Indian cities to Malé, then speedboat or seaplane."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Resort islands for luxury",
+        "Maafushi / Thulusdhoo for budget local islands"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Local islands are a budget-friendly alternative to resorts."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Maldives?",
+      "a": "November to April."
+    },
+    {
+      "q": "How do I reach Maldives?",
+      "a": "Direct flights from several Indian cities to Malé, then speedboat or seaplane."
+    },
+    {
+      "q": "Where should I stay in Maldives?",
+      "a": "Popular choices: Resort islands for luxury; Maafushi / Thulusdhoo for budget local islands."
+    }
+  ],
+  "source": "template",
+  "title": "Maldives Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Overwater villas and house reefs. Plan your Maldives trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

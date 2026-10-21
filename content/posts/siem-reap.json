@@ -1,0 +1,103 @@
+{
+  "slug": "siem-reap",
+  "name": "Siem Reap",
+  "country": "Cambodia",
+  "region": "Southeast Asia",
+  "iata": "SAI",
+  "wiki": "Angkor Wat",
+  "tags": [
+    "heritage",
+    "culture",
+    "adventure"
+  ],
+  "cost": "₹",
+  "tagline": "Sunrise over Angkor Wat",
+  "best_time": "November to March",
+  "highlights": [
+    "Sunrise at Angkor Wat",
+    "Bayon's stone faces",
+    "Ta Prohm jungle temple",
+    "Tonle Sap floating villages"
+  ],
+  "food": [
+    "Fish amok",
+    "Lok lak",
+    "Khmer curry"
+  ],
+  "stay_areas": [
+    "Near Pub Street for nightlife",
+    "Riverside for quiet"
+  ],
+  "getting_there": "Fly into Siem Reap Angkor International Airport, usually via Bangkok or Singapore.",
+  "tip": "A multi-day temple pass lets you avoid rushing — hire a tuk-tuk for the day.",
+  "intro": "Sunrise over Angkor Wat. That is Siem Reap in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Siem Reap",
+      "paragraphs": [
+        "Siem Reap (Southeast Asia) is known for its heritage, culture and adventure experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sunrise at Angkor Wat",
+        "Bayon's stone faces",
+        "Ta Prohm jungle temple",
+        "Tonle Sap floating villages"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Fish amok",
+        "Lok lak",
+        "Khmer curry"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly into Siem Reap Angkor International Airport, usually via Bangkok or Singapore."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near Pub Street for nightlife",
+        "Riverside for quiet"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "A multi-day temple pass lets you avoid rushing — hire a tuk-tuk for the day."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Siem Reap?",
+      "a": "November to March."
+    },
+    {
+      "q": "How do I reach Siem Reap?",
+      "a": "Fly into Siem Reap Angkor International Airport, usually via Bangkok or Singapore."
+    },
+    {
+      "q": "Where should I stay in Siem Reap?",
+      "a": "Popular choices: Near Pub Street for nightlife; Riverside for quiet."
+    }
+  ],
+  "source": "template",
+  "title": "Siem Reap Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Sunrise over Angkor Wat. Plan your Siem Reap trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

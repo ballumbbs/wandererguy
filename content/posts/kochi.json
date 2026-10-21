@@ -1,0 +1,103 @@
+{
+  "slug": "kochi",
+  "name": "Kochi",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "COK",
+  "wiki": "Fort Kochi",
+  "tags": [
+    "heritage",
+    "food",
+    "city"
+  ],
+  "cost": "₹₹",
+  "tagline": "Chinese fishing nets, spice markets and colonial lanes",
+  "best_time": "October to March",
+  "highlights": [
+    "Chinese fishing nets at Fort Kochi",
+    "Mattancherry Palace and Jew Town",
+    "A Kathakali performance",
+    "Sunset ferry across the harbour"
+  ],
+  "food": [
+    "Kerala fish curry",
+    "Appam and stew",
+    "Banana fritters (pazham pori)"
+  ],
+  "stay_areas": [
+    "Fort Kochi for heritage homestays",
+    "Ernakulam for transit and shopping"
+  ],
+  "getting_there": "Cochin International Airport has direct flights from most Indian cities.",
+  "tip": "Use the cheap public ferries between Ernakulam and Fort Kochi.",
+  "intro": "Looking for your next escape? Kochi delivers: chinese fishing nets, spice markets and colonial lanes. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Kochi",
+      "paragraphs": [
+        "Kochi (Kerala) is known for its heritage, food and city experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Chinese fishing nets at Fort Kochi",
+        "Mattancherry Palace and Jew Town",
+        "A Kathakali performance",
+        "Sunset ferry across the harbour"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Kerala fish curry",
+        "Appam and stew",
+        "Banana fritters (pazham pori)"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Cochin International Airport has direct flights from most Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Fort Kochi for heritage homestays",
+        "Ernakulam for transit and shopping"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Use the cheap public ferries between Ernakulam and Fort Kochi."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Kochi?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Kochi?",
+      "a": "Cochin International Airport has direct flights from most Indian cities."
+    },
+    {
+      "q": "Where should I stay in Kochi?",
+      "a": "Popular choices: Fort Kochi for heritage homestays; Ernakulam for transit and shopping."
+    }
+  ],
+  "source": "template",
+  "title": "Kochi Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Chinese fishing nets, spice markets and colonial lanes. Plan your Kochi trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

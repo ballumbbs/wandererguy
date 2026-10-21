@@ -1,282 +1,2809 @@
 [
-  {"slug":"goa","name":"Goa","country":"India","region":"West India","iata":"GOI","tags":["beach","nightlife","food"],"cost":"₹₹",
-   "tagline":"Beaches, Portuguese lanes and long lazy sunsets",
-   "best_time":"November to February, when the weather is dry and pleasant",
-   "highlights":["Sunset at Vagator or Chapora Fort","Walking the Latin Quarter of Fontainhas in Panaji","The quieter beaches of South Goa like Palolem and Agonda","Spice plantations and old churches around Old Goa"],
-   "food":["Goan fish curry with rice","Pork vindaloo and xacuti","Bebinca, the layered coconut dessert"],
-   "stay_areas":["Anjuna / Vagator for cafés and nightlife","Palolem / Agonda for calm beaches","Panaji for heritage and easy transfers"],
-   "getting_there":"Fly into Goa (Dabolim or Mopa) or take an overnight train to Madgaon or Thivim.",
-   "tip":"Rent a scooter for the day — beaches are spread out and taxis add up quickly."},
-  {"slug":"manali","name":"Manali","country":"India","region":"Himachal Pradesh","iata":"KUU","tags":["mountain","adventure","snow"],"cost":"₹",
-   "tagline":"Pine forests, snow peaks and the road to Lahaul",
-   "best_time":"March to June for pleasant weather, December to February for snow",
-   "highlights":["Old Manali cafés and the Hadimba Temple","Solang Valley for paragliding and skiing","A day trip through the Atal Tunnel to Sissu","Jogini Falls hike from Vashisht"],
-   "food":["Siddu with ghee","Trout from local farms","Himachali dham on festival days"],
-   "stay_areas":["Old Manali for backpacker vibes","Mall Road for convenience","Vashisht for hot springs and views"],
-   "getting_there":"Overnight Volvo buses from Delhi are the most popular option; the nearest airport is Bhuntar near Kullu.",
-   "tip":"Check Rohtang Pass permits and road status a day before — they change with the weather."},
-  {"slug":"jaipur","name":"Jaipur","country":"India","region":"Rajasthan","iata":"JAI","tags":["heritage","city","shopping"],"cost":"₹₹",
-   "tagline":"The Pink City of forts, palaces and bazaars",
-   "best_time":"October to March",
-   "highlights":["Amber Fort early in the morning","Hawa Mahal and the City Palace","Nahargarh Fort at sunset","Shopping for block prints at Johari and Bapu Bazaar"],
-   "food":["Dal baati churma","Pyaaz kachori","Lassi in a kulhad"],
-   "stay_areas":["C-Scheme for central, upscale stays","Old City for heritage havelis","Bani Park for quieter boutique hotels"],
-   "getting_there":"Jaipur has an international airport and frequent trains and buses from Delhi (about 5 hours by road).",
-   "tip":"Buy the composite ticket — it covers most major monuments and saves money."},
-  {"slug":"udaipur","name":"Udaipur","country":"India","region":"Rajasthan","iata":"UDR","tags":["heritage","romantic","lakes"],"cost":"₹₹",
-   "tagline":"Lakes, palaces and rooftop sunsets",
-   "best_time":"September to March",
-   "highlights":["A boat ride on Lake Pichola","City Palace museum","Sunset from Ambrai Ghat","Day trip to Kumbhalgarh Fort"],
-   "food":["Gatte ki sabzi","Laal maas","Malpua from the old city sweet shops"],
-   "stay_areas":["Lal Ghat for lake-view guesthouses","Hanuman Ghat for sunset views","Fateh Sagar area for calm stays"],
-   "getting_there":"Fly to Maharana Pratap Airport or take a train from Delhi, Jaipur or Ahmedabad.",
-   "tip":"Book a lake-view room — it is what makes Udaipur special."},
-  {"slug":"rishikesh","name":"Rishikesh","country":"India","region":"Uttarakhand","iata":"DED","tags":["spiritual","adventure","river"],"cost":"₹",
-   "tagline":"Yoga capital and white-water rafting on the Ganga",
-   "best_time":"September to November and February to May",
-   "highlights":["Evening Ganga aarti at Triveni Ghat or Parmarth Niketan","White-water rafting from Shivpuri","Walking across Laxman Jhula and Ram Jhula","Beatles Ashram murals"],
-   "food":["Aloo puri at the ghats","Café food in Tapovan","Chotiwala thali"],
-   "stay_areas":["Tapovan for cafés and yoga","Laxman Jhula area for river views","Shivpuri for riverside camps"],
-   "getting_there":"Fly to Dehradun (Jolly Grant), about 45 minutes away, or take a train or bus to Haridwar/Rishikesh.",
-   "tip":"Rafting is usually closed during the monsoon months — plan around it."},
-  {"slug":"leh-ladakh","name":"Leh-Ladakh","country":"India","region":"Ladakh","iata":"IXL","tags":["mountain","adventure","roadtrip"],"cost":"₹₹",
-   "tagline":"High passes, blue lakes and Buddhist monasteries",
-   "best_time":"May to September",
-   "highlights":["Pangong Tso lake","Nubra Valley via Khardung La","Thiksey and Hemis monasteries","Magnetic Hill and the Sangam"],
-   "food":["Thukpa","Momos","Butter tea and skyu"],
-   "stay_areas":["Leh town near the Main Bazaar","Changspa for quieter guesthouses","Camps at Pangong and Nubra"],
-   "getting_there":"Fly into Leh, or drive via the Manali–Leh or Srinagar–Leh highways in summer.",
-   "tip":"Spend your first 48 hours in Leh resting to acclimatise to the altitude."},
-  {"slug":"munnar","name":"Munnar","country":"India","region":"Kerala","iata":"COK","tags":["hills","nature","tea"],"cost":"₹₹",
-   "tagline":"Rolling tea estates in the Western Ghats",
-   "best_time":"September to March",
-   "highlights":["Tea museum and estate walks","Eravikulam National Park","Mattupetty Dam and Echo Point","Sunrise at Kolukkumalai"],
-   "food":["Kerala sadya","Appam with stew","Fresh cardamom tea"],
-   "stay_areas":["Munnar town for convenience","Chithirapuram for tea-estate resorts","Pallivasal for valley views"],
-   "getting_there":"Kochi airport is about 4 hours away by road.",
-   "tip":"Combine Munnar with Alleppey and Kochi for a classic Kerala loop."},
-  {"slug":"alleppey","name":"Alleppey","country":"India","region":"Kerala","iata":"COK","tags":["backwaters","romantic","nature"],"cost":"₹₹",
-   "tagline":"Houseboats drifting through Kerala's backwaters",
-   "best_time":"November to February",
-   "highlights":["An overnight houseboat cruise","Kayaking through narrow canals","Marari Beach","Village walks along the paddy fields"],
-   "food":["Karimeen pollichathu","Toddy-shop style fish curry","Banana chips fresh from the fryer"],
-   "stay_areas":["A houseboat for one night","Marari for beach resorts","Kumarakom for lakeside stays"],
-   "getting_there":"About 1.5–2 hours by road from Kochi airport; Alappuzha also has a railway station.",
-   "tip":"Choose a houseboat with a shared-kitchen menu agreed in advance to avoid surprise charges."},
-  {"slug":"varanasi","name":"Varanasi","country":"India","region":"Uttar Pradesh","iata":"VNS","tags":["spiritual","heritage","culture"],"cost":"₹",
-   "tagline":"India's oldest living city on the Ganga",
-   "best_time":"October to March",
-   "highlights":["Sunrise boat ride along the ghats","Ganga aarti at Dashashwamedh Ghat","Walking the old city lanes","Sarnath, where the Buddha gave his first sermon"],
-   "food":["Kachori sabzi for breakfast","Banarasi paan","Malaiyo in winter"],
-   "stay_areas":["Assi Ghat for cafés and calm","Dashashwamedh area for the aarti","Cantonment for modern hotels"],
-   "getting_there":"Fly into Lal Bahadur Shastri Airport or take one of many trains to Varanasi Junction.",
-   "tip":"Hire a boat at dawn rather than evening — the light and the quiet are worth the early alarm."},
-  {"slug":"darjeeling","name":"Darjeeling","country":"India","region":"West Bengal","iata":"IXB","tags":["hills","tea","heritage"],"cost":"₹",
-   "tagline":"Tea gardens, toy trains and Kanchenjunga views",
-   "best_time":"March to May and October to December",
-   "highlights":["Sunrise over Kanchenjunga from Tiger Hill","A ride on the Darjeeling Himalayan Railway","Happy Valley Tea Estate","Batasia Loop and the Mall"],
-   "food":["Momos and thukpa","Darjeeling first-flush tea","Breakfast at a colonial-era bakery"],
-   "stay_areas":["Near the Mall / Chowrasta for walkability","Tea-estate bungalows outside town","Ghoom for quiet"],
-   "getting_there":"Fly to Bagdogra or take a train to New Jalpaiguri, then about 3 hours by road.",
-   "tip":"Leave for Tiger Hill around 4 AM — the road gets jammed close to sunrise."},
-  {"slug":"andaman","name":"Andaman Islands","country":"India","region":"Andaman & Nicobar","iata":"IXZ","tags":["beach","diving","island"],"cost":"₹₹₹",
-   "tagline":"Turquoise water, coral reefs and white sand",
-   "best_time":"November to April",
-   "highlights":["Radhanagar Beach on Havelock (Swaraj Dweep)","Scuba diving or snorkelling","Cellular Jail light and sound show","Natural Bridge on Neil Island"],
-   "food":["Fresh grilled seafood","Coconut-based fish curry","Tropical fruit from local markets"],
-   "stay_areas":["Havelock for beaches and diving","Neil for slow island life","Port Blair for transit nights"],
-   "getting_there":"Fly to Port Blair, then take a ferry to Havelock and Neil.",
-   "tip":"Book inter-island ferries early in peak season — they sell out."},
-  {"slug":"hampi","name":"Hampi","country":"India","region":"Karnataka","iata":"HBX","tags":["heritage","backpacking","boulders"],"cost":"₹",
-   "tagline":"Boulder landscapes and the ruins of Vijayanagara",
-   "best_time":"October to February",
-   "highlights":["Virupaksha Temple","Vittala Temple and the stone chariot","Sunset from Matanga Hill","Coracle ride on the Tungabhadra"],
-   "food":["South Indian thalis","Banana pancakes in backpacker cafés","Fresh lime soda"],
-   "stay_areas":["Hampi Bazaar area for access to ruins","Hippie Island (Virupapur Gaddi) for chilled stays","Kamalapur for heritage hotels"],
-   "getting_there":"Overnight trains or buses to Hosapete (Hospet), about 30 minutes away.",
-   "tip":"Rent a bicycle — the ruins are spread over a large area."},
-  {"slug":"pondicherry","name":"Pondicherry","country":"India","region":"Tamil Nadu","iata":"MAA","tags":["beach","heritage","food"],"cost":"₹₹",
-   "tagline":"French Quarter streets on the Bay of Bengal",
-   "best_time":"October to March",
-   "highlights":["Walking the French Quarter (White Town)","Promenade Beach at sunrise","Auroville and the Matrimandir viewpoint","Paradise Beach by boat"],
-   "food":["French bakeries and crêpes","Creole-style seafood","Filter coffee"],
-   "stay_areas":["White Town for heritage stays","Auroville for eco-guesthouses","Serenity Beach for surf"],
-   "getting_there":"About 3 hours by road from Chennai airport.",
-   "tip":"Rent a bicycle to explore White Town at an easy pace."},
-  {"slug":"shimla","name":"Shimla","country":"India","region":"Himachal Pradesh","iata":"IXC","tags":["hills","heritage","family"],"cost":"₹₹",
-   "tagline":"The colonial summer capital in the hills",
-   "best_time":"March to June, and December to January for snow",
-   "highlights":["The Ridge and Mall Road","Kalka–Shimla toy train","Jakhu Temple","Day trips to Kufri and Mashobra"],
-   "food":["Chana madra","Street-side momos","Hot chocolate on Mall Road"],
-   "stay_areas":["Near the Mall for walkability","Chharabra / Mashobra for forest retreats","Kufri for snow views"],
-   "getting_there":"Drive from Chandigarh (about 3.5 hours) or take the toy train from Kalka.",
-   "tip":"Most of central Shimla is pedestrian-only — pack light."},
-  {"slug":"coorg","name":"Coorg","country":"India","region":"Karnataka","iata":"IXE","tags":["hills","coffee","nature"],"cost":"₹₹",
-   "tagline":"Misty coffee estates in the Kodagu hills",
-   "best_time":"October to March",
-   "highlights":["Abbey Falls","Raja's Seat at sunset","Dubare Elephant Camp","Coffee plantation walks"],
-   "food":["Pandi curry with akki rotti","Kodava-style rice dumplings","Estate-fresh coffee"],
-   "stay_areas":["Madikeri for convenience","Plantation homestays","Virajpet for quieter estates"],
-   "getting_there":"Mangaluru and Bengaluru are the nearest airports; Mysuru is about 3 hours by road.",
-   "tip":"Stay in a plantation homestay — the home-cooked Kodava food is the highlight."},
-  {"slug":"amritsar","name":"Amritsar","country":"India","region":"Punjab","iata":"ATQ","tags":["spiritual","food","heritage"],"cost":"₹",
-   "tagline":"The Golden Temple and Punjab's best food",
-   "best_time":"October to March",
-   "highlights":["Golden Temple at night and at dawn","Langar at the community kitchen","Attari–Wagah border ceremony","Jallianwala Bagh"],
-   "food":["Amritsari kulcha","Lassi","Fish fry and pinni"],
-   "stay_areas":["Near the Golden Temple for early visits","Ranjit Avenue for modern hotels"],
-   "getting_there":"Amritsar has an international airport and is well connected by train from Delhi.",
-   "tip":"Visit the Golden Temple twice — once at night and once early morning."},
-  {"slug":"jaisalmer","name":"Jaisalmer","country":"India","region":"Rajasthan","iata":"JSA","tags":["desert","heritage","adventure"],"cost":"₹₹",
-   "tagline":"The Golden City at the edge of the Thar",
-   "best_time":"October to March",
-   "highlights":["Jaisalmer Fort, a living fort","Patwon ki Haveli","Camel safari and desert camp at Sam or Khuri","Gadisar Lake at sunrise"],
-   "food":["Ker sangri","Mutton saag","Ghotua laddoo"],
-   "stay_areas":["Inside or below the fort for atmosphere","Desert camps for one night","Hotels near Gadisar Lake"],
-   "getting_there":"Overnight trains from Delhi and Jaipur; the airport has limited seasonal flights.",
-   "tip":"Choose a desert camp away from the crowded dunes for a quieter night sky."},
-  {"slug":"gangtok","name":"Gangtok","country":"India","region":"Sikkim","iata":"IXB","tags":["mountain","nature","culture"],"cost":"₹₹",
-   "tagline":"Monasteries, mountain lakes and Himalayan views",
-   "best_time":"March to May and October to December",
-   "highlights":["MG Marg evening walk","Tsomgo Lake and Nathula (permit required)","Rumtek Monastery","Ropeway views over the valley"],
-   "food":["Momos","Thukpa and phagshapa","Sel roti"],
-   "stay_areas":["Near MG Marg for convenience","Tadong for quieter hotels"],
-   "getting_there":"Fly to Bagdogra or take a train to New Jalpaiguri, then about 4 hours by road.",
-   "tip":"Permits for Nathula and North Sikkim are arranged through registered agents — book a day ahead."},
-  {"slug":"shillong","name":"Shillong & Meghalaya","country":"India","region":"Meghalaya","iata":"GAU","tags":["nature","waterfalls","adventure"],"cost":"₹₹",
-   "tagline":"Living root bridges and the wettest hills on earth",
-   "best_time":"October to May",
-   "highlights":["Double-decker living root bridge at Nongriat","Dawki's clear Umngot river","Mawlynnong village","Nohkalikai Falls in Cherrapunji"],
-   "food":["Jadoh","Dohneiiong","Local cafés and live music in Shillong"],
-   "stay_areas":["Shillong for cafés and base","Sohra (Cherrapunji) for treks","Homestays near Dawki"],
-   "getting_there":"Fly to Guwahati, then about 3 hours by road to Shillong.",
-   "tip":"The Nongriat trek has thousands of steps — start early and carry water."},
-  {"slug":"srinagar","name":"Srinagar","country":"India","region":"Jammu & Kashmir","iata":"SXR","tags":["lakes","mountain","romantic"],"cost":"₹₹",
-   "tagline":"Houseboats, shikaras and Mughal gardens",
-   "best_time":"April to October, and winter for snow",
-   "highlights":["Shikara ride on Dal Lake","Nishat and Shalimar Bagh","Day trips to Gulmarg and Pahalgam","Old city and Jamia Masjid"],
-   "food":["Wazwan feast","Kahwa","Noon chai with girda bread"],
-   "stay_areas":["Houseboats on Dal or Nigeen Lake","Boulevard Road hotels","Rajbagh for quieter stays"],
-   "getting_there":"Fly directly to Srinagar from major Indian cities.",
-   "tip":"Nigeen Lake houseboats are calmer than the busy parts of Dal Lake."},
-  {"slug":"ooty","name":"Ooty","country":"India","region":"Tamil Nadu","iata":"CJB","tags":["hills","family","nature"],"cost":"₹₹",
-   "tagline":"The Nilgiris' classic hill station",
-   "best_time":"October to June",
-   "highlights":["Nilgiri Mountain Railway","Government Botanical Garden","Doddabetta Peak","Pykara Lake and falls"],
-   "food":["Homemade chocolates","Varkey biscuits","Hot filter coffee"],
-   "stay_areas":["Near Charing Cross for convenience","Coonoor for quieter heritage stays"],
-   "getting_there":"Coimbatore airport is about 3 hours away; the toy train runs from Mettupalayam.",
-   "tip":"Book the toy train seats well ahead — they fill up fast."},
-  {"slug":"kasol","name":"Kasol","country":"India","region":"Himachal Pradesh","iata":"KUU","tags":["mountain","backpacking","trek"],"cost":"₹",
-   "tagline":"The Parvati Valley's riverside backpacker base",
-   "best_time":"March to June and September to November",
-   "highlights":["Kheerganga trek and hot spring","Manikaran Sahib","Chalal and Tosh villages","Riverside cafés"],
-   "food":["Israeli-style shakshuka","Trout","Himachali rajma chawal"],
-   "stay_areas":["Kasol for cafés","Chalal for quiet riverside stays","Tosh for views"],
-   "getting_there":"Overnight bus from Delhi to Bhuntar, then a local bus or taxi.",
-   "tip":"Carry cash — ATMs in the valley often run dry."},
-  {"slug":"bali","name":"Bali","country":"Indonesia","region":"Southeast Asia","iata":"DPS","tags":["beach","island","romantic"],"cost":"₹₹",
-   "tagline":"Rice terraces, temples and surf beaches",
-   "best_time":"April to October (dry season)",
-   "highlights":["Tegallalang rice terraces near Ubud","Uluwatu Temple and Kecak dance at sunset","Snorkelling at Nusa Penida","Sunrise trek on Mount Batur"],
-   "food":["Nasi goreng and mie goreng","Babi guling","Smoothie bowls in Canggu"],
-   "stay_areas":["Ubud for culture and nature","Seminyak / Canggu for beach clubs","Uluwatu for cliffs and surf"],
-   "getting_there":"Fly into Ngurah Rai International Airport (Denpasar); there are direct flights from some Indian cities.",
-   "tip":"Traffic is heavy — base yourself in two areas rather than doing day trips from one."},
-  {"slug":"bangkok","name":"Bangkok","country":"Thailand","region":"Southeast Asia","iata":"BKK","tags":["city","food","shopping"],"cost":"₹₹",
-   "tagline":"Temples, street food and rooftop nights",
-   "best_time":"November to February",
-   "highlights":["Grand Palace and Wat Pho","Wat Arun at sunset","Chatuchak Weekend Market","A canal boat ride through Thonburi"],
-   "food":["Pad thai and boat noodles","Mango sticky rice","Som tam"],
-   "stay_areas":["Sukhumvit for nightlife and transit","Riverside for luxury","Old Town for temples"],
-   "getting_there":"Fly into Suvarnabhumi; there are many direct flights from India.",
-   "tip":"Use the river ferries — they beat the traffic and are cheap."},
-  {"slug":"phuket","name":"Phuket","country":"Thailand","region":"Southeast Asia","iata":"HKT","tags":["beach","island","nightlife"],"cost":"₹₹",
-   "tagline":"Andaman Sea beaches and island hopping",
-   "best_time":"November to April",
-   "highlights":["Phi Phi Islands day trip","Phang Nga Bay and James Bond Island","Old Phuket Town","Sunset at Promthep Cape"],
-   "food":["Tom yum goong","Fresh seafood at Rawai","Mee hokkien"],
-   "stay_areas":["Kata / Karon for families","Patong for nightlife","Kamala for quieter beaches"],
-   "getting_there":"Fly into Phuket International Airport; direct flights run from several Indian cities.",
-   "tip":"Book island tours that leave early to beat the crowds."},
-  {"slug":"dubai","name":"Dubai","country":"UAE","region":"Middle East","iata":"DXB","tags":["city","shopping","luxury"],"cost":"₹₹₹",
-   "tagline":"Skyscrapers, desert safaris and souks",
-   "best_time":"November to March",
-   "highlights":["Burj Khalifa observation deck","Desert safari with dinner","Old Dubai: abra ride and the Gold Souk","Dubai Marina walk"],
-   "food":["Shawarma","Emirati machboos","Luqaimat"],
-   "stay_areas":["Downtown for landmarks","Dubai Marina / JBR for beach","Deira for budget and souks"],
-   "getting_there":"Many direct flights from India to Dubai International.",
-   "tip":"The Metro is clean, cheap and connects most major sights."},
-  {"slug":"singapore","name":"Singapore","country":"Singapore","region":"Southeast Asia","iata":"SIN","tags":["city","family","food"],"cost":"₹₹₹",
-   "tagline":"Gardens, hawker food and a skyline by the bay",
-   "best_time":"Year-round; February to April is often driest",
-   "highlights":["Gardens by the Bay light show","Hawker centres like Maxwell and Lau Pa Sat","Sentosa Island","Little India and Chinatown"],
-   "food":["Hainanese chicken rice","Laksa","Chilli crab"],
-   "stay_areas":["Marina Bay for views","Chinatown for value","Orchard for shopping"],
-   "getting_there":"Direct flights from most major Indian cities to Changi Airport.",
-   "tip":"Eat at hawker centres — great food at a fraction of restaurant prices."},
-  {"slug":"hanoi","name":"Hanoi & Ha Long Bay","country":"Vietnam","region":"Southeast Asia","iata":"HAN","tags":["city","food","nature"],"cost":"₹",
-   "tagline":"Old Quarter streets and limestone bays",
-   "best_time":"October to April",
-   "highlights":["Walking Hanoi's Old Quarter","Overnight cruise on Ha Long or Lan Ha Bay","Train Street café stop","Ninh Binh's river caves"],
-   "food":["Pho","Bun cha","Egg coffee"],
-   "stay_areas":["Old Quarter for atmosphere","Hoan Kiem Lake area","A cruise boat for one night"],
-   "getting_there":"Fly into Noi Bai International Airport; direct flights operate from India.",
-   "tip":"Pick a Lan Ha Bay cruise for fewer boats than central Ha Long."},
-  {"slug":"kathmandu","name":"Kathmandu","country":"Nepal","region":"South Asia","iata":"KTM","tags":["culture","mountain","spiritual"],"cost":"₹",
-   "tagline":"Ancient squares and the gateway to the Himalaya",
-   "best_time":"October to November and March to April",
-   "highlights":["Boudhanath Stupa","Swayambhunath (Monkey Temple)","Bhaktapur Durbar Square","Mountain flight or a trip to Nagarkot"],
-   "food":["Momos","Dal bhat","Newari khaja set"],
-   "stay_areas":["Thamel for travellers","Boudha for calm","Patan for heritage"],
-   "getting_there":"Short flights from Delhi and other Indian cities.",
-   "tip":"Add Pokhara for lakes and easy Annapurna views."},
-  {"slug":"maldives","name":"Maldives","country":"Maldives","region":"Indian Ocean","iata":"MLE","tags":["beach","island","luxury","romantic"],"cost":"₹₹₹",
-   "tagline":"Overwater villas and house reefs",
-   "best_time":"November to April",
-   "highlights":["Snorkelling a house reef","Sandbank picnic","Manta and whale shark trips (seasonal)","Local-island stays on Maafushi"],
-   "food":["Mas huni","Garudhiya fish soup","Fresh reef fish"],
-   "stay_areas":["Resort islands for luxury","Maafushi / Thulusdhoo for budget local islands"],
-   "getting_there":"Direct flights from several Indian cities to Malé, then speedboat or seaplane.",
-   "tip":"Local islands are a budget-friendly alternative to resorts."},
-  {"slug":"sri-lanka","name":"Sri Lanka","country":"Sri Lanka","region":"South Asia","iata":"CMB","tags":["beach","heritage","nature"],"cost":"₹₹",
-   "tagline":"Tea hills, ancient cities and southern beaches",
-   "best_time":"December to March for the south and west coasts",
-   "highlights":["Sigiriya rock fortress","Kandy to Ella scenic train","Galle Fort","Safari at Yala or Udawalawe"],
-   "food":["Rice and curry","Kottu roti","Hoppers"],
-   "stay_areas":["Galle / Mirissa for beaches","Ella for hills","Kandy for culture"],
-   "getting_there":"Short direct flights from Chennai, Delhi, Mumbai and other cities to Colombo.",
-   "tip":"Reserve the Kandy–Ella train seats early, or try the unreserved carriage for the view."},
-  {"slug":"kuala-lumpur","name":"Kuala Lumpur","country":"Malaysia","region":"Southeast Asia","iata":"KUL","tags":["city","food","shopping"],"cost":"₹₹",
-   "tagline":"Twin towers, street food and rainforest",
-   "best_time":"December to February and June to August",
-   "highlights":["Petronas Towers and KLCC Park","Batu Caves","Jalan Alor night food street","Day trip to Malacca"],
-   "food":["Nasi lemak","Roti canai","Char kway teow"],
-   "stay_areas":["KLCC for views","Bukit Bintang for food and shopping","Chinatown for value"],
-   "getting_there":"Direct flights from many Indian cities.",
-   "tip":"Visit Batu Caves early morning to avoid heat and crowds."},
-  {"slug":"bhutan","name":"Bhutan","country":"Bhutan","region":"South Asia","iata":"PBH","tags":["mountain","culture","spiritual"],"cost":"₹₹₹",
-   "tagline":"Dzongs, prayer flags and Tiger's Nest",
-   "best_time":"March to May and September to November",
-   "highlights":["Hike to Paro Taktsang (Tiger's Nest)","Punakha Dzong","Dochula Pass","Thimphu weekend market"],
-   "food":["Ema datshi","Red rice","Momos"],
-   "stay_areas":["Paro for the Tiger's Nest hike","Thimphu for the capital","Punakha for the valley"],
-   "getting_there":"Fly to Paro, or travel overland via Phuentsholing.",
-   "tip":"Check current entry fees and permit rules before booking — they are updated from time to time."},
-  {"slug":"istanbul","name":"Istanbul","country":"Türkiye","region":"Europe / Asia","iata":"IST","tags":["city","heritage","food"],"cost":"₹₹",
-   "tagline":"Two continents, a thousand years of history",
-   "best_time":"April to June and September to November",
-   "highlights":["Hagia Sophia and the Blue Mosque","Grand Bazaar and Spice Bazaar","Bosphorus ferry ride","Sunset from Galata Tower area"],
-   "food":["Kebabs and pide","Simit","Baklava and Turkish tea"],
-   "stay_areas":["Sultanahmet for sights","Karaköy / Galata for cafés","Kadıköy on the Asian side"],
-   "getting_there":"Direct flights from Delhi and Mumbai to Istanbul Airport.",
-   "tip":"Get an Istanbulkart for trams, metro and ferries."},
-  {"slug":"tbilisi","name":"Tbilisi","country":"Georgia","region":"Caucasus","iata":"TBS","tags":["city","food","mountain"],"cost":"₹₹",
-   "tagline":"Sulphur baths, wine and Caucasus day trips",
-   "best_time":"May to June and September to October",
-   "highlights":["Old Town and the Narikala Fortress cable car","Sulphur baths in Abanotubani","Day trip to Kazbegi","Wine tasting in Kakheti"],
-   "food":["Khachapuri","Khinkali","Georgian wine"],
-   "stay_areas":["Old Tbilisi for charm","Sololaki for boutique stays","Vake for quieter streets"],
-   "getting_there":"Connecting flights from India via the Gulf or Istanbul.",
-   "tip":"Book the Kazbegi trip as a shared tour — it is far cheaper than a private car."}
+ {
+  "slug": "goa",
+  "name": "Goa",
+  "country": "India",
+  "region": "West India",
+  "iata": "GOI",
+  "tags": [
+   "beach",
+   "nightlife",
+   "food"
+  ],
+  "cost": "₹₹",
+  "tagline": "Beaches, Portuguese lanes and long lazy sunsets",
+  "best_time": "November to February, when the weather is dry and pleasant",
+  "highlights": [
+   "Sunset at Vagator or Chapora Fort",
+   "Walking the Latin Quarter of Fontainhas in Panaji",
+   "The quieter beaches of South Goa like Palolem and Agonda",
+   "Spice plantations and old churches around Old Goa"
+  ],
+  "food": [
+   "Goan fish curry with rice",
+   "Pork vindaloo and xacuti",
+   "Bebinca, the layered coconut dessert"
+  ],
+  "stay_areas": [
+   "Anjuna / Vagator for cafés and nightlife",
+   "Palolem / Agonda for calm beaches",
+   "Panaji for heritage and easy transfers"
+  ],
+  "getting_there": "Fly into Goa (Dabolim or Mopa) or take an overnight train to Madgaon or Thivim.",
+  "tip": "Rent a scooter for the day — beaches are spread out and taxis add up quickly.",
+  "wiki": "Palolem Beach"
+ },
+ {
+  "slug": "agra",
+  "name": "Agra",
+  "country": "India",
+  "region": "Uttar Pradesh",
+  "iata": "AGR",
+  "wiki": "Taj Mahal",
+  "tags": [
+   "heritage",
+   "city",
+   "culture"
+  ],
+  "cost": "₹",
+  "tagline": "The Taj Mahal and the Mughal heartland",
+  "best_time": "October to March",
+  "highlights": [
+   "Taj Mahal at sunrise",
+   "Agra Fort",
+   "Mehtab Bagh for sunset views of the Taj",
+   "Day trip to Fatehpur Sikri"
+  ],
+  "food": [
+   "Agra petha",
+   "Bedai with aloo sabzi",
+   "Mughlai kebabs"
+  ],
+  "stay_areas": [
+   "Taj Ganj for walking access to the Taj",
+   "Fatehabad Road for larger hotels"
+  ],
+  "getting_there": "About 2–3 hours from Delhi by express train or the Yamuna Expressway; Agra also has a small airport.",
+  "tip": "The Taj Mahal is closed on Fridays — plan around it."
+ },
+ {
+  "slug": "manali",
+  "name": "Manali",
+  "country": "India",
+  "region": "Himachal Pradesh",
+  "iata": "KUU",
+  "tags": [
+   "mountain",
+   "adventure",
+   "snow"
+  ],
+  "cost": "₹",
+  "tagline": "Pine forests, snow peaks and the road to Lahaul",
+  "best_time": "March to June for pleasant weather, December to February for snow",
+  "highlights": [
+   "Old Manali cafés and the Hadimba Temple",
+   "Solang Valley for paragliding and skiing",
+   "A day trip through the Atal Tunnel to Sissu",
+   "Jogini Falls hike from Vashisht"
+  ],
+  "food": [
+   "Siddu with ghee",
+   "Trout from local farms",
+   "Himachali dham on festival days"
+  ],
+  "stay_areas": [
+   "Old Manali for backpacker vibes",
+   "Mall Road for convenience",
+   "Vashisht for hot springs and views"
+  ],
+  "getting_there": "Overnight Volvo buses from Delhi are the most popular option; the nearest airport is Bhuntar near Kullu.",
+  "tip": "Check Rohtang Pass permits and road status a day before — they change with the weather.",
+  "wiki": "Manali, Himachal Pradesh"
+ },
+ {
+  "slug": "bali",
+  "name": "Bali",
+  "country": "Indonesia",
+  "region": "Southeast Asia",
+  "iata": "DPS",
+  "tags": [
+   "beach",
+   "island",
+   "romantic"
+  ],
+  "cost": "₹₹",
+  "tagline": "Rice terraces, temples and surf beaches",
+  "best_time": "April to October (dry season)",
+  "highlights": [
+   "Tegallalang rice terraces near Ubud",
+   "Uluwatu Temple and Kecak dance at sunset",
+   "Snorkelling at Nusa Penida",
+   "Sunrise trek on Mount Batur"
+  ],
+  "food": [
+   "Nasi goreng and mie goreng",
+   "Babi guling",
+   "Smoothie bowls in Canggu"
+  ],
+  "stay_areas": [
+   "Ubud for culture and nature",
+   "Seminyak / Canggu for beach clubs",
+   "Uluwatu for cliffs and surf"
+  ],
+  "getting_there": "Fly into Ngurah Rai International Airport (Denpasar); there are direct flights from some Indian cities.",
+  "tip": "Traffic is heavy — base yourself in two areas rather than doing day trips from one.",
+  "wiki": "Tegallalang"
+ },
+ {
+  "slug": "bangkok",
+  "name": "Bangkok",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "iata": "BKK",
+  "tags": [
+   "city",
+   "food",
+   "shopping"
+  ],
+  "cost": "₹₹",
+  "tagline": "Temples, street food and rooftop nights",
+  "best_time": "November to February",
+  "highlights": [
+   "Grand Palace and Wat Pho",
+   "Wat Arun at sunset",
+   "Chatuchak Weekend Market",
+   "A canal boat ride through Thonburi"
+  ],
+  "food": [
+   "Pad thai and boat noodles",
+   "Mango sticky rice",
+   "Som tam"
+  ],
+  "stay_areas": [
+   "Sukhumvit for nightlife and transit",
+   "Riverside for luxury",
+   "Old Town for temples"
+  ],
+  "getting_there": "Fly into Suvarnabhumi; there are many direct flights from India.",
+  "tip": "Use the river ferries — they beat the traffic and are cheap.",
+  "wiki": "Wat Arun"
+ },
+ {
+  "slug": "kochi",
+  "name": "Kochi",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "COK",
+  "wiki": "Fort Kochi",
+  "tags": [
+   "heritage",
+   "food",
+   "city"
+  ],
+  "cost": "₹₹",
+  "tagline": "Chinese fishing nets, spice markets and colonial lanes",
+  "best_time": "October to March",
+  "highlights": [
+   "Chinese fishing nets at Fort Kochi",
+   "Mattancherry Palace and Jew Town",
+   "A Kathakali performance",
+   "Sunset ferry across the harbour"
+  ],
+  "food": [
+   "Kerala fish curry",
+   "Appam and stew",
+   "Banana fritters (pazham pori)"
+  ],
+  "stay_areas": [
+   "Fort Kochi for heritage homestays",
+   "Ernakulam for transit and shopping"
+  ],
+  "getting_there": "Cochin International Airport has direct flights from most Indian cities.",
+  "tip": "Use the cheap public ferries between Ernakulam and Fort Kochi."
+ },
+ {
+  "slug": "jaipur",
+  "name": "Jaipur",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JAI",
+  "tags": [
+   "heritage",
+   "city",
+   "shopping"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Pink City of forts, palaces and bazaars",
+  "best_time": "October to March",
+  "highlights": [
+   "Amber Fort early in the morning",
+   "Hawa Mahal and the City Palace",
+   "Nahargarh Fort at sunset",
+   "Shopping for block prints at Johari and Bapu Bazaar"
+  ],
+  "food": [
+   "Dal baati churma",
+   "Pyaaz kachori",
+   "Lassi in a kulhad"
+  ],
+  "stay_areas": [
+   "C-Scheme for central, upscale stays",
+   "Old City for heritage havelis",
+   "Bani Park for quieter boutique hotels"
+  ],
+  "getting_there": "Jaipur has an international airport and frequent trains and buses from Delhi (about 5 hours by road).",
+  "tip": "Buy the composite ticket — it covers most major monuments and saves money.",
+  "wiki": "Hawa Mahal"
+ },
+ {
+  "slug": "mumbai",
+  "name": "Mumbai",
+  "country": "India",
+  "region": "Maharashtra",
+  "iata": "BOM",
+  "wiki": "Gateway of India",
+  "tags": [
+   "city",
+   "food",
+   "nightlife"
+  ],
+  "cost": "₹₹",
+  "tagline": "The city of dreams, street food and sea-facing promenades",
+  "best_time": "November to February",
+  "highlights": [
+   "Gateway of India and Colaba",
+   "Marine Drive at night",
+   "Elephanta Caves by ferry",
+   "Bandra's cafés and street art"
+  ],
+  "food": [
+   "Vada pav",
+   "Pav bhaji at Juhu Beach",
+   "Bombay sandwich"
+  ],
+  "stay_areas": [
+   "Colaba for sights",
+   "Bandra for cafés and nightlife",
+   "Andheri for the airport"
+  ],
+  "getting_there": "Mumbai's international airport and rail stations connect to the whole country.",
+  "tip": "Use local trains outside rush hours — they're the fastest way across the city."
+ },
+ {
+  "slug": "phuket",
+  "name": "Phuket",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "iata": "HKT",
+  "tags": [
+   "beach",
+   "island",
+   "nightlife"
+  ],
+  "cost": "₹₹",
+  "tagline": "Andaman Sea beaches and island hopping",
+  "best_time": "November to April",
+  "highlights": [
+   "Phi Phi Islands day trip",
+   "Phang Nga Bay and James Bond Island",
+   "Old Phuket Town",
+   "Sunset at Promthep Cape"
+  ],
+  "food": [
+   "Tom yum goong",
+   "Fresh seafood at Rawai",
+   "Mee hokkien"
+  ],
+  "stay_areas": [
+   "Kata / Karon for families",
+   "Patong for nightlife",
+   "Kamala for quieter beaches"
+  ],
+  "getting_there": "Fly into Phuket International Airport; direct flights run from several Indian cities.",
+  "tip": "Book island tours that leave early to beat the crowds.",
+  "wiki": "Phi Phi Islands"
+ },
+ {
+  "slug": "dubai",
+  "name": "Dubai",
+  "country": "UAE",
+  "region": "Middle East",
+  "iata": "DXB",
+  "tags": [
+   "city",
+   "shopping",
+   "luxury"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Skyscrapers, desert safaris and souks",
+  "best_time": "November to March",
+  "highlights": [
+   "Burj Khalifa observation deck",
+   "Desert safari with dinner",
+   "Old Dubai: abra ride and the Gold Souk",
+   "Dubai Marina walk"
+  ],
+  "food": [
+   "Shawarma",
+   "Emirati machboos",
+   "Luqaimat"
+  ],
+  "stay_areas": [
+   "Downtown for landmarks",
+   "Dubai Marina / JBR for beach",
+   "Deira for budget and souks"
+  ],
+  "getting_there": "Many direct flights from India to Dubai International.",
+  "tip": "The Metro is clean, cheap and connects most major sights.",
+  "wiki": "Burj Khalifa"
+ },
+ {
+  "slug": "udaipur",
+  "name": "Udaipur",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "UDR",
+  "tags": [
+   "heritage",
+   "romantic",
+   "lakes"
+  ],
+  "cost": "₹₹",
+  "tagline": "Lakes, palaces and rooftop sunsets",
+  "best_time": "September to March",
+  "highlights": [
+   "A boat ride on Lake Pichola",
+   "City Palace museum",
+   "Sunset from Ambrai Ghat",
+   "Day trip to Kumbhalgarh Fort"
+  ],
+  "food": [
+   "Gatte ki sabzi",
+   "Laal maas",
+   "Malpua from the old city sweet shops"
+  ],
+  "stay_areas": [
+   "Lal Ghat for lake-view guesthouses",
+   "Hanuman Ghat for sunset views",
+   "Fateh Sagar area for calm stays"
+  ],
+  "getting_there": "Fly to Maharana Pratap Airport or take a train from Delhi, Jaipur or Ahmedabad.",
+  "tip": "Book a lake-view room — it is what makes Udaipur special.",
+  "wiki": "Lake Pichola"
+ },
+ {
+  "slug": "kolkata",
+  "name": "Kolkata",
+  "country": "India",
+  "region": "West Bengal",
+  "iata": "CCU",
+  "wiki": "Victoria Memorial, Kolkata",
+  "tags": [
+   "city",
+   "culture",
+   "food"
+  ],
+  "cost": "₹",
+  "tagline": "Colonial grandeur, sweets and the soul of Bengal",
+  "best_time": "October to March",
+  "highlights": [
+   "Victoria Memorial",
+   "Howrah Bridge and the flower market",
+   "College Street book market",
+   "A ride on the tram"
+  ],
+  "food": [
+   "Kathi rolls",
+   "Rosogolla and mishti doi",
+   "Kosha mangsho"
+  ],
+  "stay_areas": [
+   "Park Street for food and nightlife",
+   "Esplanade for budget stays"
+  ],
+  "getting_there": "Kolkata's airport and Howrah/Sealdah stations are well connected.",
+  "tip": "Visit during Durga Puja (Sept/Oct) for the city's biggest festival."
+ },
+ {
+  "slug": "rishikesh",
+  "name": "Rishikesh",
+  "country": "India",
+  "region": "Uttarakhand",
+  "iata": "DED",
+  "tags": [
+   "spiritual",
+   "adventure",
+   "river"
+  ],
+  "cost": "₹",
+  "tagline": "Yoga capital and white-water rafting on the Ganga",
+  "best_time": "September to November and February to May",
+  "highlights": [
+   "Evening Ganga aarti at Triveni Ghat or Parmarth Niketan",
+   "White-water rafting from Shivpuri",
+   "Walking across Laxman Jhula and Ram Jhula",
+   "Beatles Ashram murals"
+  ],
+  "food": [
+   "Aloo puri at the ghats",
+   "Café food in Tapovan",
+   "Chotiwala thali"
+  ],
+  "stay_areas": [
+   "Tapovan for cafés and yoga",
+   "Laxman Jhula area for river views",
+   "Shivpuri for riverside camps"
+  ],
+  "getting_there": "Fly to Dehradun (Jolly Grant), about 45 minutes away, or take a train or bus to Haridwar/Rishikesh.",
+  "tip": "Rafting is usually closed during the monsoon months — plan around it.",
+  "wiki": "Lakshman Jhula"
+ },
+ {
+  "slug": "singapore",
+  "name": "Singapore",
+  "country": "Singapore",
+  "region": "Southeast Asia",
+  "iata": "SIN",
+  "tags": [
+   "city",
+   "family",
+   "food"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Gardens, hawker food and a skyline by the bay",
+  "best_time": "Year-round; February to April is often driest",
+  "highlights": [
+   "Gardens by the Bay light show",
+   "Hawker centres like Maxwell and Lau Pa Sat",
+   "Sentosa Island",
+   "Little India and Chinatown"
+  ],
+  "food": [
+   "Hainanese chicken rice",
+   "Laksa",
+   "Chilli crab"
+  ],
+  "stay_areas": [
+   "Marina Bay for views",
+   "Chinatown for value",
+   "Orchard for shopping"
+  ],
+  "getting_there": "Direct flights from most major Indian cities to Changi Airport.",
+  "tip": "Eat at hawker centres — great food at a fraction of restaurant prices.",
+  "wiki": "Gardens by the Bay"
+ },
+ {
+  "slug": "hanoi",
+  "name": "Hanoi & Ha Long Bay",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "iata": "HAN",
+  "tags": [
+   "city",
+   "food",
+   "nature"
+  ],
+  "cost": "₹",
+  "tagline": "Old Quarter streets and limestone bays",
+  "best_time": "October to April",
+  "highlights": [
+   "Walking Hanoi's Old Quarter",
+   "Overnight cruise on Ha Long or Lan Ha Bay",
+   "Train Street café stop",
+   "Ninh Binh's river caves"
+  ],
+  "food": [
+   "Pho",
+   "Bun cha",
+   "Egg coffee"
+  ],
+  "stay_areas": [
+   "Old Quarter for atmosphere",
+   "Hoan Kiem Lake area",
+   "A cruise boat for one night"
+  ],
+  "getting_there": "Fly into Noi Bai International Airport; direct flights operate from India.",
+  "tip": "Pick a Lan Ha Bay cruise for fewer boats than central Ha Long.",
+  "wiki": "Ha Long Bay"
+ },
+ {
+  "slug": "hyderabad",
+  "name": "Hyderabad",
+  "country": "India",
+  "region": "Telangana",
+  "iata": "HYD",
+  "wiki": "Charminar",
+  "tags": [
+   "city",
+   "food",
+   "heritage"
+  ],
+  "cost": "₹₹",
+  "tagline": "Biryani, pearls and Nizami palaces",
+  "best_time": "October to February",
+  "highlights": [
+   "Charminar and Laad Bazaar",
+   "Golconda Fort",
+   "Chowmahalla Palace",
+   "Ramoji Film City"
+  ],
+  "food": [
+   "Hyderabadi biryani",
+   "Haleem (during Ramzan)",
+   "Irani chai with Osmania biscuits"
+  ],
+  "stay_areas": [
+   "Banjara Hills for upscale stays",
+   "Old City for heritage",
+   "HITEC City for business"
+  ],
+  "getting_there": "Rajiv Gandhi International Airport has flights from across India.",
+  "tip": "Go to Golconda in the late afternoon and stay for the views at sunset."
+ },
+ {
+  "slug": "leh-ladakh",
+  "name": "Leh-Ladakh",
+  "country": "India",
+  "region": "Ladakh",
+  "iata": "IXL",
+  "tags": [
+   "mountain",
+   "adventure",
+   "roadtrip"
+  ],
+  "cost": "₹₹",
+  "tagline": "High passes, blue lakes and Buddhist monasteries",
+  "best_time": "May to September",
+  "highlights": [
+   "Pangong Tso lake",
+   "Nubra Valley via Khardung La",
+   "Thiksey and Hemis monasteries",
+   "Magnetic Hill and the Sangam"
+  ],
+  "food": [
+   "Thukpa",
+   "Momos",
+   "Butter tea and skyu"
+  ],
+  "stay_areas": [
+   "Leh town near the Main Bazaar",
+   "Changspa for quieter guesthouses",
+   "Camps at Pangong and Nubra"
+  ],
+  "getting_there": "Fly into Leh, or drive via the Manali–Leh or Srinagar–Leh highways in summer.",
+  "tip": "Spend your first 48 hours in Leh resting to acclimatise to the altitude.",
+  "wiki": "Pangong Tso"
+ },
+ {
+  "slug": "jodhpur",
+  "name": "Jodhpur",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JDH",
+  "wiki": "Mehrangarh",
+  "tags": [
+   "heritage",
+   "desert",
+   "culture"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Blue City beneath Mehrangarh Fort",
+  "best_time": "October to March",
+  "highlights": [
+   "Mehrangarh Fort",
+   "Walking the blue lanes of Brahmpuri",
+   "Jaswant Thada",
+   "Clock Tower market"
+  ],
+  "food": [
+   "Mirchi bada",
+   "Makhaniya lassi",
+   "Pyaaz kachori"
+  ],
+  "stay_areas": [
+   "Old City for fort views",
+   "Ratanada for larger hotels"
+  ],
+  "getting_there": "Jodhpur has an airport and good rail links with Delhi and Jaipur.",
+  "tip": "Book a rooftop room in the old city — the fort view at night is unforgettable."
+ },
+ {
+  "slug": "kathmandu",
+  "name": "Kathmandu",
+  "country": "Nepal",
+  "region": "South Asia",
+  "iata": "KTM",
+  "tags": [
+   "culture",
+   "mountain",
+   "spiritual"
+  ],
+  "cost": "₹",
+  "tagline": "Ancient squares and the gateway to the Himalaya",
+  "best_time": "October to November and March to April",
+  "highlights": [
+   "Boudhanath Stupa",
+   "Swayambhunath (Monkey Temple)",
+   "Bhaktapur Durbar Square",
+   "Mountain flight or a trip to Nagarkot"
+  ],
+  "food": [
+   "Momos",
+   "Dal bhat",
+   "Newari khaja set"
+  ],
+  "stay_areas": [
+   "Thamel for travellers",
+   "Boudha for calm",
+   "Patan for heritage"
+  ],
+  "getting_there": "Short flights from Delhi and other Indian cities.",
+  "tip": "Add Pokhara for lakes and easy Annapurna views.",
+  "wiki": "Boudhanath"
+ },
+ {
+  "slug": "maldives",
+  "name": "Maldives",
+  "country": "Maldives",
+  "region": "Indian Ocean",
+  "iata": "MLE",
+  "tags": [
+   "beach",
+   "island",
+   "luxury",
+   "romantic"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Overwater villas and house reefs",
+  "best_time": "November to April",
+  "highlights": [
+   "Snorkelling a house reef",
+   "Sandbank picnic",
+   "Manta and whale shark trips (seasonal)",
+   "Local-island stays on Maafushi"
+  ],
+  "food": [
+   "Mas huni",
+   "Garudhiya fish soup",
+   "Fresh reef fish"
+  ],
+  "stay_areas": [
+   "Resort islands for luxury",
+   "Maafushi / Thulusdhoo for budget local islands"
+  ],
+  "getting_there": "Direct flights from several Indian cities to Malé, then speedboat or seaplane.",
+  "tip": "Local islands are a budget-friendly alternative to resorts.",
+  "wiki": "Maafushi"
+ },
+ {
+  "slug": "munnar",
+  "name": "Munnar",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "COK",
+  "tags": [
+   "hills",
+   "nature",
+   "tea"
+  ],
+  "cost": "₹₹",
+  "tagline": "Rolling tea estates in the Western Ghats",
+  "best_time": "September to March",
+  "highlights": [
+   "Tea museum and estate walks",
+   "Eravikulam National Park",
+   "Mattupetty Dam and Echo Point",
+   "Sunrise at Kolukkumalai"
+  ],
+  "food": [
+   "Kerala sadya",
+   "Appam with stew",
+   "Fresh cardamom tea"
+  ],
+  "stay_areas": [
+   "Munnar town for convenience",
+   "Chithirapuram for tea-estate resorts",
+   "Pallivasal for valley views"
+  ],
+  "getting_there": "Kochi airport is about 4 hours away by road.",
+  "tip": "Combine Munnar with Alleppey and Kochi for a classic Kerala loop.",
+  "wiki": "Munnar"
+ },
+ {
+  "slug": "pushkar",
+  "name": "Pushkar",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JAI",
+  "wiki": "Pushkar Lake",
+  "tags": [
+   "spiritual",
+   "culture",
+   "backpacking"
+  ],
+  "cost": "₹",
+  "tagline": "A holy lake town on the edge of the desert",
+  "best_time": "October to March",
+  "highlights": [
+   "Pushkar Lake ghats at sunset",
+   "Brahma Temple",
+   "Savitri Temple hilltop sunrise",
+   "Pushkar Camel Fair (usually Oct/Nov)"
+  ],
+  "food": [
+   "Malpua",
+   "Falafel and café food",
+   "Rabri"
+  ],
+  "stay_areas": [
+   "Around the lake for atmosphere",
+   "Outskirts for quiet resorts"
+  ],
+  "getting_there": "About 15 km from Ajmer railway station; Jaipur airport is about 3 hours away.",
+  "tip": "Pushkar is a holy town — alcohol and meat are not served."
+ },
+ {
+  "slug": "alleppey",
+  "name": "Alleppey",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "COK",
+  "tags": [
+   "backwaters",
+   "romantic",
+   "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "Houseboats drifting through Kerala's backwaters",
+  "best_time": "November to February",
+  "highlights": [
+   "An overnight houseboat cruise",
+   "Kayaking through narrow canals",
+   "Marari Beach",
+   "Village walks along the paddy fields"
+  ],
+  "food": [
+   "Karimeen pollichathu",
+   "Toddy-shop style fish curry",
+   "Banana chips fresh from the fryer"
+  ],
+  "stay_areas": [
+   "A houseboat for one night",
+   "Marari for beach resorts",
+   "Kumarakom for lakeside stays"
+  ],
+  "getting_there": "About 1.5–2 hours by road from Kochi airport; Alappuzha also has a railway station.",
+  "tip": "Choose a houseboat with a shared-kitchen menu agreed in advance to avoid surprise charges.",
+  "wiki": "Kerala backwaters"
+ },
+ {
+  "slug": "pokhara",
+  "name": "Pokhara",
+  "country": "Nepal",
+  "region": "South Asia",
+  "iata": "KTM",
+  "wiki": "Phewa Lake",
+  "tags": [
+   "lakes",
+   "mountain",
+   "adventure"
+  ],
+  "cost": "₹",
+  "tagline": "Lakeside calm under the Annapurnas",
+  "best_time": "October to November and March to April",
+  "highlights": [
+   "Sunrise at Sarangkot",
+   "Boating on Phewa Lake",
+   "Paragliding",
+   "World Peace Pagoda"
+  ],
+  "food": [
+   "Dal bhat",
+   "Momos",
+   "Lakeside cafés"
+  ],
+  "stay_areas": [
+   "Lakeside for cafés and views",
+   "Sarangkot for sunrise"
+  ],
+  "getting_there": "Short flight or a scenic road trip from Kathmandu.",
+  "tip": "Pokhara is the starting point for the Annapurna and Poon Hill treks."
+ },
+ {
+  "slug": "sri-lanka",
+  "name": "Sri Lanka",
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "iata": "CMB",
+  "tags": [
+   "beach",
+   "heritage",
+   "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "Tea hills, ancient cities and southern beaches",
+  "best_time": "December to March for the south and west coasts",
+  "highlights": [
+   "Sigiriya rock fortress",
+   "Kandy to Ella scenic train",
+   "Galle Fort",
+   "Safari at Yala or Udawalawe"
+  ],
+  "food": [
+   "Rice and curry",
+   "Kottu roti",
+   "Hoppers"
+  ],
+  "stay_areas": [
+   "Galle / Mirissa for beaches",
+   "Ella for hills",
+   "Kandy for culture"
+  ],
+  "getting_there": "Short direct flights from Chennai, Delhi, Mumbai and other cities to Colombo.",
+  "tip": "Reserve the Kandy–Ella train seats early, or try the unreserved carriage for the view.",
+  "wiki": "Sigiriya"
+ },
+ {
+  "slug": "ranthambore",
+  "name": "Ranthambore",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JAI",
+  "wiki": "Ranthambore National Park",
+  "tags": [
+   "nature",
+   "wildlife",
+   "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "Tigers among ancient ruins",
+  "best_time": "October to June (park closed in monsoon)",
+  "highlights": [
+   "Jeep or canter safari",
+   "Ranthambore Fort",
+   "Padam Talao lake",
+   "Village visits"
+  ],
+  "food": [
+   "Rajasthani thali",
+   "Dal baati",
+   "Lassi"
+  ],
+  "stay_areas": [
+   "Sawai Madhopur for budget stays",
+   "Ranthambore Road for jungle lodges"
+  ],
+  "getting_there": "Sawai Madhopur station is on the Delhi–Mumbai line; Jaipur airport is about 3 hours away.",
+  "tip": "Safari permits sell out — book on the official portal well ahead."
+ },
+ {
+  "slug": "varanasi",
+  "name": "Varanasi",
+  "country": "India",
+  "region": "Uttar Pradesh",
+  "iata": "VNS",
+  "tags": [
+   "spiritual",
+   "heritage",
+   "culture"
+  ],
+  "cost": "₹",
+  "tagline": "India's oldest living city on the Ganga",
+  "best_time": "October to March",
+  "highlights": [
+   "Sunrise boat ride along the ghats",
+   "Ganga aarti at Dashashwamedh Ghat",
+   "Walking the old city lanes",
+   "Sarnath, where the Buddha gave his first sermon"
+  ],
+  "food": [
+   "Kachori sabzi for breakfast",
+   "Banarasi paan",
+   "Malaiyo in winter"
+  ],
+  "stay_areas": [
+   "Assi Ghat for cafés and calm",
+   "Dashashwamedh area for the aarti",
+   "Cantonment for modern hotels"
+  ],
+  "getting_there": "Fly into Lal Bahadur Shastri Airport or take one of many trains to Varanasi Junction.",
+  "tip": "Hire a boat at dawn rather than evening — the light and the quiet are worth the early alarm.",
+  "wiki": "Ghats in Varanasi"
+ },
+ {
+  "slug": "mount-abu",
+  "name": "Mount Abu",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "UDR",
+  "wiki": "Dilwara Temples",
+  "tags": [
+   "hills",
+   "heritage",
+   "family"
+  ],
+  "cost": "₹",
+  "tagline": "Rajasthan's only hill station",
+  "best_time": "October to June",
+  "highlights": [
+   "Dilwara Jain Temples",
+   "Nakki Lake boating",
+   "Sunset Point",
+   "Guru Shikhar"
+  ],
+  "food": [
+   "Rabri",
+   "Gujarati thali",
+   "Corn on the cob by the lake"
+  ],
+  "stay_areas": [
+   "Near Nakki Lake for walkability"
+  ],
+  "getting_there": "Abu Road station is 28 km away; Udaipur airport is about 3.5 hours by road.",
+  "tip": "Photography is not allowed inside the Dilwara Temples."
+ },
+ {
+  "slug": "krabi",
+  "name": "Krabi",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "iata": "KBV",
+  "wiki": "Railay Beach",
+  "tags": [
+   "beach",
+   "island",
+   "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "Limestone cliffs and emerald water",
+  "best_time": "November to April",
+  "highlights": [
+   "Railay Beach",
+   "Four Islands boat tour",
+   "Tiger Cave Temple",
+   "Hong Islands kayaking"
+  ],
+  "food": [
+   "Massaman curry",
+   "Grilled seafood",
+   "Mango sticky rice"
+  ],
+  "stay_areas": [
+   "Ao Nang for convenience",
+   "Railay for cliffs and beaches"
+  ],
+  "getting_there": "Fly to Krabi directly or via Bangkok.",
+  "tip": "Railay is reachable only by long-tail boat — pack light."
+ },
+ {
+  "slug": "kuala-lumpur",
+  "name": "Kuala Lumpur",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "iata": "KUL",
+  "tags": [
+   "city",
+   "food",
+   "shopping"
+  ],
+  "cost": "₹₹",
+  "tagline": "Twin towers, street food and rainforest",
+  "best_time": "December to February and June to August",
+  "highlights": [
+   "Petronas Towers and KLCC Park",
+   "Batu Caves",
+   "Jalan Alor night food street",
+   "Day trip to Malacca"
+  ],
+  "food": [
+   "Nasi lemak",
+   "Roti canai",
+   "Char kway teow"
+  ],
+  "stay_areas": [
+   "KLCC for views",
+   "Bukit Bintang for food and shopping",
+   "Chinatown for value"
+  ],
+  "getting_there": "Direct flights from many Indian cities.",
+  "tip": "Visit Batu Caves early morning to avoid heat and crowds.",
+  "wiki": "Petronas Towers"
+ },
+ {
+  "slug": "darjeeling",
+  "name": "Darjeeling",
+  "country": "India",
+  "region": "West Bengal",
+  "iata": "IXB",
+  "tags": [
+   "hills",
+   "tea",
+   "heritage"
+  ],
+  "cost": "₹",
+  "tagline": "Tea gardens, toy trains and Kanchenjunga views",
+  "best_time": "March to May and October to December",
+  "highlights": [
+   "Sunrise over Kanchenjunga from Tiger Hill",
+   "A ride on the Darjeeling Himalayan Railway",
+   "Happy Valley Tea Estate",
+   "Batasia Loop and the Mall"
+  ],
+  "food": [
+   "Momos and thukpa",
+   "Darjeeling first-flush tea",
+   "Breakfast at a colonial-era bakery"
+  ],
+  "stay_areas": [
+   "Near the Mall / Chowrasta for walkability",
+   "Tea-estate bungalows outside town",
+   "Ghoom for quiet"
+  ],
+  "getting_there": "Fly to Bagdogra or take a train to New Jalpaiguri, then about 3 hours by road.",
+  "tip": "Leave for Tiger Hill around 4 AM — the road gets jammed close to sunrise.",
+  "wiki": "Darjeeling Himalayan Railway"
+ },
+ {
+  "slug": "kutch",
+  "name": "Rann of Kutch",
+  "country": "India",
+  "region": "Gujarat",
+  "iata": "BHJ",
+  "wiki": "Great Rann of Kutch",
+  "tags": [
+   "desert",
+   "culture",
+   "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "The white salt desert under a full moon",
+  "best_time": "November to February",
+  "highlights": [
+   "White Rann at sunset and full moon",
+   "Rann Utsav tent city (seasonal)",
+   "Kalo Dungar viewpoint",
+   "Craft villages around Bhuj"
+  ],
+  "food": [
+   "Kutchi dabeli",
+   "Bajra rotla",
+   "Gujarati thali"
+  ],
+  "stay_areas": [
+   "Dhordo tent city during Rann Utsav",
+   "Bhuj for heritage stays"
+  ],
+  "getting_there": "Fly or take a train to Bhuj; Dhordo is about 1.5 hours by road.",
+  "tip": "A permit is needed for the White Rann — it's usually available at the Bhirandiyara checkpost."
+ },
+ {
+  "slug": "andaman",
+  "name": "Andaman Islands",
+  "country": "India",
+  "region": "Andaman & Nicobar",
+  "iata": "IXZ",
+  "tags": [
+   "beach",
+   "diving",
+   "island"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Turquoise water, coral reefs and white sand",
+  "best_time": "November to April",
+  "highlights": [
+   "Radhanagar Beach on Havelock (Swaraj Dweep)",
+   "Scuba diving or snorkelling",
+   "Cellular Jail light and sound show",
+   "Natural Bridge on Neil Island"
+  ],
+  "food": [
+   "Fresh grilled seafood",
+   "Coconut-based fish curry",
+   "Tropical fruit from local markets"
+  ],
+  "stay_areas": [
+   "Havelock for beaches and diving",
+   "Neil for slow island life",
+   "Port Blair for transit nights"
+  ],
+  "getting_there": "Fly to Port Blair, then take a ferry to Havelock and Neil.",
+  "tip": "Book inter-island ferries early in peak season — they sell out.",
+  "wiki": "Radhanagar Beach"
+ },
+ {
+  "slug": "chiang-mai",
+  "name": "Chiang Mai",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "iata": "CNX",
+  "wiki": "Wat Phra That Doi Suthep",
+  "tags": [
+   "culture",
+   "food",
+   "nature"
+  ],
+  "cost": "₹",
+  "tagline": "Temples, night markets and mountain air",
+  "best_time": "November to February",
+  "highlights": [
+   "Doi Suthep temple",
+   "Old City temples",
+   "Sunday Walking Street market",
+   "Ethical elephant sanctuaries"
+  ],
+  "food": [
+   "Khao soi",
+   "Sai ua sausage",
+   "Mango sticky rice"
+  ],
+  "stay_areas": [
+   "Old City for temples",
+   "Nimman for cafés"
+  ],
+  "getting_there": "Fly from Bangkok (about an hour) or take the overnight train.",
+  "tip": "Choose elephant sanctuaries that don't offer riding."
+ },
+ {
+  "slug": "bhutan",
+  "name": "Bhutan",
+  "country": "Bhutan",
+  "region": "South Asia",
+  "iata": "PBH",
+  "tags": [
+   "mountain",
+   "culture",
+   "spiritual"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Dzongs, prayer flags and Tiger's Nest",
+  "best_time": "March to May and September to November",
+  "highlights": [
+   "Hike to Paro Taktsang (Tiger's Nest)",
+   "Punakha Dzong",
+   "Dochula Pass",
+   "Thimphu weekend market"
+  ],
+  "food": [
+   "Ema datshi",
+   "Red rice",
+   "Momos"
+  ],
+  "stay_areas": [
+   "Paro for the Tiger's Nest hike",
+   "Thimphu for the capital",
+   "Punakha for the valley"
+  ],
+  "getting_there": "Fly to Paro, or travel overland via Phuentsholing.",
+  "tip": "Check current entry fees and permit rules before booking — they are updated from time to time.",
+  "wiki": "Paro Taktsang"
+ },
+ {
+  "slug": "khajuraho",
+  "name": "Khajuraho",
+  "country": "India",
+  "region": "Madhya Pradesh",
+  "iata": "HJR",
+  "wiki": "Khajuraho Group of Monuments",
+  "tags": [
+   "heritage",
+   "culture",
+   "art"
+  ],
+  "cost": "₹",
+  "tagline": "Thousand-year-old temples carved in stone",
+  "best_time": "October to March",
+  "highlights": [
+   "Western Group of Temples",
+   "Light and sound show",
+   "Eastern and Southern temples",
+   "Panna National Park nearby"
+  ],
+  "food": [
+   "Poha and jalebi",
+   "Bafla",
+   "Local thalis"
+  ],
+  "stay_areas": [
+   "Near the Western Group of Temples"
+  ],
+  "getting_there": "Khajuraho has a small airport and a railway station.",
+  "tip": "Hire an approved guide — the carvings make far more sense with context."
+ },
+ {
+  "slug": "hampi",
+  "name": "Hampi",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "HBX",
+  "tags": [
+   "heritage",
+   "backpacking",
+   "boulders"
+  ],
+  "cost": "₹",
+  "tagline": "Boulder landscapes and the ruins of Vijayanagara",
+  "best_time": "October to February",
+  "highlights": [
+   "Virupaksha Temple",
+   "Vittala Temple and the stone chariot",
+   "Sunset from Matanga Hill",
+   "Coracle ride on the Tungabhadra"
+  ],
+  "food": [
+   "South Indian thalis",
+   "Banana pancakes in backpacker cafés",
+   "Fresh lime soda"
+  ],
+  "stay_areas": [
+   "Hampi Bazaar area for access to ruins",
+   "Hippie Island (Virupapur Gaddi) for chilled stays",
+   "Kamalapur for heritage hotels"
+  ],
+  "getting_there": "Overnight trains or buses to Hosapete (Hospet), about 30 minutes away.",
+  "tip": "Rent a bicycle — the ruins are spread over a large area.",
+  "wiki": "Vittala Temple"
+ },
+ {
+  "slug": "aurangabad",
+  "name": "Ajanta & Ellora",
+  "country": "India",
+  "region": "Maharashtra",
+  "iata": "IXU",
+  "wiki": "Ellora Caves",
+  "tags": [
+   "heritage",
+   "art",
+   "culture"
+  ],
+  "cost": "₹",
+  "tagline": "Rock-cut caves and ancient Buddhist murals",
+  "best_time": "October to March",
+  "highlights": [
+   "Kailasa Temple at Ellora",
+   "Ajanta's painted caves",
+   "Bibi Ka Maqbara",
+   "Daulatabad Fort"
+  ],
+  "food": [
+   "Naan qalia",
+   "Misal pav",
+   "Tahri"
+  ],
+  "stay_areas": [
+   "Aurangabad (Chhatrapati Sambhajinagar) city as a base"
+  ],
+  "getting_there": "Fly or take a train to Aurangabad; Ellora is about 30 km and Ajanta about 100 km away.",
+  "tip": "Ellora is closed on Tuesdays and Ajanta on Mondays."
+ },
+ {
+  "slug": "langkawi",
+  "name": "Langkawi",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "iata": "LGK",
+  "wiki": "Langkawi Sky Bridge",
+  "tags": [
+   "beach",
+   "island",
+   "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "Rainforest islands and a sky bridge",
+  "best_time": "November to April",
+  "highlights": [
+   "Langkawi Sky Bridge and cable car",
+   "Mangrove kayaking",
+   "Pantai Cenang beach",
+   "Island-hopping tour"
+  ],
+  "food": [
+   "Nasi lemak",
+   "Satay",
+   "Seafood at night markets"
+  ],
+  "stay_areas": [
+   "Pantai Cenang for beaches",
+   "Kuah for town"
+  ],
+  "getting_there": "Fly via Kuala Lumpur or Penang.",
+  "tip": "Langkawi is duty-free — good for chocolates and gear."
+ },
+ {
+  "slug": "istanbul",
+  "name": "Istanbul",
+  "country": "Türkiye",
+  "region": "Europe / Asia",
+  "iata": "IST",
+  "tags": [
+   "city",
+   "heritage",
+   "food"
+  ],
+  "cost": "₹₹",
+  "tagline": "Two continents, a thousand years of history",
+  "best_time": "April to June and September to November",
+  "highlights": [
+   "Hagia Sophia and the Blue Mosque",
+   "Grand Bazaar and Spice Bazaar",
+   "Bosphorus ferry ride",
+   "Sunset from Galata Tower area"
+  ],
+  "food": [
+   "Kebabs and pide",
+   "Simit",
+   "Baklava and Turkish tea"
+  ],
+  "stay_areas": [
+   "Sultanahmet for sights",
+   "Karaköy / Galata for cafés",
+   "Kadıköy on the Asian side"
+  ],
+  "getting_there": "Direct flights from Delhi and Mumbai to Istanbul Airport.",
+  "tip": "Get an Istanbulkart for trams, metro and ferries.",
+  "wiki": "Hagia Sophia"
+ },
+ {
+  "slug": "pondicherry",
+  "name": "Pondicherry",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "MAA",
+  "tags": [
+   "beach",
+   "heritage",
+   "food"
+  ],
+  "cost": "₹₹",
+  "tagline": "French Quarter streets on the Bay of Bengal",
+  "best_time": "October to March",
+  "highlights": [
+   "Walking the French Quarter (White Town)",
+   "Promenade Beach at sunrise",
+   "Auroville and the Matrimandir viewpoint",
+   "Paradise Beach by boat"
+  ],
+  "food": [
+   "French bakeries and crêpes",
+   "Creole-style seafood",
+   "Filter coffee"
+  ],
+  "stay_areas": [
+   "White Town for heritage stays",
+   "Auroville for eco-guesthouses",
+   "Serenity Beach for surf"
+  ],
+  "getting_there": "About 3 hours by road from Chennai airport.",
+  "tip": "Rent a bicycle to explore White Town at an easy pace.",
+  "wiki": "Promenade Beach"
+ },
+ {
+  "slug": "mysuru",
+  "name": "Mysuru",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "BLR",
+  "wiki": "Mysore Palace",
+  "tags": [
+   "heritage",
+   "culture",
+   "family"
+  ],
+  "cost": "₹",
+  "tagline": "Palaces, silk and sandalwood",
+  "best_time": "October to February",
+  "highlights": [
+   "Mysore Palace lit up on Sundays",
+   "Chamundi Hills",
+   "Devaraja Market",
+   "Srirangapatna day trip"
+  ],
+  "food": [
+   "Mysore pak",
+   "Mysore masala dosa",
+   "Filter coffee"
+  ],
+  "stay_areas": [
+   "Near the palace for walkability"
+  ],
+  "getting_there": "About 3 hours from Bengaluru by train or road.",
+  "tip": "The palace is illuminated on Sunday evenings and during Dasara."
+ },
+ {
+  "slug": "shimla",
+  "name": "Shimla",
+  "country": "India",
+  "region": "Himachal Pradesh",
+  "iata": "IXC",
+  "tags": [
+   "hills",
+   "heritage",
+   "family"
+  ],
+  "cost": "₹₹",
+  "tagline": "The colonial summer capital in the hills",
+  "best_time": "March to June, and December to January for snow",
+  "highlights": [
+   "The Ridge and Mall Road",
+   "Kalka–Shimla toy train",
+   "Jakhu Temple",
+   "Day trips to Kufri and Mashobra"
+  ],
+  "food": [
+   "Chana madra",
+   "Street-side momos",
+   "Hot chocolate on Mall Road"
+  ],
+  "stay_areas": [
+   "Near the Mall for walkability",
+   "Chharabra / Mashobra for forest retreats",
+   "Kufri for snow views"
+  ],
+  "getting_there": "Drive from Chandigarh (about 3.5 hours) or take the toy train from Kalka.",
+  "tip": "Most of central Shimla is pedestrian-only — pack light.",
+  "wiki": "The Ridge, Shimla"
+ },
+ {
+  "slug": "ho-chi-minh",
+  "name": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "iata": "SGN",
+  "wiki": "Saigon Notre-Dame Basilica",
+  "tags": [
+   "city",
+   "food",
+   "culture"
+  ],
+  "cost": "₹",
+  "tagline": "Scooters, street food and the Mekong Delta",
+  "best_time": "December to April",
+  "highlights": [
+   "War Remnants Museum",
+   "Ben Thanh Market",
+   "Cu Chi Tunnels",
+   "Mekong Delta day trip"
+  ],
+  "food": [
+   "Pho",
+   "Banh mi",
+   "Com tam"
+  ],
+  "stay_areas": [
+   "District 1 for sights",
+   "District 3 for local life"
+  ],
+  "getting_there": "Direct and one-stop flights from India.",
+  "tip": "Cross streets slowly and steadily — scooters flow around you."
+ },
+ {
+  "slug": "tbilisi",
+  "name": "Tbilisi",
+  "country": "Georgia",
+  "region": "Caucasus",
+  "iata": "TBS",
+  "tags": [
+   "city",
+   "food",
+   "mountain"
+  ],
+  "cost": "₹₹",
+  "tagline": "Sulphur baths, wine and Caucasus day trips",
+  "best_time": "May to June and September to October",
+  "highlights": [
+   "Old Town and the Narikala Fortress cable car",
+   "Sulphur baths in Abanotubani",
+   "Day trip to Kazbegi",
+   "Wine tasting in Kakheti"
+  ],
+  "food": [
+   "Khachapuri",
+   "Khinkali",
+   "Georgian wine"
+  ],
+  "stay_areas": [
+   "Old Tbilisi for charm",
+   "Sololaki for boutique stays",
+   "Vake for quieter streets"
+  ],
+  "getting_there": "Connecting flights from India via the Gulf or Istanbul.",
+  "tip": "Book the Kazbegi trip as a shared tour — it is far cheaper than a private car.",
+  "wiki": "Narikala"
+ },
+ {
+  "slug": "chikmagalur",
+  "name": "Chikmagalur",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "IXE",
+  "wiki": "Mullayanagiri",
+  "tags": [
+   "hills",
+   "coffee",
+   "trek"
+  ],
+  "cost": "₹₹",
+  "tagline": "Where India's coffee story began",
+  "best_time": "September to March",
+  "highlights": [
+   "Mullayanagiri trek",
+   "Baba Budangiri",
+   "Coffee estate stays",
+   "Hebbe Falls"
+  ],
+  "food": [
+   "Estate-fresh coffee",
+   "Akki rotti",
+   "Malnad cuisine"
+  ],
+  "stay_areas": [
+   "Coffee-estate homestays",
+   "Chikmagalur town"
+  ],
+  "getting_there": "About 5 hours by road from Bengaluru; Mangaluru is the nearest airport.",
+  "tip": "Stay on a working coffee estate and ask for a plantation walk."
+ },
+ {
+  "slug": "coorg",
+  "name": "Coorg",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "IXE",
+  "tags": [
+   "hills",
+   "coffee",
+   "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "Misty coffee estates in the Kodagu hills",
+  "best_time": "October to March",
+  "highlights": [
+   "Abbey Falls",
+   "Raja's Seat at sunset",
+   "Dubare Elephant Camp",
+   "Coffee plantation walks"
+  ],
+  "food": [
+   "Pandi curry with akki rotti",
+   "Kodava-style rice dumplings",
+   "Estate-fresh coffee"
+  ],
+  "stay_areas": [
+   "Madikeri for convenience",
+   "Plantation homestays",
+   "Virajpet for quieter estates"
+  ],
+  "getting_there": "Mangaluru and Bengaluru are the nearest airports; Mysuru is about 3 hours by road.",
+  "tip": "Stay in a plantation homestay — the home-cooked Kodava food is the highlight.",
+  "wiki": "Abbey Falls"
+ },
+ {
+  "slug": "gokarna",
+  "name": "Gokarna",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "GOI",
+  "wiki": "Om Beach",
+  "tags": [
+   "beach",
+   "backpacking",
+   "spiritual"
+  ],
+  "cost": "₹",
+  "tagline": "Goa's quieter, wilder neighbour",
+  "best_time": "October to March",
+  "highlights": [
+   "Beach trek: Kudle to Om to Half Moon to Paradise",
+   "Mahabaleshwar Temple",
+   "Sunset at Kudle Beach",
+   "Yoga retreats"
+  ],
+  "food": [
+   "Seafood thalis",
+   "Café food on the beaches",
+   "Banana pancakes"
+  ],
+  "stay_areas": [
+   "Kudle Beach for cafés",
+   "Om Beach for views",
+   "Town for temples"
+  ],
+  "getting_there": "Train to Gokarna Road station or about 3 hours by road from Goa airport.",
+  "tip": "Carry cash and a torch for the beach trek."
+ },
+ {
+  "slug": "da-nang-hoi-an",
+  "name": "Da Nang & Hoi An",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "iata": "DAD",
+  "wiki": "Hội An",
+  "tags": [
+   "beach",
+   "heritage",
+   "food"
+  ],
+  "cost": "₹",
+  "tagline": "Lantern-lit old town and long beaches",
+  "best_time": "February to May",
+  "highlights": [
+   "Hoi An Ancient Town at night",
+   "Golden Bridge at Ba Na Hills",
+   "My Khe Beach",
+   "Marble Mountains"
+  ],
+  "food": [
+   "Cao lau",
+   "Banh mi Phuong",
+   "Mi Quang"
+  ],
+  "stay_areas": [
+   "Hoi An for charm",
+   "Da Nang beachfront for resorts"
+  ],
+  "getting_there": "Fly to Da Nang International Airport.",
+  "tip": "Get clothes tailored in Hoi An — it's quick and good value."
+ },
+ {
+  "slug": "siem-reap",
+  "name": "Siem Reap",
+  "country": "Cambodia",
+  "region": "Southeast Asia",
+  "iata": "SAI",
+  "wiki": "Angkor Wat",
+  "tags": [
+   "heritage",
+   "culture",
+   "adventure"
+  ],
+  "cost": "₹",
+  "tagline": "Sunrise over Angkor Wat",
+  "best_time": "November to March",
+  "highlights": [
+   "Sunrise at Angkor Wat",
+   "Bayon's stone faces",
+   "Ta Prohm jungle temple",
+   "Tonle Sap floating villages"
+  ],
+  "food": [
+   "Fish amok",
+   "Lok lak",
+   "Khmer curry"
+  ],
+  "stay_areas": [
+   "Near Pub Street for nightlife",
+   "Riverside for quiet"
+  ],
+  "getting_there": "Fly into Siem Reap Angkor International Airport, usually via Bangkok or Singapore.",
+  "tip": "A multi-day temple pass lets you avoid rushing — hire a tuk-tuk for the day."
+ },
+ {
+  "slug": "amritsar",
+  "name": "Amritsar",
+  "country": "India",
+  "region": "Punjab",
+  "iata": "ATQ",
+  "tags": [
+   "spiritual",
+   "food",
+   "heritage"
+  ],
+  "cost": "₹",
+  "tagline": "The Golden Temple and Punjab's best food",
+  "best_time": "October to March",
+  "highlights": [
+   "Golden Temple at night and at dawn",
+   "Langar at the community kitchen",
+   "Attari–Wagah border ceremony",
+   "Jallianwala Bagh"
+  ],
+  "food": [
+   "Amritsari kulcha",
+   "Lassi",
+   "Fish fry and pinni"
+  ],
+  "stay_areas": [
+   "Near the Golden Temple for early visits",
+   "Ranjit Avenue for modern hotels"
+  ],
+  "getting_there": "Amritsar has an international airport and is well connected by train from Delhi.",
+  "tip": "Visit the Golden Temple twice — once at night and once early morning.",
+  "wiki": "Golden Temple"
+ },
+ {
+  "slug": "varkala",
+  "name": "Varkala",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "TRV",
+  "wiki": "Varkala Beach",
+  "tags": [
+   "beach",
+   "backpacking",
+   "nature"
+  ],
+  "cost": "₹",
+  "tagline": "Red cliffs over the Arabian Sea",
+  "best_time": "October to March",
+  "highlights": [
+   "North Cliff walk",
+   "Varkala Beach (Papanasam)",
+   "Janardhana Swamy Temple",
+   "Kappil backwaters"
+  ],
+  "food": [
+   "Fresh seafood",
+   "Kerala parotta and curry",
+   "Cliff-top café breakfasts"
+  ],
+  "stay_areas": [
+   "North Cliff for views and cafés",
+   "South Cliff for quiet"
+  ],
+  "getting_there": "About 1 hour from Thiruvananthapuram airport; Varkala has a railway station.",
+  "tip": "Currents can be strong — swim only where lifeguards are present."
+ },
+ {
+  "slug": "jaisalmer",
+  "name": "Jaisalmer",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JSA",
+  "tags": [
+   "desert",
+   "heritage",
+   "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Golden City at the edge of the Thar",
+  "best_time": "October to March",
+  "highlights": [
+   "Jaisalmer Fort, a living fort",
+   "Patwon ki Haveli",
+   "Camel safari and desert camp at Sam or Khuri",
+   "Gadisar Lake at sunrise"
+  ],
+  "food": [
+   "Ker sangri",
+   "Mutton saag",
+   "Ghotua laddoo"
+  ],
+  "stay_areas": [
+   "Inside or below the fort for atmosphere",
+   "Desert camps for one night",
+   "Hotels near Gadisar Lake"
+  ],
+  "getting_there": "Overnight trains from Delhi and Jaipur; the airport has limited seasonal flights.",
+  "tip": "Choose a desert camp away from the crowded dunes for a quieter night sky.",
+  "wiki": "Jaisalmer Fort"
+ },
+ {
+  "slug": "hong-kong",
+  "name": "Hong Kong",
+  "country": "Hong Kong",
+  "region": "East Asia",
+  "iata": "HKG",
+  "wiki": "Victoria Harbour",
+  "tags": [
+   "city",
+   "food",
+   "shopping"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Harbour skylines, dim sum and island hikes",
+  "best_time": "October to December",
+  "highlights": [
+   "Victoria Peak",
+   "Star Ferry across the harbour",
+   "Big Buddha on Lantau",
+   "Dragon's Back hike"
+  ],
+  "food": [
+   "Dim sum",
+   "Roast goose",
+   "Egg tarts"
+  ],
+  "stay_areas": [
+   "Tsim Sha Tsui for views",
+   "Central for nightlife"
+  ],
+  "getting_there": "Direct flights from several Indian cities.",
+  "tip": "Get an Octopus card for transport and convenience stores."
+ },
+ {
+  "slug": "tokyo",
+  "name": "Tokyo",
+  "country": "Japan",
+  "region": "East Asia",
+  "iata": "TYO",
+  "wiki": "Shibuya Crossing",
+  "tags": [
+   "city",
+   "food",
+   "culture"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Neon, temples and the world's best food scene",
+  "best_time": "March to May and October to November",
+  "highlights": [
+   "Shibuya Crossing",
+   "Senso-ji in Asakusa",
+   "Meiji Shrine",
+   "Day trip to Mount Fuji area"
+  ],
+  "food": [
+   "Sushi",
+   "Ramen",
+   "Tempura"
+  ],
+  "stay_areas": [
+   "Shinjuku for transport",
+   "Asakusa for tradition",
+   "Shibuya for nightlife"
+  ],
+  "getting_there": "Direct flights from Delhi and Mumbai.",
+  "tip": "A prepaid IC card (Suica or Pasmo) makes trains effortless."
+ },
+ {
+  "slug": "kanyakumari",
+  "name": "Kanyakumari",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "TRV",
+  "wiki": "Vivekananda Rock Memorial",
+  "tags": [
+   "spiritual",
+   "beach",
+   "culture"
+  ],
+  "cost": "₹",
+  "tagline": "India's southern tip, where three seas meet",
+  "best_time": "October to March",
+  "highlights": [
+   "Sunrise at the southern tip",
+   "Vivekananda Rock Memorial",
+   "Thiruvalluvar Statue",
+   "Padmanabhapuram Palace nearby"
+  ],
+  "food": [
+   "South Indian meals",
+   "Fresh coconut",
+   "Banana chips"
+  ],
+  "stay_areas": [
+   "Near the sea front for sunrise views"
+  ],
+  "getting_there": "About 2 hours from Thiruvananthapuram airport; trains run from many cities.",
+  "tip": "On full-moon evenings you can see sunset and moonrise at the same time."
+ },
+ {
+  "slug": "gangtok",
+  "name": "Gangtok",
+  "country": "India",
+  "region": "Sikkim",
+  "iata": "IXB",
+  "tags": [
+   "mountain",
+   "nature",
+   "culture"
+  ],
+  "cost": "₹₹",
+  "tagline": "Monasteries, mountain lakes and Himalayan views",
+  "best_time": "March to May and October to December",
+  "highlights": [
+   "MG Marg evening walk",
+   "Tsomgo Lake and Nathula (permit required)",
+   "Rumtek Monastery",
+   "Ropeway views over the valley"
+  ],
+  "food": [
+   "Momos",
+   "Thukpa and phagshapa",
+   "Sel roti"
+  ],
+  "stay_areas": [
+   "Near MG Marg for convenience",
+   "Tadong for quieter hotels"
+  ],
+  "getting_there": "Fly to Bagdogra or take a train to New Jalpaiguri, then about 4 hours by road.",
+  "tip": "Permits for Nathula and North Sikkim are arranged through registered agents — book a day ahead.",
+  "wiki": "Tsomgo Lake"
+ },
+ {
+  "slug": "madurai",
+  "name": "Madurai",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "IXM",
+  "wiki": "Meenakshi Temple",
+  "tags": [
+   "spiritual",
+   "heritage",
+   "culture"
+  ],
+  "cost": "₹",
+  "tagline": "A living temple city of towering gopurams",
+  "best_time": "October to March",
+  "highlights": [
+   "Meenakshi Amman Temple",
+   "Thirumalai Nayak Palace",
+   "Night ceremony at the temple",
+   "Gandhi Memorial Museum"
+  ],
+  "food": [
+   "Jigarthanda",
+   "Kari dosa",
+   "Parotta"
+  ],
+  "stay_areas": [
+   "Near the temple for walkability"
+  ],
+  "getting_there": "Madurai has an airport and is well connected by rail.",
+  "tip": "Dress modestly and leave phones at the counter — they aren't allowed inside the temple."
+ },
+ {
+  "slug": "seoul",
+  "name": "Seoul",
+  "country": "South Korea",
+  "region": "East Asia",
+  "iata": "SEL",
+  "wiki": "Gyeongbokgung",
+  "tags": [
+   "city",
+   "food",
+   "culture"
+  ],
+  "cost": "₹₹",
+  "tagline": "Palaces, K-culture and late-night food",
+  "best_time": "April to June and September to November",
+  "highlights": [
+   "Gyeongbokgung Palace",
+   "Bukchon Hanok Village",
+   "N Seoul Tower",
+   "Myeongdong street food"
+  ],
+  "food": [
+   "Korean BBQ",
+   "Bibimbap",
+   "Tteokbokki"
+  ],
+  "stay_areas": [
+   "Myeongdong for shopping",
+   "Hongdae for nightlife",
+   "Insadong for culture"
+  ],
+  "getting_there": "One-stop flights from India.",
+  "tip": "Rent a hanbok — entry to the main palaces is often free when you wear one."
+ },
+ {
+  "slug": "abu-dhabi",
+  "name": "Abu Dhabi",
+  "country": "UAE",
+  "region": "Middle East",
+  "iata": "AUH",
+  "wiki": "Sheikh Zayed Grand Mosque",
+  "tags": [
+   "city",
+   "luxury",
+   "family"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Grand mosques, museums and theme parks",
+  "best_time": "November to March",
+  "highlights": [
+   "Sheikh Zayed Grand Mosque",
+   "Louvre Abu Dhabi",
+   "Ferrari World and Yas Island",
+   "Corniche beach"
+  ],
+  "food": [
+   "Machboos",
+   "Shawarma",
+   "Arabic sweets"
+  ],
+  "stay_areas": [
+   "Corniche for the city",
+   "Yas Island for theme parks",
+   "Saadiyat for beaches"
+  ],
+  "getting_there": "Direct flights from many Indian cities.",
+  "tip": "Dress modestly for the Grand Mosque — robes are provided if needed."
+ },
+ {
+  "slug": "shillong",
+  "name": "Shillong & Meghalaya",
+  "country": "India",
+  "region": "Meghalaya",
+  "iata": "GAU",
+  "tags": [
+   "nature",
+   "waterfalls",
+   "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "Living root bridges and the wettest hills on earth",
+  "best_time": "October to May",
+  "highlights": [
+   "Double-decker living root bridge at Nongriat",
+   "Dawki's clear Umngot river",
+   "Mawlynnong village",
+   "Nohkalikai Falls in Cherrapunji"
+  ],
+  "food": [
+   "Jadoh",
+   "Dohneiiong",
+   "Local cafés and live music in Shillong"
+  ],
+  "stay_areas": [
+   "Shillong for cafés and base",
+   "Sohra (Cherrapunji) for treks",
+   "Homestays near Dawki"
+  ],
+  "getting_there": "Fly to Guwahati, then about 3 hours by road to Shillong.",
+  "tip": "The Nongriat trek has thousands of steps — start early and carry water.",
+  "wiki": "Living root bridge"
+ },
+ {
+  "slug": "mahabalipuram",
+  "name": "Mahabalipuram",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "MAA",
+  "wiki": "Shore Temple",
+  "tags": [
+   "heritage",
+   "beach",
+   "art"
+  ],
+  "cost": "₹",
+  "tagline": "Pallava stone temples by the sea",
+  "best_time": "November to February",
+  "highlights": [
+   "Shore Temple",
+   "Arjuna's Penance",
+   "Five Rathas",
+   "Krishna's Butter Ball"
+  ],
+  "food": [
+   "Seafood by the beach",
+   "Chettinad dishes",
+   "Filter coffee"
+  ],
+  "stay_areas": [
+   "Near the beach",
+   "East Coast Road resorts"
+  ],
+  "getting_there": "About 1.5 hours by road from Chennai airport.",
+  "tip": "Combine it with Pondicherry on a single road trip down the East Coast Road."
+ },
+ {
+  "slug": "srinagar",
+  "name": "Srinagar",
+  "country": "India",
+  "region": "Jammu & Kashmir",
+  "iata": "SXR",
+  "tags": [
+   "lakes",
+   "mountain",
+   "romantic"
+  ],
+  "cost": "₹₹",
+  "tagline": "Houseboats, shikaras and Mughal gardens",
+  "best_time": "April to October, and winter for snow",
+  "highlights": [
+   "Shikara ride on Dal Lake",
+   "Nishat and Shalimar Bagh",
+   "Day trips to Gulmarg and Pahalgam",
+   "Old city and Jamia Masjid"
+  ],
+  "food": [
+   "Wazwan feast",
+   "Kahwa",
+   "Noon chai with girda bread"
+  ],
+  "stay_areas": [
+   "Houseboats on Dal or Nigeen Lake",
+   "Boulevard Road hotels",
+   "Rajbagh for quieter stays"
+  ],
+  "getting_there": "Fly directly to Srinagar from major Indian cities.",
+  "tip": "Nigeen Lake houseboats are calmer than the busy parts of Dal Lake.",
+  "wiki": "Dal Lake"
+ },
+ {
+  "slug": "muscat",
+  "name": "Muscat",
+  "country": "Oman",
+  "region": "Middle East",
+  "iata": "MCT",
+  "wiki": "Sultan Qaboos Grand Mosque",
+  "tags": [
+   "city",
+   "nature",
+   "culture"
+  ],
+  "cost": "₹₹",
+  "tagline": "Mountains, wadis and a calm Arabian coast",
+  "best_time": "October to April",
+  "highlights": [
+   "Sultan Qaboos Grand Mosque",
+   "Mutrah Souq and Corniche",
+   "Wadi Shab",
+   "Bimmah Sinkhole"
+  ],
+  "food": [
+   "Shuwa",
+   "Omani halwa",
+   "Kahwa with dates"
+  ],
+  "stay_areas": [
+   "Qurum for beaches",
+   "Mutrah for the old town"
+  ],
+  "getting_there": "Short direct flights from many Indian cities.",
+  "tip": "Rent a car — Oman's best sights are outside the city."
+ },
+ {
+  "slug": "baku",
+  "name": "Baku",
+  "country": "Azerbaijan",
+  "region": "Caucasus",
+  "iata": "GYD",
+  "wiki": "Flame Towers",
+  "tags": [
+   "city",
+   "heritage",
+   "food"
+  ],
+  "cost": "₹₹",
+  "tagline": "Old walls and Flame Towers on the Caspian",
+  "best_time": "April to June and September to October",
+  "highlights": [
+   "Icherisheher Old City",
+   "Flame Towers at night",
+   "Heydar Aliyev Center",
+   "Gobustan and mud volcanoes"
+  ],
+  "food": [
+   "Plov",
+   "Dolma",
+   "Qutab"
+  ],
+  "stay_areas": [
+   "Old City for charm",
+   "Boulevard area for views"
+  ],
+  "getting_there": "Direct and one-stop flights from Delhi.",
+  "tip": "Take the funicular to Highland Park for the city view."
+ },
+ {
+  "slug": "wayanad",
+  "name": "Wayanad",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "CCJ",
+  "wiki": "Edakkal Caves",
+  "tags": [
+   "nature",
+   "hills",
+   "trek"
+  ],
+  "cost": "₹₹",
+  "tagline": "Misty forests, caves and waterfalls",
+  "best_time": "October to May",
+  "highlights": [
+   "Edakkal Caves",
+   "Chembra Peak trek",
+   "Banasura Sagar Dam",
+   "Soochipara Falls"
+  ],
+  "food": [
+   "Bamboo rice dishes",
+   "Kerala sadya",
+   "Spiced tea"
+  ],
+  "stay_areas": [
+   "Kalpetta as a central base",
+   "Treehouse and jungle resorts"
+  ],
+  "getting_there": "About 3 hours by road from Kozhikode (Calicut) airport.",
+  "tip": "Trek permits for Chembra Peak are limited — start early."
+ },
+ {
+  "slug": "ooty",
+  "name": "Ooty",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "CJB",
+  "tags": [
+   "hills",
+   "family",
+   "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Nilgiris' classic hill station",
+  "best_time": "October to June",
+  "highlights": [
+   "Nilgiri Mountain Railway",
+   "Government Botanical Garden",
+   "Doddabetta Peak",
+   "Pykara Lake and falls"
+  ],
+  "food": [
+   "Homemade chocolates",
+   "Varkey biscuits",
+   "Hot filter coffee"
+  ],
+  "stay_areas": [
+   "Near Charing Cross for convenience",
+   "Coonoor for quieter heritage stays"
+  ],
+  "getting_there": "Coimbatore airport is about 3 hours away; the toy train runs from Mettupalayam.",
+  "tip": "Book the toy train seats well ahead — they fill up fast.",
+  "wiki": "Nilgiri Mountain Railway"
+ },
+ {
+  "slug": "lakshadweep",
+  "name": "Lakshadweep",
+  "country": "India",
+  "region": "Lakshadweep",
+  "iata": "AGX",
+  "wiki": "Agatti Island",
+  "tags": [
+   "beach",
+   "island",
+   "diving"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "India's coral islands in the Arabian Sea",
+  "best_time": "October to May",
+  "highlights": [
+   "Snorkelling over coral lagoons",
+   "Scuba diving",
+   "Kayaking in clear lagoons",
+   "Island-hopping"
+  ],
+  "food": [
+   "Coconut-based fish curries",
+   "Tuna dishes",
+   "Fresh coconut"
+  ],
+  "stay_areas": [
+   "Agatti",
+   "Bangaram",
+   "Kadmat"
+  ],
+  "getting_there": "Fly from Kochi to Agatti, or take a ship from Kochi.",
+  "tip": "An entry permit is required — check the current rules with the Lakshadweep administration before booking."
+ },
+ {
+  "slug": "almaty",
+  "name": "Almaty",
+  "country": "Kazakhstan",
+  "region": "Central Asia",
+  "iata": "ALA",
+  "wiki": "Big Almaty Lake",
+  "tags": [
+   "mountain",
+   "city",
+   "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "A green city at the foot of snowy peaks",
+  "best_time": "May to September, or December to March for skiing",
+  "highlights": [
+   "Big Almaty Lake",
+   "Shymbulak ski resort",
+   "Charyn Canyon",
+   "Kok Tobe hill"
+  ],
+  "food": [
+   "Beshbarmak",
+   "Plov",
+   "Baursak"
+  ],
+  "stay_areas": [
+   "City centre near Panfilov Park"
+  ],
+  "getting_there": "Direct flights from Delhi.",
+  "tip": "Kolsai and Kaindy lakes make a great two-day trip."
+ },
+ {
+  "slug": "mauritius",
+  "name": "Mauritius",
+  "country": "Mauritius",
+  "region": "Indian Ocean",
+  "iata": "MRU",
+  "wiki": "Le Morne Brabant",
+  "tags": [
+   "beach",
+   "island",
+   "romantic"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Lagoons, mountains and a familiar Indian touch",
+  "best_time": "May to December",
+  "highlights": [
+   "Le Morne beach",
+   "Île aux Cerfs",
+   "Chamarel Seven Coloured Earth",
+   "Black River Gorges"
+  ],
+  "food": [
+   "Dholl puri",
+   "Mauritian curries",
+   "Gateaux piments"
+  ],
+  "stay_areas": [
+   "North for nightlife (Grand Baie)",
+   "East for beaches",
+   "South-west for Le Morne"
+  ],
+  "getting_there": "Direct flights from Mumbai and other Indian cities.",
+  "tip": "Rent a car — the island is easy to drive and distances are short."
+ },
+ {
+  "slug": "kasol",
+  "name": "Kasol",
+  "country": "India",
+  "region": "Himachal Pradesh",
+  "iata": "KUU",
+  "tags": [
+   "mountain",
+   "backpacking",
+   "trek"
+  ],
+  "cost": "₹",
+  "tagline": "The Parvati Valley's riverside backpacker base",
+  "best_time": "March to June and September to November",
+  "highlights": [
+   "Kheerganga trek and hot spring",
+   "Manikaran Sahib",
+   "Chalal and Tosh villages",
+   "Riverside cafés"
+  ],
+  "food": [
+   "Israeli-style shakshuka",
+   "Trout",
+   "Himachali rajma chawal"
+  ],
+  "stay_areas": [
+   "Kasol for cafés",
+   "Chalal for quiet riverside stays",
+   "Tosh for views"
+  ],
+  "getting_there": "Overnight bus from Delhi to Bhuntar, then a local bus or taxi.",
+  "tip": "Carry cash — ATMs in the valley often run dry.",
+  "wiki": "Parvati Valley"
+ },
+ {
+  "slug": "kaziranga",
+  "name": "Kaziranga",
+  "country": "India",
+  "region": "Assam",
+  "iata": "GAU",
+  "wiki": "Kaziranga National Park",
+  "tags": [
+   "nature",
+   "wildlife",
+   "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "One-horned rhinos on the Brahmaputra floodplains",
+  "best_time": "November to April (park closed in monsoon)",
+  "highlights": [
+   "Jeep safari in the Central Range",
+   "Elephant grass landscapes",
+   "Birdwatching",
+   "Tea gardens nearby"
+  ],
+  "food": [
+   "Assamese thali",
+   "Masor tenga (sour fish curry)",
+   "Assam tea"
+  ],
+  "stay_areas": [
+   "Kohora for the central range",
+   "Eco-lodges near Bagori"
+  ],
+  "getting_there": "About 4–5 hours by road from Guwahati; Jorhat airport is closer.",
+  "tip": "Book the morning safari — the light and animal sightings are best then."
+ },
+ {
+  "slug": "tawang",
+  "name": "Tawang",
+  "country": "India",
+  "region": "Arunachal Pradesh",
+  "iata": "GAU",
+  "wiki": "Tawang Monastery",
+  "tags": [
+   "mountain",
+   "spiritual",
+   "roadtrip"
+  ],
+  "cost": "₹₹",
+  "tagline": "High-altitude monasteries and frozen lakes",
+  "best_time": "March to June and September to November",
+  "highlights": [
+   "Tawang Monastery",
+   "Sela Pass",
+   "Madhuri (Sangetsar) Lake",
+   "Bum La Pass (permit needed)"
+  ],
+  "food": [
+   "Thukpa",
+   "Momos",
+   "Butter tea"
+  ],
+  "stay_areas": [
+   "Tawang town"
+  ],
+  "getting_there": "A long scenic drive from Guwahati or Tezpur, usually over two days via Dirang.",
+  "tip": "Indian visitors need an Inner Line Permit — apply online before you go."
+ },
+ {
+  "slug": "seychelles",
+  "name": "Seychelles",
+  "country": "Seychelles",
+  "region": "Indian Ocean",
+  "iata": "SEZ",
+  "wiki": "Anse Source d'Argent",
+  "tags": [
+   "beach",
+   "island",
+   "luxury"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Granite boulders and powder-white beaches",
+  "best_time": "April to May and October to November",
+  "highlights": [
+   "Anse Source d'Argent on La Digue",
+   "Vallée de Mai on Praslin",
+   "Beau Vallon on Mahé",
+   "Snorkelling at Sainte Anne Marine Park"
+  ],
+  "food": [
+   "Creole fish curry",
+   "Grilled fish",
+   "Fresh tropical fruit"
+  ],
+  "stay_areas": [
+   "Mahé for arrival",
+   "Praslin and La Digue for beaches"
+  ],
+  "getting_there": "Flights via the Gulf or direct seasonal flights from India.",
+  "tip": "Rent a bicycle on La Digue — it's the main way to get around."
+ },
+ {
+  "slug": "paris",
+  "name": "Paris",
+  "country": "France",
+  "region": "Europe",
+  "iata": "PAR",
+  "wiki": "Eiffel Tower",
+  "tags": [
+   "city",
+   "romantic",
+   "culture"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Art, cafés and the Eiffel Tower",
+  "best_time": "April to June and September to October",
+  "highlights": [
+   "Eiffel Tower",
+   "The Louvre",
+   "Montmartre and Sacré-Cœur",
+   "Seine river cruise"
+  ],
+  "food": [
+   "Croissants",
+   "Crêpes",
+   "Macarons"
+  ],
+  "stay_areas": [
+   "Le Marais for charm",
+   "Saint-Germain for cafés",
+   "Near major Metro lines for convenience"
+  ],
+  "getting_there": "Direct flights from Delhi and Mumbai.",
+  "tip": "Book museum and Eiffel Tower tickets online to skip queues."
+ },
+ {
+  "slug": "spiti-valley",
+  "name": "Spiti Valley",
+  "country": "India",
+  "region": "Himachal Pradesh",
+  "iata": "KUU",
+  "wiki": "Key Monastery",
+  "tags": [
+   "mountain",
+   "adventure",
+   "roadtrip"
+  ],
+  "cost": "₹₹",
+  "tagline": "A cold desert of monasteries and moonscapes",
+  "best_time": "June to September",
+  "highlights": [
+   "Key Monastery",
+   "Chandratal Lake",
+   "Langza, Hikkim and Komic villages",
+   "Dhankar Monastery"
+  ],
+  "food": [
+   "Thukpa",
+   "Momos",
+   "Seabuckthorn tea"
+  ],
+  "stay_areas": [
+   "Kaza as the base",
+   "Homestays in Langza and Komic"
+  ],
+  "getting_there": "Drive via Shimla–Kinnaur (open most of the year) or via Manali when the passes are open.",
+  "tip": "Fuel stations are rare — fill up at Kaza and carry cash."
+ },
+ {
+  "slug": "mcleodganj",
+  "name": "McLeodganj",
+  "country": "India",
+  "region": "Himachal Pradesh",
+  "iata": "DHM",
+  "wiki": "McLeod Ganj",
+  "tags": [
+   "mountain",
+   "spiritual",
+   "trek"
+  ],
+  "cost": "₹",
+  "tagline": "Little Lhasa in the Dhauladhar hills",
+  "best_time": "March to June and September to November",
+  "highlights": [
+   "Tsuglagkhang (Dalai Lama Temple)",
+   "Triund trek",
+   "Bhagsu Falls",
+   "Dharamshala cricket stadium"
+  ],
+  "food": [
+   "Tibetan momos",
+   "Thenthuk",
+   "Café cakes and coffee"
+  ],
+  "stay_areas": [
+   "McLeodganj for cafés",
+   "Bhagsu and Dharamkot for quiet"
+  ],
+  "getting_there": "Fly to Dharamshala (Gaggal) or take an overnight bus from Delhi.",
+  "tip": "Start the Triund trek early to beat the afternoon clouds."
+ },
+ {
+  "slug": "mussoorie",
+  "name": "Mussoorie",
+  "country": "India",
+  "region": "Uttarakhand",
+  "iata": "DED",
+  "wiki": "Mussoorie",
+  "tags": [
+   "hills",
+   "family",
+   "heritage"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Queen of the Hills above Dehradun",
+  "best_time": "March to June and September to November",
+  "highlights": [
+   "Mall Road and Camel's Back Road",
+   "Gun Hill by ropeway",
+   "Landour's quiet lanes",
+   "Kempty Falls"
+  ],
+  "food": [
+   "Landour bakeries",
+   "Maggi at hill-top stalls",
+   "Garhwali dishes"
+  ],
+  "stay_areas": [
+   "Mall Road for convenience",
+   "Landour for heritage and calm"
+  ],
+  "getting_there": "About 1.5 hours by road from Dehradun.",
+  "tip": "Walk up to Landour for the hill station Mussoorie used to be."
+ },
+ {
+  "slug": "interlaken",
+  "name": "Swiss Alps (Interlaken)",
+  "country": "Switzerland",
+  "region": "Europe",
+  "iata": "ZRH",
+  "wiki": "Interlaken",
+  "tags": [
+   "mountain",
+   "snow",
+   "adventure"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Lakes, trains and Alpine peaks",
+  "best_time": "June to September, or December to March for snow",
+  "highlights": [
+   "Jungfraujoch",
+   "Lauterbrunnen valley",
+   "Lake Brienz boat ride",
+   "Grindelwald First"
+  ],
+  "food": [
+   "Fondue",
+   "Rösti",
+   "Swiss chocolate"
+  ],
+  "stay_areas": [
+   "Interlaken as a base",
+   "Grindelwald or Lauterbrunnen for views"
+  ],
+  "getting_there": "Fly to Zurich, then about 2 hours by train.",
+  "tip": "Check rail passes — they can save a lot on mountain trains."
+ },
+ {
+  "slug": "amsterdam",
+  "name": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Europe",
+  "iata": "AMS",
+  "wiki": "Amsterdam",
+  "tags": [
+   "city",
+   "culture",
+   "romantic"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Canals, bikes and world-class museums",
+  "best_time": "April to May (tulip season) and June to September",
+  "highlights": [
+   "Canal cruise",
+   "Rijksmuseum and Van Gogh Museum",
+   "Anne Frank House",
+   "Keukenhof gardens in spring"
+  ],
+  "food": [
+   "Stroopwafels",
+   "Dutch pancakes",
+   "Herring (if you dare)"
+  ],
+  "stay_areas": [
+   "Canal Ring for charm",
+   "Jordaan for cafés",
+   "De Pijp for food"
+  ],
+  "getting_there": "Direct flights from Delhi and Mumbai.",
+  "tip": "Book the Anne Frank House online — tickets sell out weeks ahead."
+ },
+ {
+  "slug": "nainital",
+  "name": "Nainital",
+  "country": "India",
+  "region": "Uttarakhand",
+  "iata": "PGH",
+  "wiki": "Naini Lake",
+  "tags": [
+   "hills",
+   "lakes",
+   "family"
+  ],
+  "cost": "₹₹",
+  "tagline": "A lake town ringed by hills",
+  "best_time": "March to June and October to December",
+  "highlights": [
+   "Boating on Naini Lake",
+   "Snow View Point by ropeway",
+   "Tiffin Top walk",
+   "Day trip to Bhimtal and Sattal"
+  ],
+  "food": [
+   "Bal mithai",
+   "Bhatt ki churkani",
+   "Momos on the Mall"
+  ],
+  "stay_areas": [
+   "Mall Road for walkability",
+   "Bhimtal for quiet lakeside stays"
+  ],
+  "getting_there": "Kathgodam railway station is about 1.5 hours away; Pantnagar is the nearest airport.",
+  "tip": "Weekends get crowded — visit midweek if you can."
+ },
+ {
+  "slug": "auli",
+  "name": "Auli",
+  "country": "India",
+  "region": "Uttarakhand",
+  "iata": "DED",
+  "wiki": "Auli, India",
+  "tags": [
+   "snow",
+   "mountain",
+   "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "Ski slopes with Nanda Devi views",
+  "best_time": "December to March for snow, April to June for meadows",
+  "highlights": [
+   "Skiing and snow play",
+   "Gondola from Joshimath",
+   "Gorson Bugyal meadow trek",
+   "Views of Nanda Devi"
+  ],
+  "food": [
+   "Garhwali thali",
+   "Hot soups",
+   "Local rajma"
+  ],
+  "stay_areas": [
+   "Auli resorts",
+   "Joshimath for budget stays"
+  ],
+  "getting_there": "Rishikesh to Joshimath is a long mountain drive, then cable car or road to Auli.",
+  "tip": "Check road and ropeway status before travelling in winter."
+ },
+ {
+  "slug": "lonavala",
+  "name": "Lonavala",
+  "country": "India",
+  "region": "Maharashtra",
+  "iata": "PNQ",
+  "wiki": "Lonavala",
+  "tags": [
+   "hills",
+   "nature",
+   "family"
+  ],
+  "cost": "₹₹",
+  "tagline": "Monsoon waterfalls between Mumbai and Pune",
+  "best_time": "June to September for the monsoon, October to February for pleasant weather",
+  "highlights": [
+   "Tiger's Leap viewpoint",
+   "Karla and Bhaja caves",
+   "Lohagad Fort trek",
+   "Pawna Lake camping"
+  ],
+  "food": [
+   "Chikki",
+   "Vada pav",
+   "Corn on the roadside"
+  ],
+  "stay_areas": [
+   "Lonavala town",
+   "Khandala for valley views"
+  ],
+  "getting_there": "About 2 hours from Mumbai and 1 hour from Pune by road or train.",
+  "tip": "Avoid monsoon weekends if you dislike crowds."
+ },
+ {
+  "slug": "london",
+  "name": "London",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "iata": "LON",
+  "wiki": "Tower Bridge",
+  "tags": [
+   "city",
+   "culture",
+   "shopping"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Royal history, free museums and theatre",
+  "best_time": "May to September",
+  "highlights": [
+   "Tower of London and Tower Bridge",
+   "British Museum (free)",
+   "West End show",
+   "Borough Market"
+  ],
+  "food": [
+   "Fish and chips",
+   "Sunday roast",
+   "Brick Lane curries"
+  ],
+  "stay_areas": [
+   "South Bank for sights",
+   "Kensington for museums",
+   "King's Cross for transport"
+  ],
+  "getting_there": "Many direct flights from Indian cities.",
+  "tip": "Tap a contactless card on the Tube — daily fares are capped."
+ }
 ]

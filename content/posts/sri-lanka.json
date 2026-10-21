@@ -1,0 +1,105 @@
+{
+  "slug": "sri-lanka",
+  "name": "Sri Lanka",
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "iata": "CMB",
+  "tags": [
+    "beach",
+    "heritage",
+    "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "Tea hills, ancient cities and southern beaches",
+  "best_time": "December to March for the south and west coasts",
+  "highlights": [
+    "Sigiriya rock fortress",
+    "Kandy to Ella scenic train",
+    "Galle Fort",
+    "Safari at Yala or Udawalawe"
+  ],
+  "food": [
+    "Rice and curry",
+    "Kottu roti",
+    "Hoppers"
+  ],
+  "stay_areas": [
+    "Galle / Mirissa for beaches",
+    "Ella for hills",
+    "Kandy for culture"
+  ],
+  "getting_there": "Short direct flights from Chennai, Delhi, Mumbai and other cities to Colombo.",
+  "tip": "Reserve the Kandy–Ella train seats early, or try the unreserved carriage for the view.",
+  "wiki": "Sigiriya",
+  "intro": "If Sri Lanka has been on your list, consider this your sign. Tea hills, ancient cities and southern beaches, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Sri Lanka",
+      "paragraphs": [
+        "Sri Lanka (South Asia) is known for its beach, heritage and nature experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is December to March for the south and west coasts."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sigiriya rock fortress",
+        "Kandy to Ella scenic train",
+        "Galle Fort",
+        "Safari at Yala or Udawalawe"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Rice and curry",
+        "Kottu roti",
+        "Hoppers"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Short direct flights from Chennai, Delhi, Mumbai and other cities to Colombo."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Galle / Mirissa for beaches",
+        "Ella for hills",
+        "Kandy for culture"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Reserve the Kandy–Ella train seats early, or try the unreserved carriage for the view."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Sri Lanka?",
+      "a": "December to March for the south and west coasts."
+    },
+    {
+      "q": "How do I reach Sri Lanka?",
+      "a": "Short direct flights from Chennai, Delhi, Mumbai and other cities to Colombo."
+    },
+    {
+      "q": "Where should I stay in Sri Lanka?",
+      "a": "Popular choices: Galle / Mirissa for beaches; Ella for hills; Kandy for culture."
+    }
+  ],
+  "source": "template",
+  "title": "Sri Lanka Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Tea hills, ancient cities and southern beaches. Plan your Sri Lanka trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,12 +1,14 @@
 {% extends "base.html" %}
-{% from "_macros.html" import card %}
+{% from "_macros.html" import photo, ticket %}
 {% block title %}{{ post.title }} | {{ site.site_name }}{% endblock %}
 {% block description %}{{ post.description }}{% endblock %}
 {% block ogtype %}article{% endblock %}
+{% block ogimage %}{% if post.photo %}<meta property="og:image" content="{{ post.photo.url }}">{% endif %}{% endblock %}
 {% block head %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Article","headline":{{ post.title|tojson }},"description":{{ post.description|tojson }},
  "datePublished":"{{ post.published }}","dateModified":"{{ post.updated }}","author":{"@type":"Person","name":{{ site.author|tojson }}},
+ {% if post.photo %}"image":{{ post.photo.url|tojson }},{% endif %}
  "mainEntityOfPage":"{{ site.base_url }}{{ post.url }}"}
 </script>
 {% if post.faq %}
@@ -17,24 +19,27 @@
 {% endblock %}
 
 {% block content %}
-<section class="hero small" style="--c1:{{ post.c1 }};--c2:{{ post.c2 }}">
-  <div class="wrap hero-inner">
-    <p class="kicker light">{{ post.region }} · {{ post.country }}</p>
-    <h1>{{ post.icon }} {{ post.name }}</h1>
-    <p class="lede">{{ post.tagline }}</p>
-    <p class="meta">Updated {{ post.updated }} · Budget {{ post.cost }}</p>
+<section class="post-hero">
+  <div class="hero-media">{{ photo(post, big=True, eager=True) }}</div>
+  <div class="hero-shade"></div>
+  <div class="wrap post-hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/destinations/?where={{ 'abroad' if post.abroad else 'india' }}">{{ 'Abroad' if post.abroad else 'India' }}</a> / <span>{{ post.name }}</span></nav>
+    <h1>{{ post.name }}</h1>
+    <p class="hero-sub">{{ post.tagline }}</p>
+    <p class="post-meta">{{ post.region }}, {{ post.country }}. Updated {{ post.updated }}</p>
   </div>
+  {% if post.photo %}<p class="hero-credit"><a href="{{ post.photo.source }}" target="_blank" rel="noopener">Photo: {{ post.photo.credit }}</a>, {% if post.photo.license_url %}<a href="{{ post.photo.license_url }}" target="_blank" rel="noopener">{{ post.photo.license }}</a>{% else %}{{ post.photo.license }}{% endif %}</p>{% endif %}
 </section>
 
 <div class="wrap article-layout">
   <article class="article">
-    <p class="intro">{{ post.intro }}</p>
+    <p class="lede">{{ post.intro }}</p>
 
-    <div class="quickfacts">
-      <div><span>Best time</span>{{ post.best_time }}</div>
-      <div><span>Budget</span>{{ post.cost }}</div>
-      <div><span>Nearest airport</span>{{ post.iata }}</div>
-    </div>
+    <dl class="facts-row">
+      <div><dt>Best time</dt><dd>{{ post.best_time }}</dd></div>
+      <div><dt>Budget</dt><dd>{{ post.cost }}</dd></div>
+      <div><dt>Nearest airport</dt><dd>{{ post.iata }}</dd></div>
+    </dl>
 
     {% for s in post.sections %}
       <h2>{{ s.heading }}</h2>
@@ -42,53 +47,57 @@
       {% if s.list %}<ul>{% for item in s.list %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
       {% if loop.index == 3 %}
       <div class="inline-cta">
-        <p><b>Planning dates?</b> Check {{ post.name }} hotels for {{ post.deals.later.label }}.</p>
-        <a class="btn" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.later.booking }}">Booking.com</a>
-        <a class="btn ghost" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.later.agoda }}">Agoda</a>
+        <p><strong>Planning ahead?</strong> See {{ post.name }} hotels for {{ post.deals.later.label }}.</p>
+        <div class="btn-row">
+          <a class="btn btn-gold" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.later.booking }}">Booking.com</a>
+          <a class="btn btn-line" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.later.agoda }}">Agoda</a>
+        </div>
       </div>
       {% endif %}
     {% endfor %}
-   <div class="inline-cta">
-  <p><b>Explore activities for your trip</b></p>
-  <p>Discover tours, attractions and experiences to help plan your Goa holiday.</p>
-  <a class="btn" href="https://klook.tpx.tl/u/1JPRV4GO" rel="sponsored nofollow noopener" target="_blank">Explore Goa Activities on Klook →</a>
-  </div>
-   
+
     <h2>What to pack</h2>
     <div class="gear">
       {% for g in post.gear %}
       <a class="gear-item" rel="sponsored nofollow noopener" target="_blank" href="{{ g.url }}">
-        <b>{{ g.name }}</b><span>{{ g.why }}</span><em>View on Amazon →</em>
+        <strong>{{ g.name }}</strong><span>{{ g.why }}</span><em>View on Amazon</em>
       </a>
       {% endfor %}
     </div>
 
     {% if post.faq %}
-    <h2>FAQs</h2>
+    <h2>Questions travellers ask</h2>
     {% for f in post.faq %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
     {% endif %}
 
-    <p class="small muted">This page contains affiliate links. Facts such as timings, fees and entry rules change — please verify with official sources before you travel.</p>
+    <p class="fine">This guide contains affiliate links. Timings, fees and entry rules change, so check official sources before you travel.</p>
   </article>
 
-  <aside class="sidebar">
-    <div class="box sticky">
-      <h3>Book {{ post.name }}</h3>
-      <p class="muted">This weekend · {{ post.deals.weekend.label }}</p>
-      <a class="btn block" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.weekend.booking }}">Hotels on Booking.com</a>
-      <a class="btn block ghost" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.weekend.agoda }}">Hotels on Agoda</a>
-      {% if post.deals.flights %}
-      <p class="muted">Flights · {{ post.deals.flight_label }}</p>
-      <a class="btn block accent" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.flights }}">Compare flight fares</a>
-      {% endif %}
+  <aside class="side">
+    <div class="pass sticky">
+      <div class="pass-top">
+        <span>{{ origin }}</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 13l7 1 5 7h2l-2-7 6-1c1.5 0 2-1 2-1.5S21.5 10 20 10l-6-1 2-7h-2L9 9l-7 1z" fill="currentColor"/></svg>
+        <span>{{ post.iata }}</span>
+      </div>
+      <div class="pass-body">
+        <p>Stay {{ post.deals.weekend.label }}</p>
+        <a class="btn btn-gold block" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.weekend.booking }}">Hotels on Booking.com</a>
+        <a class="btn btn-line block" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.weekend.agoda }}">Hotels on Agoda</a>
+        {% if post.deals.flights %}
+        <p>Fly {{ post.route }} on {{ post.deals.fly_date }}</p>
+        <a class="btn btn-navy block" rel="sponsored nofollow noopener" target="_blank" href="{{ post.deals.flights }}">Compare flight prices</a>
+        {% endif %}
+        <p class="fine">Opens a live search with dates filled in. Change them on the next page.</p>
+      </div>
     </div>
   </aside>
 </div>
 
 {% if related %}
-<section class="wrap section">
-  <div class="section-head"><h2>If you like {{ post.name }}…</h2></div>
-  <div class="grid">{% for p in related %}{{ card(p) }}{% endfor %}</div>
+<section class="wrap latest">
+  <div class="rail-head"><h2>If you like {{ post.name }}</h2><a href="/destinations/">Browse everything</a></div>
+  <div class="grid">{% for p in related %}{{ ticket(p) }}{% endfor %}</div>
 </section>
 {% endif %}
 {% endblock %}

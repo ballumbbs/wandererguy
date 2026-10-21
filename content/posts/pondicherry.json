@@ -1,0 +1,105 @@
+{
+  "slug": "pondicherry",
+  "name": "Pondicherry",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "MAA",
+  "tags": [
+    "beach",
+    "heritage",
+    "food"
+  ],
+  "cost": "₹₹",
+  "tagline": "French Quarter streets on the Bay of Bengal",
+  "best_time": "October to March",
+  "highlights": [
+    "Walking the French Quarter (White Town)",
+    "Promenade Beach at sunrise",
+    "Auroville and the Matrimandir viewpoint",
+    "Paradise Beach by boat"
+  ],
+  "food": [
+    "French bakeries and crêpes",
+    "Creole-style seafood",
+    "Filter coffee"
+  ],
+  "stay_areas": [
+    "White Town for heritage stays",
+    "Auroville for eco-guesthouses",
+    "Serenity Beach for surf"
+  ],
+  "getting_there": "About 3 hours by road from Chennai airport.",
+  "tip": "Rent a bicycle to explore White Town at an easy pace.",
+  "wiki": "Promenade Beach",
+  "intro": "Pondicherry is one of those places that stays with you long after the trip ends. French Quarter streets on the Bay of Bengal — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Pondicherry",
+      "paragraphs": [
+        "Pondicherry (Tamil Nadu) is known for its beach, heritage and food experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Walking the French Quarter (White Town)",
+        "Promenade Beach at sunrise",
+        "Auroville and the Matrimandir viewpoint",
+        "Paradise Beach by boat"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "French bakeries and crêpes",
+        "Creole-style seafood",
+        "Filter coffee"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 3 hours by road from Chennai airport."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "White Town for heritage stays",
+        "Auroville for eco-guesthouses",
+        "Serenity Beach for surf"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Rent a bicycle to explore White Town at an easy pace."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Pondicherry?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Pondicherry?",
+      "a": "About 3 hours by road from Chennai airport."
+    },
+    {
+      "q": "Where should I stay in Pondicherry?",
+      "a": "Popular choices: White Town for heritage stays; Auroville for eco-guesthouses; Serenity Beach for surf."
+    }
+  ],
+  "source": "template",
+  "title": "Pondicherry Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "French Quarter streets on the Bay of Bengal. Plan your Pondicherry trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

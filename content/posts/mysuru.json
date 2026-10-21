@@ -1,0 +1,101 @@
+{
+  "slug": "mysuru",
+  "name": "Mysuru",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "BLR",
+  "wiki": "Mysore Palace",
+  "tags": [
+    "heritage",
+    "culture",
+    "family"
+  ],
+  "cost": "₹",
+  "tagline": "Palaces, silk and sandalwood",
+  "best_time": "October to February",
+  "highlights": [
+    "Mysore Palace lit up on Sundays",
+    "Chamundi Hills",
+    "Devaraja Market",
+    "Srirangapatna day trip"
+  ],
+  "food": [
+    "Mysore pak",
+    "Mysore masala dosa",
+    "Filter coffee"
+  ],
+  "stay_areas": [
+    "Near the palace for walkability"
+  ],
+  "getting_there": "About 3 hours from Bengaluru by train or road.",
+  "tip": "The palace is illuminated on Sunday evenings and during Dasara.",
+  "intro": "Mysuru is one of those places that stays with you long after the trip ends. Palaces, silk and sandalwood — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Mysuru",
+      "paragraphs": [
+        "Mysuru (Karnataka) is known for its heritage, culture and family experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to February."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Mysore Palace lit up on Sundays",
+        "Chamundi Hills",
+        "Devaraja Market",
+        "Srirangapatna day trip"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Mysore pak",
+        "Mysore masala dosa",
+        "Filter coffee"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 3 hours from Bengaluru by train or road."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near the palace for walkability"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "The palace is illuminated on Sunday evenings and during Dasara."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Mysuru?",
+      "a": "October to February."
+    },
+    {
+      "q": "How do I reach Mysuru?",
+      "a": "About 3 hours from Bengaluru by train or road."
+    },
+    {
+      "q": "Where should I stay in Mysuru?",
+      "a": "Popular choices: Near the palace for walkability."
+    }
+  ],
+  "source": "template",
+  "title": "Mysuru Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Palaces, silk and sandalwood. Plan your Mysuru trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "jaipur",
+  "name": "Jaipur",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JAI",
+  "tags": [
+    "heritage",
+    "city",
+    "shopping"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Pink City of forts, palaces and bazaars",
+  "best_time": "October to March",
+  "highlights": [
+    "Amber Fort early in the morning",
+    "Hawa Mahal and the City Palace",
+    "Nahargarh Fort at sunset",
+    "Shopping for block prints at Johari and Bapu Bazaar"
+  ],
+  "food": [
+    "Dal baati churma",
+    "Pyaaz kachori",
+    "Lassi in a kulhad"
+  ],
+  "stay_areas": [
+    "C-Scheme for central, upscale stays",
+    "Old City for heritage havelis",
+    "Bani Park for quieter boutique hotels"
+  ],
+  "getting_there": "Jaipur has an international airport and frequent trains and buses from Delhi (about 5 hours by road).",
+  "tip": "Buy the composite ticket — it covers most major monuments and saves money.",
+  "wiki": "Hawa Mahal",
+  "intro": "Jaipur is one of those places that stays with you long after the trip ends. The Pink City of forts, palaces and bazaars — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Jaipur",
+      "paragraphs": [
+        "Jaipur (Rajasthan) is known for its heritage, city and shopping experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Amber Fort early in the morning",
+        "Hawa Mahal and the City Palace",
+        "Nahargarh Fort at sunset",
+        "Shopping for block prints at Johari and Bapu Bazaar"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Dal baati churma",
+        "Pyaaz kachori",
+        "Lassi in a kulhad"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Jaipur has an international airport and frequent trains and buses from Delhi (about 5 hours by road)."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "C-Scheme for central, upscale stays",
+        "Old City for heritage havelis",
+        "Bani Park for quieter boutique hotels"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Buy the composite ticket — it covers most major monuments and saves money."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Jaipur?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Jaipur?",
+      "a": "Jaipur has an international airport and frequent trains and buses from Delhi (about 5 hours by road)."
+    },
+    {
+      "q": "Where should I stay in Jaipur?",
+      "a": "Popular choices: C-Scheme for central, upscale stays; Old City for heritage havelis; Bani Park for quieter boutique hotels."
+    }
+  ],
+  "source": "template",
+  "title": "Jaipur Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The Pink City of forts, palaces and bazaars. Plan your Jaipur trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

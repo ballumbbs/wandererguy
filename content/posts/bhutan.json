@@ -1,0 +1,105 @@
+{
+  "slug": "bhutan",
+  "name": "Bhutan",
+  "country": "Bhutan",
+  "region": "South Asia",
+  "iata": "PBH",
+  "tags": [
+    "mountain",
+    "culture",
+    "spiritual"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Dzongs, prayer flags and Tiger's Nest",
+  "best_time": "March to May and September to November",
+  "highlights": [
+    "Hike to Paro Taktsang (Tiger's Nest)",
+    "Punakha Dzong",
+    "Dochula Pass",
+    "Thimphu weekend market"
+  ],
+  "food": [
+    "Ema datshi",
+    "Red rice",
+    "Momos"
+  ],
+  "stay_areas": [
+    "Paro for the Tiger's Nest hike",
+    "Thimphu for the capital",
+    "Punakha for the valley"
+  ],
+  "getting_there": "Fly to Paro, or travel overland via Phuentsholing.",
+  "tip": "Check current entry fees and permit rules before booking — they are updated from time to time.",
+  "wiki": "Paro Taktsang",
+  "intro": "Looking for your next escape? Bhutan delivers: dzongs, prayer flags and Tiger's Nest. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Bhutan",
+      "paragraphs": [
+        "Bhutan (South Asia) is known for its mountain, culture and spiritual experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to May and September to November."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Hike to Paro Taktsang (Tiger's Nest)",
+        "Punakha Dzong",
+        "Dochula Pass",
+        "Thimphu weekend market"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Ema datshi",
+        "Red rice",
+        "Momos"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly to Paro, or travel overland via Phuentsholing."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Paro for the Tiger's Nest hike",
+        "Thimphu for the capital",
+        "Punakha for the valley"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Check current entry fees and permit rules before booking — they are updated from time to time."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Bhutan?",
+      "a": "March to May and September to November."
+    },
+    {
+      "q": "How do I reach Bhutan?",
+      "a": "Fly to Paro, or travel overland via Phuentsholing."
+    },
+    {
+      "q": "Where should I stay in Bhutan?",
+      "a": "Popular choices: Paro for the Tiger's Nest hike; Thimphu for the capital; Punakha for the valley."
+    }
+  ],
+  "source": "template",
+  "title": "Bhutan Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Dzongs, prayer flags and Tiger's Nest. Plan your Bhutan trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

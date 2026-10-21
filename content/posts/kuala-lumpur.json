@@ -1,0 +1,105 @@
+{
+  "slug": "kuala-lumpur",
+  "name": "Kuala Lumpur",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "iata": "KUL",
+  "tags": [
+    "city",
+    "food",
+    "shopping"
+  ],
+  "cost": "₹₹",
+  "tagline": "Twin towers, street food and rainforest",
+  "best_time": "December to February and June to August",
+  "highlights": [
+    "Petronas Towers and KLCC Park",
+    "Batu Caves",
+    "Jalan Alor night food street",
+    "Day trip to Malacca"
+  ],
+  "food": [
+    "Nasi lemak",
+    "Roti canai",
+    "Char kway teow"
+  ],
+  "stay_areas": [
+    "KLCC for views",
+    "Bukit Bintang for food and shopping",
+    "Chinatown for value"
+  ],
+  "getting_there": "Direct flights from many Indian cities.",
+  "tip": "Visit Batu Caves early morning to avoid heat and crowds.",
+  "wiki": "Petronas Towers",
+  "intro": "Twin towers, street food and rainforest. That is Kuala Lumpur in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Kuala Lumpur",
+      "paragraphs": [
+        "Kuala Lumpur (Southeast Asia) is known for its city, food and shopping experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is December to February and June to August."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Petronas Towers and KLCC Park",
+        "Batu Caves",
+        "Jalan Alor night food street",
+        "Day trip to Malacca"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Nasi lemak",
+        "Roti canai",
+        "Char kway teow"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from many Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "KLCC for views",
+        "Bukit Bintang for food and shopping",
+        "Chinatown for value"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Visit Batu Caves early morning to avoid heat and crowds."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Kuala Lumpur?",
+      "a": "December to February and June to August."
+    },
+    {
+      "q": "How do I reach Kuala Lumpur?",
+      "a": "Direct flights from many Indian cities."
+    },
+    {
+      "q": "Where should I stay in Kuala Lumpur?",
+      "a": "Popular choices: KLCC for views; Bukit Bintang for food and shopping; Chinatown for value."
+    }
+  ],
+  "source": "template",
+  "title": "Kuala Lumpur Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Twin towers, street food and rainforest. Plan your Kuala Lumpur trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

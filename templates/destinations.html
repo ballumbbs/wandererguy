@@ -1,26 +1,35 @@
 {% extends "base.html" %}
-{% from "_macros.html" import card %}
+{% from "_macros.html" import ticket %}
 {% block title %}All destinations | {{ site.site_name }}{% endblock %}
 {% block content %}
-<section class="wrap section">
-  <h1 class="page-title">All destinations</h1>
-  <p class="muted">{{ posts|length }} guides and counting — a new one every morning.</p>
-  <div class="chips" id="chips">
-    <button class="chip on" data-tag="">All</button>
-    {% for t in tags %}<button class="chip" data-tag="{{ t }}">{{ t }}</button>{% endfor %}
-  </div>
-  <div class="grid" id="list">
-    {% for p in posts %}<div data-tags="{{ p.tags|join(' ') }}">{{ card(p) }}</div>{% endfor %}
+<section class="page-head">
+  <div class="wrap">
+    <h1>Destinations</h1>
+    <p class="hero-sub">{{ posts|length }} guides. Filter by where you want to go and the kind of trip you want.</p>
   </div>
 </section>
-<script>
-document.getElementById('chips').addEventListener('click', e => {
-  const b = e.target.closest('.chip'); if (!b) return;
-  document.querySelectorAll('.chip').forEach(c => c.classList.toggle('on', c === b));
-  const t = b.dataset.tag;
-  document.querySelectorAll('#list > div').forEach(el => {
-    el.hidden = t && !el.dataset.tags.split(' ').includes(t);
-  });
-});
-</script>
+<section class="wrap" data-filter>
+  <div class="filters">
+    <div class="seg" role="group" aria-label="Where">
+      <button data-where="" class="on">Everywhere</button>
+      <button data-where="india">India</button>
+      <button data-where="abroad">Abroad</button>
+    </div>
+    <div class="chips" role="group" aria-label="Mood">
+      <button data-mood="" class="on">Any mood</button>
+      {% for m in moods %}<button data-mood="{{ m.key }}" data-tags="{{ m.tags|join(' ') }}">{{ m.label }}</button>{% endfor %}
+    </div>
+    <label class="filter-search">
+      <span class="sr">Filter by name</span>
+      <input type="search" placeholder="Filter by name, state or country" data-q>
+    </label>
+  </div>
+  <p class="count" aria-live="polite"><span data-count>{{ posts|length }}</span> destinations</p>
+  <div class="grid" data-list>
+    {% for p in posts %}
+    <div class="cell" data-where="{{ 'abroad' if p.abroad else 'india' }}" data-tags="{{ p.tags|join(' ') }}" data-text="{{ (p.name ~ ' ' ~ p.region ~ ' ' ~ p.country ~ ' ' ~ p.tags|join(' '))|lower }}">{{ ticket(p) }}</div>
+    {% endfor %}
+  </div>
+  <p class="empty" hidden>No destination matches those filters. Try fewer filters or <a href="/search/">search instead</a>.</p>
+</section>
 {% endblock %}

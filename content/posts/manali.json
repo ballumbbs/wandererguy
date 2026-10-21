@@ -1,0 +1,105 @@
+{
+  "slug": "manali",
+  "name": "Manali",
+  "country": "India",
+  "region": "Himachal Pradesh",
+  "iata": "KUU",
+  "tags": [
+    "mountain",
+    "adventure",
+    "snow"
+  ],
+  "cost": "₹",
+  "tagline": "Pine forests, snow peaks and the road to Lahaul",
+  "best_time": "March to June for pleasant weather, December to February for snow",
+  "highlights": [
+    "Old Manali cafés and the Hadimba Temple",
+    "Solang Valley for paragliding and skiing",
+    "A day trip through the Atal Tunnel to Sissu",
+    "Jogini Falls hike from Vashisht"
+  ],
+  "food": [
+    "Siddu with ghee",
+    "Trout from local farms",
+    "Himachali dham on festival days"
+  ],
+  "stay_areas": [
+    "Old Manali for backpacker vibes",
+    "Mall Road for convenience",
+    "Vashisht for hot springs and views"
+  ],
+  "getting_there": "Overnight Volvo buses from Delhi are the most popular option; the nearest airport is Bhuntar near Kullu.",
+  "tip": "Check Rohtang Pass permits and road status a day before — they change with the weather.",
+  "wiki": "Manali, Himachal Pradesh",
+  "intro": "If Manali has been on your list, consider this your sign. Pine forests, snow peaks and the road to Lahaul, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Manali",
+      "paragraphs": [
+        "Manali (Himachal Pradesh) is known for its mountain, adventure and snow experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to June for pleasant weather, December to February for snow."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Old Manali cafés and the Hadimba Temple",
+        "Solang Valley for paragliding and skiing",
+        "A day trip through the Atal Tunnel to Sissu",
+        "Jogini Falls hike from Vashisht"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Siddu with ghee",
+        "Trout from local farms",
+        "Himachali dham on festival days"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Overnight Volvo buses from Delhi are the most popular option; the nearest airport is Bhuntar near Kullu."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Old Manali for backpacker vibes",
+        "Mall Road for convenience",
+        "Vashisht for hot springs and views"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Check Rohtang Pass permits and road status a day before — they change with the weather."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Manali?",
+      "a": "March to June for pleasant weather, December to February for snow."
+    },
+    {
+      "q": "How do I reach Manali?",
+      "a": "Overnight Volvo buses from Delhi are the most popular option; the nearest airport is Bhuntar near Kullu."
+    },
+    {
+      "q": "Where should I stay in Manali?",
+      "a": "Popular choices: Old Manali for backpacker vibes; Mall Road for convenience; Vashisht for hot springs and views."
+    }
+  ],
+  "source": "template",
+  "title": "Manali Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Pine forests, snow peaks and the road to Lahaul. Plan your Manali trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

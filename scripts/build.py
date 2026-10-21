@@ -1,6 +1,7 @@
 """Renders the whole static site into ./public."""
 import datetime as dt
 import hashlib
+import json
 import random
 import shutil
 import sys
@@ -12,34 +13,28 @@ from affiliates import Links
 from common import DATA, POSTS, ROOT, STATE_FILE, load_config, load_json, today
 
 OUT = ROOT / "public"
+PHOTOS = POSTS.parent / "photos.json"
 
-PALETTES = [("#0f5257", "#e9a03b"), ("#7a2e2e", "#f2c57c"), ("#1f3b73", "#7fc8f8"),
-            ("#2f5d3a", "#d8e2a4"), ("#5b2a86", "#f0a6ca"), ("#8a4b08", "#ffd29d"),
-            ("#114b5f", "#88d498"), ("#3d405b", "#f2cc8f")]
-TAG_ICON = {"beach": "🏖️", "island": "🏝️", "mountain": "🏔️", "snow": "❄️", "city": "🏙️", "heritage": "🏰",
-            "food": "🍜", "nature": "🌿", "adventure": "🧗", "spiritual": "🛕", "romantic": "💞", "desert": "🐪",
-            "lakes": "🛶", "backwaters": "🛶", "tea": "🍵", "coffee": "☕", "hills": "⛰️", "trek": "🥾",
-            "diving": "🤿", "luxury": "✨", "culture": "🎎", "shopping": "🛍️", "family": "👨‍👩‍👧", "river": "🌊",
-            "waterfalls": "💧", "roadtrip": "🛣️", "nightlife": "🌙", "backpacking": "🎒", "boulders": "🪨"}
+# fallback art when a guide has no photo yet
+PALETTES = [("#13294b", "#2f6f8f"), ("#3b2a5a", "#c76b8f"), ("#0e4d64", "#4fb3a9"), ("#2c4a2e", "#9bbf6a"),
+            ("#5a2a1f", "#e0a458"), ("#1d3557", "#7fb7d8"), ("#3d405b", "#e9c46a"), ("#284b63", "#d9a5b3")]
+
+MOODS = [("beach", "Beaches", ["beach", "island"]), ("mountain", "Mountains", ["mountain", "hills", "snow", "trek"]),
+         ("heritage", "Heritage & history", ["heritage", "art"]), ("spiritual", "Spiritual journeys", ["spiritual"]),
+         ("nature", "Nature & wildlife", ["nature", "wildlife", "waterfalls"]), ("city", "City breaks", ["city"]),
+         ("food", "Food trips", ["food"]), ("romantic", "Romantic getaways", ["romantic"]),
+         ("adventure", "Adventure", ["adventure", "roadtrip", "diving"]), ("desert", "Deserts", ["desert"])]
 
 
 def palette(slug):
     return PALETTES[int(hashlib.md5(slug.encode()).hexdigest(), 16) % len(PALETTES)]
 
 
-def icon(post):
-    for t in post.get("tags", []):
-        if t in TAG_ICON:
-            return TAG_ICON[t]
-    return "🧭"
-
-
 def gear_for(post, gear, n=4):
     tags = set(post.get("tags", []))
     specific = [g for g in gear if tags & set(g["tags"])]
     general = [g for g in gear if "all" in g["tags"]]
-    rnd = random.Random(post["slug"])
-    rnd.shuffle(general)
+    random.Random(post["slug"]).shuffle(general)
     return (specific + general)[:n]
 
 
@@ -51,48 +46,61 @@ def main():
         print("⚠ Missing affiliate IDs (links still work, but won't earn):", ", ".join(links.missing()))
 
     state = load_json(STATE_FILE, {"published": []})
-    featured_on = {p["slug"]: p["last_featured"] for p in state["published"]}
+    meta = {p["slug"]: p for p in state["published"]}
+    photos = load_json(PHOTOS, {})
+    gear = load_json(DATA / "gear.json", [])
+    origin = cfg.get("home_airport", "DEL")
+
     posts = []
     for f in POSTS.glob("*.json"):
         p = load_json(f)
-        p["featured_on"] = featured_on.get(p["slug"], p.get("updated"))
+        m = meta.get(p["slug"], {})
+        p["featured_on"] = m.get("last_featured", p.get("updated"))
+        p["seq"] = m.get("seq", 0)
         p["url"] = f"/posts/{p['slug']}/"
         p["c1"], p["c2"] = palette(p["slug"])
-        p["icon"] = icon(p)
+        p["photo"] = photos.get(p["slug"])
+        p["abroad"] = p.get("country") != "India"
+        p["route"] = f"{origin} → {p['iata']}" if p.get("iata") and p.get("iata") != origin else None
         posts.append(p)
-    posts.sort(key=lambda p: p["featured_on"], reverse=True)
     if not posts:
         print("No posts yet — run scripts/generate_daily.py first.")
         return 1
+    posts.sort(key=lambda p: (p["featured_on"], p["seq"]), reverse=True)
 
-    gear = load_json(DATA / "gear.json", [])
     weekend, wk_nights = links.next_weekend()
     later, later_nights = links.in_weeks(3, 3)
-
-    def deals_for(p):
-        return {
-            "weekend": {"label": f"{weekend:%a %d %b} – {(weekend + dt.timedelta(days=wk_nights)):%a %d %b}",
+    for p in posts:
+        p["deals"] = {
+            "weekend": {"label": f"{weekend:%a %d %b} to {(weekend + dt.timedelta(days=wk_nights)):%a %d %b}",
                         "booking": links.booking(p["name"], p["country"], weekend, wk_nights),
                         "agoda": links.agoda(p["name"], weekend, wk_nights)},
-            "later": {"label": f"{later:%d %b} – {(later + dt.timedelta(days=later_nights)):%d %b}",
+            "later": {"label": f"{later:%d %b} to {(later + dt.timedelta(days=later_nights)):%d %b}",
                       "booking": links.booking(p["name"], p["country"], later, later_nights),
                       "agoda": links.agoda(p["name"], later, later_nights)},
             "flights": links.flights(p.get("iata"), later),
-            "flight_label": f"{cfg['home_airport']} → {p.get('iata')} on {later:%d %b}",
+            "fly_date": f"{later:%d %b}",
         }
-
-    for p in posts:
-        p["deals"] = deals_for(p)
         p["gear"] = [{**g, "url": links.amazon(g["keyword"])} for g in gear_for(p, gear)]
 
-    # Daily rotation: same picks all day, new picks tomorrow
-    rnd = random.Random(d.isoformat())
-    pool = posts[1:] or posts
-    featured = rnd.sample(pool, min(6, len(pool)))
+    rnd = random.Random(d.isoformat())  # same picks all day, new picks tomorrow
+    today_post = posts[0]
+    rest = posts[1:]
+    india = [p for p in rest if not p["abroad"]]
+    abroad = [p for p in rest if p["abroad"]]
+    rnd.shuffle(india)
+    rnd.shuffle(abroad)
     deals = rnd.sample(posts, min(12, len(posts)))
 
+    moods = []
+    for key, label, tags in MOODS:
+        items = [p for p in posts if set(p.get("tags", [])) & set(tags)]
+        if items:
+            cover = next((p for p in items if p["photo"]), items[0])
+            moods.append({"key": key, "label": label, "tags": tags, "count": len(items), "cover": cover})
+
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html"]))
-    env.globals.update(site=cfg, today=d, year=d.year, amazon=links.amazon)
+    env.globals.update(site=cfg, today=d, year=d.year, origin=origin, moods=moods, total=len(posts))
 
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -104,24 +112,30 @@ def main():
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(env.get_template(tpl).render(**ctx), encoding="utf-8")
 
-    render("index.html", "index.html", today_post=posts[0], featured=featured, deals=deals[:3],
-           recent=posts[1:9], page_url="/")
-    for i, p in enumerate(posts):
-        related = [q for q in posts if q is not p and set(q.get("tags", [])) & set(p.get("tags", []))][:3]
-        render("post.html", f"posts/{p['slug']}/index.html", post=p, related=related, page_url=p["url"])
-    all_tags = sorted({t for p in posts for t in p.get("tags", [])})
-    render("destinations.html", "destinations/index.html", posts=sorted(posts, key=lambda p: p["name"]),
-           tags=all_tags, page_url="/destinations/")
+    render("index.html", "index.html", today_post=today_post, india=india[:10], abroad=abroad[:10],
+           deals=deals[:4], latest=posts[1:9], page_url="/")
+    for p in posts:
+        related = [q for q in posts if q is not p and set(q.get("tags", [])) & set(p.get("tags", []))]
+        random.Random(p["slug"] + d.isoformat()).shuffle(related)
+        render("post.html", f"posts/{p['slug']}/index.html", post=p, related=related[:4], page_url=p["url"])
+    by_name = sorted(posts, key=lambda p: p["name"])
+    render("destinations.html", "destinations/index.html", posts=by_name, page_url="/destinations/")
+    render("search.html", "search/index.html", page_url="/search/")
     render("deals.html", "deals/index.html", deals=deals, weekend=weekend, page_url="/deals/")
-    render("page_about.html", "about/index.html", count=len(posts), page_url="/about/")
+    render("page_about.html", "about/index.html", page_url="/about/")
     render("page_disclosure.html", "disclosure/index.html", page_url="/disclosure/")
     render("page_privacy.html", "privacy/index.html", page_url="/privacy/")
     render("404.html", "404.html", page_url="/404.html")
 
+    # search index used by the search box on every page
+    index = [{"n": p["name"], "c": p["country"], "r": p.get("region", ""), "t": p.get("tags", []),
+              "g": p.get("tagline", ""), "u": p["url"], "i": (p["photo"] or {}).get("small", ""),
+              "a": p["abroad"], "c1": p["c1"], "c2": p["c2"]} for p in by_name]
+    (OUT / "search-index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
+
     # SEO + feeds
     base = cfg["base_url"].rstrip("/")
-    urls = [("/", d.isoformat()), ("/destinations/", d.isoformat()), ("/deals/", d.isoformat()),
-            ("/about/", d.isoformat()), ("/disclosure/", d.isoformat())]
+    urls = [(u, d.isoformat()) for u in ("/", "/destinations/", "/deals/", "/about/", "/disclosure/")]
     urls += [(p["url"], p["updated"]) for p in posts]
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -140,7 +154,7 @@ def main():
     (OUT / "CNAME").write_text(cfg["domain"] + "\n", encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
 
-    print(f"Built {len(posts)} guides into {OUT} for {d}. Today's post: {posts[0]['name']}")
+    print(f"Built {len(posts)} guides ({sum(1 for p in posts if p['photo'])} with photos) for {d}. Today: {today_post['name']}")
     return 0
 
 

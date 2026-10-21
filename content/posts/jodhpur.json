@@ -1,0 +1,103 @@
+{
+  "slug": "jodhpur",
+  "name": "Jodhpur",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JDH",
+  "wiki": "Mehrangarh",
+  "tags": [
+    "heritage",
+    "desert",
+    "culture"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Blue City beneath Mehrangarh Fort",
+  "best_time": "October to March",
+  "highlights": [
+    "Mehrangarh Fort",
+    "Walking the blue lanes of Brahmpuri",
+    "Jaswant Thada",
+    "Clock Tower market"
+  ],
+  "food": [
+    "Mirchi bada",
+    "Makhaniya lassi",
+    "Pyaaz kachori"
+  ],
+  "stay_areas": [
+    "Old City for fort views",
+    "Ratanada for larger hotels"
+  ],
+  "getting_there": "Jodhpur has an airport and good rail links with Delhi and Jaipur.",
+  "tip": "Book a rooftop room in the old city — the fort view at night is unforgettable.",
+  "intro": "Looking for your next escape? Jodhpur delivers: the Blue City beneath Mehrangarh Fort. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Jodhpur",
+      "paragraphs": [
+        "Jodhpur (Rajasthan) is known for its heritage, desert and culture experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Mehrangarh Fort",
+        "Walking the blue lanes of Brahmpuri",
+        "Jaswant Thada",
+        "Clock Tower market"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Mirchi bada",
+        "Makhaniya lassi",
+        "Pyaaz kachori"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Jodhpur has an airport and good rail links with Delhi and Jaipur."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Old City for fort views",
+        "Ratanada for larger hotels"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book a rooftop room in the old city — the fort view at night is unforgettable."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Jodhpur?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Jodhpur?",
+      "a": "Jodhpur has an airport and good rail links with Delhi and Jaipur."
+    },
+    {
+      "q": "Where should I stay in Jodhpur?",
+      "a": "Popular choices: Old City for fort views; Ratanada for larger hotels."
+    }
+  ],
+  "source": "template",
+  "title": "Jodhpur Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The Blue City beneath Mehrangarh Fort. Plan your Jodhpur trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

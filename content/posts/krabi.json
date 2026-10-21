@@ -1,0 +1,103 @@
+{
+  "slug": "krabi",
+  "name": "Krabi",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "iata": "KBV",
+  "wiki": "Railay Beach",
+  "tags": [
+    "beach",
+    "island",
+    "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "Limestone cliffs and emerald water",
+  "best_time": "November to April",
+  "highlights": [
+    "Railay Beach",
+    "Four Islands boat tour",
+    "Tiger Cave Temple",
+    "Hong Islands kayaking"
+  ],
+  "food": [
+    "Massaman curry",
+    "Grilled seafood",
+    "Mango sticky rice"
+  ],
+  "stay_areas": [
+    "Ao Nang for convenience",
+    "Railay for cliffs and beaches"
+  ],
+  "getting_there": "Fly to Krabi directly or via Bangkok.",
+  "tip": "Railay is reachable only by long-tail boat — pack light.",
+  "intro": "Krabi is one of those places that stays with you long after the trip ends. Limestone cliffs and emerald water — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Krabi",
+      "paragraphs": [
+        "Krabi (Southeast Asia) is known for its beach, island and adventure experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Railay Beach",
+        "Four Islands boat tour",
+        "Tiger Cave Temple",
+        "Hong Islands kayaking"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Massaman curry",
+        "Grilled seafood",
+        "Mango sticky rice"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly to Krabi directly or via Bangkok."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Ao Nang for convenience",
+        "Railay for cliffs and beaches"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Railay is reachable only by long-tail boat — pack light."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Krabi?",
+      "a": "November to April."
+    },
+    {
+      "q": "How do I reach Krabi?",
+      "a": "Fly to Krabi directly or via Bangkok."
+    },
+    {
+      "q": "Where should I stay in Krabi?",
+      "a": "Popular choices: Ao Nang for convenience; Railay for cliffs and beaches."
+    }
+  ],
+  "source": "template",
+  "title": "Krabi Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Limestone cliffs and emerald water. Plan your Krabi trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

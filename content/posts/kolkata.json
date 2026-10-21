@@ -1,0 +1,103 @@
+{
+  "slug": "kolkata",
+  "name": "Kolkata",
+  "country": "India",
+  "region": "West Bengal",
+  "iata": "CCU",
+  "wiki": "Victoria Memorial, Kolkata",
+  "tags": [
+    "city",
+    "culture",
+    "food"
+  ],
+  "cost": "₹",
+  "tagline": "Colonial grandeur, sweets and the soul of Bengal",
+  "best_time": "October to March",
+  "highlights": [
+    "Victoria Memorial",
+    "Howrah Bridge and the flower market",
+    "College Street book market",
+    "A ride on the tram"
+  ],
+  "food": [
+    "Kathi rolls",
+    "Rosogolla and mishti doi",
+    "Kosha mangsho"
+  ],
+  "stay_areas": [
+    "Park Street for food and nightlife",
+    "Esplanade for budget stays"
+  ],
+  "getting_there": "Kolkata's airport and Howrah/Sealdah stations are well connected.",
+  "tip": "Visit during Durga Puja (Sept/Oct) for the city's biggest festival.",
+  "intro": "If Kolkata has been on your list, consider this your sign. Colonial grandeur, sweets and the soul of Bengal, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Kolkata",
+      "paragraphs": [
+        "Kolkata (West Bengal) is known for its city, culture and food experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Victoria Memorial",
+        "Howrah Bridge and the flower market",
+        "College Street book market",
+        "A ride on the tram"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Kathi rolls",
+        "Rosogolla and mishti doi",
+        "Kosha mangsho"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Kolkata's airport and Howrah/Sealdah stations are well connected."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Park Street for food and nightlife",
+        "Esplanade for budget stays"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Visit during Durga Puja (Sept/Oct) for the city's biggest festival."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Kolkata?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Kolkata?",
+      "a": "Kolkata's airport and Howrah/Sealdah stations are well connected."
+    },
+    {
+      "q": "Where should I stay in Kolkata?",
+      "a": "Popular choices: Park Street for food and nightlife; Esplanade for budget stays."
+    }
+  ],
+  "source": "template",
+  "title": "Kolkata Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Colonial grandeur, sweets and the soul of Bengal. Plan your Kolkata trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

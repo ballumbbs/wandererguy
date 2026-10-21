@@ -2,10 +2,11 @@
 
 Every morning at **6:00 AM IST**, without you touching anything, GitHub:
 
-1. **Publishes a new destination guide** (best time, things to do, food, where to stay, how to get there, FAQs, packing list).
+1. **Publishes a new destination guide** (55 are live from launch; 29 more are queued, then new ones are written by Claude if you add an API key) (best time, things to do, food, where to stay, how to get there, FAQs, packing list).
 2. **Refreshes the daily deals** — hotel searches for *this weekend* and *3 weeks out*, plus flight searches from your home airport, all with dates pre-filled and your affiliate IDs attached.
 3. **Rotates the featured destinations** on the homepage.
-4. Rebuilds the sitemap and RSS feed and **deploys to wandererguy.in**.
+4. **Adds free-licensed photos** from Wikimedia Commons to any guide that doesn't have one, with photographer credits (saved in `content/photos.json` — edit that file to swap a photo).
+5. Rebuilds the search index, sitemap and RSS feed and **deploys to wandererguy.in**.
 
 Affiliate links: **Booking.com** (`aid`), **Agoda** (`cid`), **Amazon.in** (`tag`), **Travelpayouts / Aviasales** flights (`marker`).
 
@@ -88,13 +89,15 @@ python -m http.server -d public 8000 # open http://localhost:8000
 ```
 .github/workflows/daily.yml   ← the daily automation
 config.json                   ← site name, domain, defaults
-data/destinations.json        ← 35 curated destinations
+data/destinations.json        ← 84 curated destinations (India and abroad)
 data/extra_destinations.json  ← 30 more (written by Claude when the API key is set)
 data/gear.json                ← packing items for Amazon links
 data/state.json               ← what has been published and when (auto)
 content/posts/*.json          ← published guides (auto)
 scripts/generate_daily.py     ← writes the day's post
-scripts/build.py              ← renders the site + deals + sitemap + RSS
+scripts/build.py              ← renders the site + deals + search index + sitemap + RSS
+scripts/fetch_photos.py       ← finds a credited Wikimedia Commons photo for each guide
+static/site.js                ← search box suggestions, search page, destination filters
 scripts/affiliates.py         ← all affiliate link formats
 templates/, static/           ← design
 ```

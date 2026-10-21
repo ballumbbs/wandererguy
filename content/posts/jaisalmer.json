@@ -1,0 +1,105 @@
+{
+  "slug": "jaisalmer",
+  "name": "Jaisalmer",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JSA",
+  "tags": [
+    "desert",
+    "heritage",
+    "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Golden City at the edge of the Thar",
+  "best_time": "October to March",
+  "highlights": [
+    "Jaisalmer Fort, a living fort",
+    "Patwon ki Haveli",
+    "Camel safari and desert camp at Sam or Khuri",
+    "Gadisar Lake at sunrise"
+  ],
+  "food": [
+    "Ker sangri",
+    "Mutton saag",
+    "Ghotua laddoo"
+  ],
+  "stay_areas": [
+    "Inside or below the fort for atmosphere",
+    "Desert camps for one night",
+    "Hotels near Gadisar Lake"
+  ],
+  "getting_there": "Overnight trains from Delhi and Jaipur; the airport has limited seasonal flights.",
+  "tip": "Choose a desert camp away from the crowded dunes for a quieter night sky.",
+  "wiki": "Jaisalmer Fort",
+  "intro": "The Golden City at the edge of the Thar. That is Jaisalmer in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Jaisalmer",
+      "paragraphs": [
+        "Jaisalmer (Rajasthan) is known for its desert, heritage and adventure experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Jaisalmer Fort, a living fort",
+        "Patwon ki Haveli",
+        "Camel safari and desert camp at Sam or Khuri",
+        "Gadisar Lake at sunrise"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Ker sangri",
+        "Mutton saag",
+        "Ghotua laddoo"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Overnight trains from Delhi and Jaipur; the airport has limited seasonal flights."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Inside or below the fort for atmosphere",
+        "Desert camps for one night",
+        "Hotels near Gadisar Lake"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Choose a desert camp away from the crowded dunes for a quieter night sky."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Jaisalmer?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Jaisalmer?",
+      "a": "Overnight trains from Delhi and Jaipur; the airport has limited seasonal flights."
+    },
+    {
+      "q": "Where should I stay in Jaisalmer?",
+      "a": "Popular choices: Inside or below the fort for atmosphere; Desert camps for one night; Hotels near Gadisar Lake."
+    }
+  ],
+  "source": "template",
+  "title": "Jaisalmer Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The Golden City at the edge of the Thar. Plan your Jaisalmer trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "amritsar",
+  "name": "Amritsar",
+  "country": "India",
+  "region": "Punjab",
+  "iata": "ATQ",
+  "tags": [
+    "spiritual",
+    "food",
+    "heritage"
+  ],
+  "cost": "₹",
+  "tagline": "The Golden Temple and Punjab's best food",
+  "best_time": "October to March",
+  "highlights": [
+    "Golden Temple at night and at dawn",
+    "Langar at the community kitchen",
+    "Attari–Wagah border ceremony",
+    "Jallianwala Bagh"
+  ],
+  "food": [
+    "Amritsari kulcha",
+    "Lassi",
+    "Fish fry and pinni"
+  ],
+  "stay_areas": [
+    "Near the Golden Temple for early visits",
+    "Ranjit Avenue for modern hotels"
+  ],
+  "getting_there": "Amritsar has an international airport and is well connected by train from Delhi.",
+  "tip": "Visit the Golden Temple twice — once at night and once early morning.",
+  "wiki": "Golden Temple",
+  "intro": "The Golden Temple and Punjab's best food. That is Amritsar in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Amritsar",
+      "paragraphs": [
+        "Amritsar (Punjab) is known for its spiritual, food and heritage experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Golden Temple at night and at dawn",
+        "Langar at the community kitchen",
+        "Attari–Wagah border ceremony",
+        "Jallianwala Bagh"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Amritsari kulcha",
+        "Lassi",
+        "Fish fry and pinni"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Amritsar has an international airport and is well connected by train from Delhi."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near the Golden Temple for early visits",
+        "Ranjit Avenue for modern hotels"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Visit the Golden Temple twice — once at night and once early morning."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Amritsar?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Amritsar?",
+      "a": "Amritsar has an international airport and is well connected by train from Delhi."
+    },
+    {
+      "q": "Where should I stay in Amritsar?",
+      "a": "Popular choices: Near the Golden Temple for early visits; Ranjit Avenue for modern hotels."
+    }
+  ],
+  "source": "template",
+  "title": "Amritsar Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The Golden Temple and Punjab's best food. Plan your Amritsar trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

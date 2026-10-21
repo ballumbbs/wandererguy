@@ -1,0 +1,103 @@
+{
+  "slug": "hong-kong",
+  "name": "Hong Kong",
+  "country": "Hong Kong",
+  "region": "East Asia",
+  "iata": "HKG",
+  "wiki": "Victoria Harbour",
+  "tags": [
+    "city",
+    "food",
+    "shopping"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Harbour skylines, dim sum and island hikes",
+  "best_time": "October to December",
+  "highlights": [
+    "Victoria Peak",
+    "Star Ferry across the harbour",
+    "Big Buddha on Lantau",
+    "Dragon's Back hike"
+  ],
+  "food": [
+    "Dim sum",
+    "Roast goose",
+    "Egg tarts"
+  ],
+  "stay_areas": [
+    "Tsim Sha Tsui for views",
+    "Central for nightlife"
+  ],
+  "getting_there": "Direct flights from several Indian cities.",
+  "tip": "Get an Octopus card for transport and convenience stores.",
+  "intro": "Hong Kong is one of those places that stays with you long after the trip ends. Harbour skylines, dim sum and island hikes — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Hong Kong",
+      "paragraphs": [
+        "Hong Kong (East Asia) is known for its city, food and shopping experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to December."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Victoria Peak",
+        "Star Ferry across the harbour",
+        "Big Buddha on Lantau",
+        "Dragon's Back hike"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Dim sum",
+        "Roast goose",
+        "Egg tarts"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from several Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Tsim Sha Tsui for views",
+        "Central for nightlife"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Get an Octopus card for transport and convenience stores."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Hong Kong?",
+      "a": "October to December."
+    },
+    {
+      "q": "How do I reach Hong Kong?",
+      "a": "Direct flights from several Indian cities."
+    },
+    {
+      "q": "Where should I stay in Hong Kong?",
+      "a": "Popular choices: Tsim Sha Tsui for views; Central for nightlife."
+    }
+  ],
+  "source": "template",
+  "title": "Hong Kong Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Harbour skylines, dim sum and island hikes. Plan your Hong Kong trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

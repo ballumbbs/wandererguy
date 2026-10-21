@@ -1,0 +1,105 @@
+{
+  "slug": "tbilisi",
+  "name": "Tbilisi",
+  "country": "Georgia",
+  "region": "Caucasus",
+  "iata": "TBS",
+  "tags": [
+    "city",
+    "food",
+    "mountain"
+  ],
+  "cost": "₹₹",
+  "tagline": "Sulphur baths, wine and Caucasus day trips",
+  "best_time": "May to June and September to October",
+  "highlights": [
+    "Old Town and the Narikala Fortress cable car",
+    "Sulphur baths in Abanotubani",
+    "Day trip to Kazbegi",
+    "Wine tasting in Kakheti"
+  ],
+  "food": [
+    "Khachapuri",
+    "Khinkali",
+    "Georgian wine"
+  ],
+  "stay_areas": [
+    "Old Tbilisi for charm",
+    "Sololaki for boutique stays",
+    "Vake for quieter streets"
+  ],
+  "getting_there": "Connecting flights from India via the Gulf or Istanbul.",
+  "tip": "Book the Kazbegi trip as a shared tour — it is far cheaper than a private car.",
+  "wiki": "Narikala",
+  "intro": "Sulphur baths, wine and Caucasus day trips. That is Tbilisi in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Tbilisi",
+      "paragraphs": [
+        "Tbilisi (Caucasus) is known for its city, food and mountain experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is May to June and September to October."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Old Town and the Narikala Fortress cable car",
+        "Sulphur baths in Abanotubani",
+        "Day trip to Kazbegi",
+        "Wine tasting in Kakheti"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Khachapuri",
+        "Khinkali",
+        "Georgian wine"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Connecting flights from India via the Gulf or Istanbul."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Old Tbilisi for charm",
+        "Sololaki for boutique stays",
+        "Vake for quieter streets"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book the Kazbegi trip as a shared tour — it is far cheaper than a private car."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Tbilisi?",
+      "a": "May to June and September to October."
+    },
+    {
+      "q": "How do I reach Tbilisi?",
+      "a": "Connecting flights from India via the Gulf or Istanbul."
+    },
+    {
+      "q": "Where should I stay in Tbilisi?",
+      "a": "Popular choices: Old Tbilisi for charm; Sololaki for boutique stays; Vake for quieter streets."
+    }
+  ],
+  "source": "template",
+  "title": "Tbilisi Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Sulphur baths, wine and Caucasus day trips. Plan your Tbilisi trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

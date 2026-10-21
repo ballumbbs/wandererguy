@@ -1,0 +1,105 @@
+{
+  "slug": "istanbul",
+  "name": "Istanbul",
+  "country": "Türkiye",
+  "region": "Europe / Asia",
+  "iata": "IST",
+  "tags": [
+    "city",
+    "heritage",
+    "food"
+  ],
+  "cost": "₹₹",
+  "tagline": "Two continents, a thousand years of history",
+  "best_time": "April to June and September to November",
+  "highlights": [
+    "Hagia Sophia and the Blue Mosque",
+    "Grand Bazaar and Spice Bazaar",
+    "Bosphorus ferry ride",
+    "Sunset from Galata Tower area"
+  ],
+  "food": [
+    "Kebabs and pide",
+    "Simit",
+    "Baklava and Turkish tea"
+  ],
+  "stay_areas": [
+    "Sultanahmet for sights",
+    "Karaköy / Galata for cafés",
+    "Kadıköy on the Asian side"
+  ],
+  "getting_there": "Direct flights from Delhi and Mumbai to Istanbul Airport.",
+  "tip": "Get an Istanbulkart for trams, metro and ferries.",
+  "wiki": "Hagia Sophia",
+  "intro": "Two continents, a thousand years of history. That is Istanbul in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Istanbul",
+      "paragraphs": [
+        "Istanbul (Europe / Asia) is known for its city, heritage and food experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is April to June and September to November."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Hagia Sophia and the Blue Mosque",
+        "Grand Bazaar and Spice Bazaar",
+        "Bosphorus ferry ride",
+        "Sunset from Galata Tower area"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Kebabs and pide",
+        "Simit",
+        "Baklava and Turkish tea"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from Delhi and Mumbai to Istanbul Airport."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Sultanahmet for sights",
+        "Karaköy / Galata for cafés",
+        "Kadıköy on the Asian side"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Get an Istanbulkart for trams, metro and ferries."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Istanbul?",
+      "a": "April to June and September to November."
+    },
+    {
+      "q": "How do I reach Istanbul?",
+      "a": "Direct flights from Delhi and Mumbai to Istanbul Airport."
+    },
+    {
+      "q": "Where should I stay in Istanbul?",
+      "a": "Popular choices: Sultanahmet for sights; Karaköy / Galata for cafés; Kadıköy on the Asian side."
+    }
+  ],
+  "source": "template",
+  "title": "Istanbul Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Two continents, a thousand years of history. Plan your Istanbul trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

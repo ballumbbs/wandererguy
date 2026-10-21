@@ -1,9 +1,334 @@
 {
   "published": [
     {
+      "slug": "agra",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 2
+    },
+    {
+      "slug": "manali",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 3
+    },
+    {
+      "slug": "bali",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 4
+    },
+    {
+      "slug": "bangkok",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 5
+    },
+    {
+      "slug": "kochi",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 6
+    },
+    {
+      "slug": "jaipur",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 7
+    },
+    {
+      "slug": "mumbai",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 8
+    },
+    {
+      "slug": "phuket",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 9
+    },
+    {
+      "slug": "dubai",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 10
+    },
+    {
+      "slug": "udaipur",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 11
+    },
+    {
+      "slug": "kolkata",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 12
+    },
+    {
+      "slug": "rishikesh",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 13
+    },
+    {
+      "slug": "singapore",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 14
+    },
+    {
+      "slug": "hanoi",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 15
+    },
+    {
+      "slug": "hyderabad",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 16
+    },
+    {
+      "slug": "leh-ladakh",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 17
+    },
+    {
+      "slug": "jodhpur",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 18
+    },
+    {
+      "slug": "kathmandu",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 19
+    },
+    {
+      "slug": "maldives",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 20
+    },
+    {
+      "slug": "munnar",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 21
+    },
+    {
+      "slug": "pushkar",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 22
+    },
+    {
+      "slug": "alleppey",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 23
+    },
+    {
+      "slug": "pokhara",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 24
+    },
+    {
+      "slug": "sri-lanka",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 25
+    },
+    {
+      "slug": "ranthambore",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 26
+    },
+    {
+      "slug": "varanasi",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 27
+    },
+    {
+      "slug": "mount-abu",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 28
+    },
+    {
+      "slug": "krabi",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 29
+    },
+    {
+      "slug": "kuala-lumpur",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 30
+    },
+    {
+      "slug": "darjeeling",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 31
+    },
+    {
+      "slug": "kutch",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 32
+    },
+    {
+      "slug": "andaman",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 33
+    },
+    {
+      "slug": "chiang-mai",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 34
+    },
+    {
+      "slug": "bhutan",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 35
+    },
+    {
+      "slug": "khajuraho",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 36
+    },
+    {
+      "slug": "hampi",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 37
+    },
+    {
+      "slug": "aurangabad",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 38
+    },
+    {
+      "slug": "langkawi",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 39
+    },
+    {
+      "slug": "istanbul",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 40
+    },
+    {
+      "slug": "pondicherry",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 41
+    },
+    {
+      "slug": "mysuru",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 42
+    },
+    {
+      "slug": "shimla",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 43
+    },
+    {
+      "slug": "ho-chi-minh",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 44
+    },
+    {
+      "slug": "tbilisi",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 45
+    },
+    {
+      "slug": "chikmagalur",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 46
+    },
+    {
+      "slug": "coorg",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 47
+    },
+    {
+      "slug": "gokarna",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 48
+    },
+    {
+      "slug": "da-nang-hoi-an",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 49
+    },
+    {
+      "slug": "siem-reap",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 50
+    },
+    {
+      "slug": "amritsar",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 51
+    },
+    {
+      "slug": "varkala",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 52
+    },
+    {
+      "slug": "jaisalmer",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 53
+    },
+    {
+      "slug": "hong-kong",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 54
+    },
+    {
+      "slug": "tokyo",
+      "published": "2026-10-21",
+      "last_featured": "2026-10-21",
+      "seq": 55
+    },
+    {
       "slug": "goa",
       "published": "2026-10-21",
-      "last_featured": "2026-10-21"
+      "last_featured": "2026-10-21",
+      "seq": 56
     }
   ]
 }

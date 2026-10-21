@@ -1,0 +1,105 @@
+{
+  "slug": "shimla",
+  "name": "Shimla",
+  "country": "India",
+  "region": "Himachal Pradesh",
+  "iata": "IXC",
+  "tags": [
+    "hills",
+    "heritage",
+    "family"
+  ],
+  "cost": "₹₹",
+  "tagline": "The colonial summer capital in the hills",
+  "best_time": "March to June, and December to January for snow",
+  "highlights": [
+    "The Ridge and Mall Road",
+    "Kalka–Shimla toy train",
+    "Jakhu Temple",
+    "Day trips to Kufri and Mashobra"
+  ],
+  "food": [
+    "Chana madra",
+    "Street-side momos",
+    "Hot chocolate on Mall Road"
+  ],
+  "stay_areas": [
+    "Near the Mall for walkability",
+    "Chharabra / Mashobra for forest retreats",
+    "Kufri for snow views"
+  ],
+  "getting_there": "Drive from Chandigarh (about 3.5 hours) or take the toy train from Kalka.",
+  "tip": "Most of central Shimla is pedestrian-only — pack light.",
+  "wiki": "The Ridge, Shimla",
+  "intro": "If Shimla has been on your list, consider this your sign. The colonial summer capital in the hills, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Shimla",
+      "paragraphs": [
+        "Shimla (Himachal Pradesh) is known for its hills, heritage and family experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to June, and December to January for snow."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "The Ridge and Mall Road",
+        "Kalka–Shimla toy train",
+        "Jakhu Temple",
+        "Day trips to Kufri and Mashobra"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Chana madra",
+        "Street-side momos",
+        "Hot chocolate on Mall Road"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Drive from Chandigarh (about 3.5 hours) or take the toy train from Kalka."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near the Mall for walkability",
+        "Chharabra / Mashobra for forest retreats",
+        "Kufri for snow views"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Most of central Shimla is pedestrian-only — pack light."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Shimla?",
+      "a": "March to June, and December to January for snow."
+    },
+    {
+      "q": "How do I reach Shimla?",
+      "a": "Drive from Chandigarh (about 3.5 hours) or take the toy train from Kalka."
+    },
+    {
+      "q": "Where should I stay in Shimla?",
+      "a": "Popular choices: Near the Mall for walkability; Chharabra / Mashobra for forest retreats; Kufri for snow views."
+    }
+  ],
+  "source": "template",
+  "title": "Shimla Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The colonial summer capital in the hills. Plan your Shimla trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

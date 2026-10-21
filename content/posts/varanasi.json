@@ -1,0 +1,105 @@
+{
+  "slug": "varanasi",
+  "name": "Varanasi",
+  "country": "India",
+  "region": "Uttar Pradesh",
+  "iata": "VNS",
+  "tags": [
+    "spiritual",
+    "heritage",
+    "culture"
+  ],
+  "cost": "₹",
+  "tagline": "India's oldest living city on the Ganga",
+  "best_time": "October to March",
+  "highlights": [
+    "Sunrise boat ride along the ghats",
+    "Ganga aarti at Dashashwamedh Ghat",
+    "Walking the old city lanes",
+    "Sarnath, where the Buddha gave his first sermon"
+  ],
+  "food": [
+    "Kachori sabzi for breakfast",
+    "Banarasi paan",
+    "Malaiyo in winter"
+  ],
+  "stay_areas": [
+    "Assi Ghat for cafés and calm",
+    "Dashashwamedh area for the aarti",
+    "Cantonment for modern hotels"
+  ],
+  "getting_there": "Fly into Lal Bahadur Shastri Airport or take one of many trains to Varanasi Junction.",
+  "tip": "Hire a boat at dawn rather than evening — the light and the quiet are worth the early alarm.",
+  "wiki": "Ghats in Varanasi",
+  "intro": "Looking for your next escape? Varanasi delivers: india's oldest living city on the Ganga. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Varanasi",
+      "paragraphs": [
+        "Varanasi (Uttar Pradesh) is known for its spiritual, heritage and culture experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sunrise boat ride along the ghats",
+        "Ganga aarti at Dashashwamedh Ghat",
+        "Walking the old city lanes",
+        "Sarnath, where the Buddha gave his first sermon"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Kachori sabzi for breakfast",
+        "Banarasi paan",
+        "Malaiyo in winter"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly into Lal Bahadur Shastri Airport or take one of many trains to Varanasi Junction."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Assi Ghat for cafés and calm",
+        "Dashashwamedh area for the aarti",
+        "Cantonment for modern hotels"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Hire a boat at dawn rather than evening — the light and the quiet are worth the early alarm."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Varanasi?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Varanasi?",
+      "a": "Fly into Lal Bahadur Shastri Airport or take one of many trains to Varanasi Junction."
+    },
+    {
+      "q": "Where should I stay in Varanasi?",
+      "a": "Popular choices: Assi Ghat for cafés and calm; Dashashwamedh area for the aarti; Cantonment for modern hotels."
+    }
+  ],
+  "source": "template",
+  "title": "Varanasi Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "India's oldest living city on the Ganga. Plan your Varanasi trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "mumbai",
+  "name": "Mumbai",
+  "country": "India",
+  "region": "Maharashtra",
+  "iata": "BOM",
+  "wiki": "Gateway of India",
+  "tags": [
+    "city",
+    "food",
+    "nightlife"
+  ],
+  "cost": "₹₹",
+  "tagline": "The city of dreams, street food and sea-facing promenades",
+  "best_time": "November to February",
+  "highlights": [
+    "Gateway of India and Colaba",
+    "Marine Drive at night",
+    "Elephanta Caves by ferry",
+    "Bandra's cafés and street art"
+  ],
+  "food": [
+    "Vada pav",
+    "Pav bhaji at Juhu Beach",
+    "Bombay sandwich"
+  ],
+  "stay_areas": [
+    "Colaba for sights",
+    "Bandra for cafés and nightlife",
+    "Andheri for the airport"
+  ],
+  "getting_there": "Mumbai's international airport and rail stations connect to the whole country.",
+  "tip": "Use local trains outside rush hours — they're the fastest way across the city.",
+  "intro": "Mumbai is one of those places that stays with you long after the trip ends. The city of dreams, street food and sea-facing promenades — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Mumbai",
+      "paragraphs": [
+        "Mumbai (Maharashtra) is known for its city, food and nightlife experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to February."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Gateway of India and Colaba",
+        "Marine Drive at night",
+        "Elephanta Caves by ferry",
+        "Bandra's cafés and street art"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Vada pav",
+        "Pav bhaji at Juhu Beach",
+        "Bombay sandwich"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Mumbai's international airport and rail stations connect to the whole country."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Colaba for sights",
+        "Bandra for cafés and nightlife",
+        "Andheri for the airport"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Use local trains outside rush hours — they're the fastest way across the city."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Mumbai?",
+      "a": "November to February."
+    },
+    {
+      "q": "How do I reach Mumbai?",
+      "a": "Mumbai's international airport and rail stations connect to the whole country."
+    },
+    {
+      "q": "Where should I stay in Mumbai?",
+      "a": "Popular choices: Colaba for sights; Bandra for cafés and nightlife; Andheri for the airport."
+    }
+  ],
+  "source": "template",
+  "title": "Mumbai Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The city of dreams, street food and sea-facing promenades. Plan your Mumbai trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

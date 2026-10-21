@@ -1,0 +1,105 @@
+{
+  "slug": "rishikesh",
+  "name": "Rishikesh",
+  "country": "India",
+  "region": "Uttarakhand",
+  "iata": "DED",
+  "tags": [
+    "spiritual",
+    "adventure",
+    "river"
+  ],
+  "cost": "₹",
+  "tagline": "Yoga capital and white-water rafting on the Ganga",
+  "best_time": "September to November and February to May",
+  "highlights": [
+    "Evening Ganga aarti at Triveni Ghat or Parmarth Niketan",
+    "White-water rafting from Shivpuri",
+    "Walking across Laxman Jhula and Ram Jhula",
+    "Beatles Ashram murals"
+  ],
+  "food": [
+    "Aloo puri at the ghats",
+    "Café food in Tapovan",
+    "Chotiwala thali"
+  ],
+  "stay_areas": [
+    "Tapovan for cafés and yoga",
+    "Laxman Jhula area for river views",
+    "Shivpuri for riverside camps"
+  ],
+  "getting_there": "Fly to Dehradun (Jolly Grant), about 45 minutes away, or take a train or bus to Haridwar/Rishikesh.",
+  "tip": "Rafting is usually closed during the monsoon months — plan around it.",
+  "wiki": "Lakshman Jhula",
+  "intro": "Yoga capital and white-water rafting on the Ganga. That is Rishikesh in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Rishikesh",
+      "paragraphs": [
+        "Rishikesh (Uttarakhand) is known for its spiritual, adventure and river experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is September to November and February to May."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Evening Ganga aarti at Triveni Ghat or Parmarth Niketan",
+        "White-water rafting from Shivpuri",
+        "Walking across Laxman Jhula and Ram Jhula",
+        "Beatles Ashram murals"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Aloo puri at the ghats",
+        "Café food in Tapovan",
+        "Chotiwala thali"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly to Dehradun (Jolly Grant), about 45 minutes away, or take a train or bus to Haridwar/Rishikesh."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Tapovan for cafés and yoga",
+        "Laxman Jhula area for river views",
+        "Shivpuri for riverside camps"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Rafting is usually closed during the monsoon months — plan around it."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Rishikesh?",
+      "a": "September to November and February to May."
+    },
+    {
+      "q": "How do I reach Rishikesh?",
+      "a": "Fly to Dehradun (Jolly Grant), about 45 minutes away, or take a train or bus to Haridwar/Rishikesh."
+    },
+    {
+      "q": "Where should I stay in Rishikesh?",
+      "a": "Popular choices: Tapovan for cafés and yoga; Laxman Jhula area for river views; Shivpuri for riverside camps."
+    }
+  ],
+  "source": "template",
+  "title": "Rishikesh Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Yoga capital and white-water rafting on the Ganga. Plan your Rishikesh trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

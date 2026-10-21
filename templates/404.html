@@ -1,8 +1,13 @@
 {% extends "base.html" %}
-{% block title %}Lost? | {{ site.site_name }}{% endblock %}
+{% block title %}Page not found | {{ site.site_name }}{% endblock %}
 {% block content %}
-<section class="wrap narrow section prose" style="text-align:center">
-  <h1 class="page-title">🧭 Looks like you wandered off the map</h1>
-  <p>That page doesn't exist. Try <a href="/">today's destination</a> or browse <a href="/destinations/">all guides</a>.</p>
+<section class="page-head"><div class="wrap"><h1>This page isn't on the map</h1><p class="hero-sub">The link may be old or mistyped. Search for a destination or start from the homepage.</p></div></section>
+<section class="wrap narrow prose">
+  <form class="hero-search page-search" action="/search/" role="search" data-search>
+    <input type="search" name="q" placeholder="Search destinations" autocomplete="off" aria-label="Search destinations">
+    <button class="btn btn-gold" type="submit">Search</button>
+    <ul class="suggest" role="listbox" hidden></ul>
+  </form>
+  <p><a href="/">Go to the homepage</a></p>
 </section>
 {% endblock %}

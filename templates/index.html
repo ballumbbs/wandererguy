@@ -1,35 +1,88 @@
 {% extends "base.html" %}
-{% from "_macros.html" import card, deal %}
+{% from "_macros.html" import photo, ticket, deal, row %}
+{% block bodyclass %}home{% endblock %}
 {% block content %}
-<section class="hero" style="--c1:{{ today_post.c1 }};--c2:{{ today_post.c2 }}">
+<section class="hero">
+  <div class="hero-media">{{ photo(today_post, big=True, eager=True) }}</div>
+  <div class="hero-shade"></div>
   <div class="wrap hero-inner">
-    <p class="kicker light">Today's destination · {{ today.strftime('%A, %d %B') }}</p>
-    <h1>{{ today_post.icon }} {{ today_post.name }}</h1>
-    <p class="lede">{{ today_post.tagline }}</p>
-    <div class="btns">
-      <a class="btn big" href="{{ today_post.url }}">Read the guide</a>
-      <a class="btn big ghost light" rel="sponsored nofollow noopener" target="_blank" href="{{ today_post.deals.weekend.booking }}">See hotels</a>
+    <h1>Where to next?</h1>
+    <p class="hero-sub">{{ total }} destinations in India and abroad, with a new guide every morning.</p>
+    <form class="hero-search" action="/search/" role="search" data-search>
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="Try Manali, beaches, Bali or a weekend from Delhi" autocomplete="off" aria-label="Search destinations">
+      <button class="btn btn-gold" type="submit">Search</button>
+      <ul class="suggest" role="listbox" hidden></ul>
+    </form>
+    <div class="hero-chips">
+      {% for m in moods[:6] %}<a href="/destinations/?mood={{ m.key }}">{{ m.label }}</a>{% endfor %}
     </div>
+    <a class="hero-today" href="{{ today_post.url }}">
+      <span class="label">Today's guide</span>
+      <strong>{{ today_post.name }}</strong>
+      <span>{{ today_post.tagline }}</span>
+    </a>
+  </div>
+  {% if today_post.photo %}<p class="hero-credit">Photo: {{ today_post.photo.credit }}, {{ today_post.photo.license }}</p>{% endif %}
+</section>
+
+<section class="wrap pick">
+  <div class="pick-text">
+    <h2>Today's guide: {{ today_post.name }}</h2>
+    <p class="lede">{{ today_post.intro }}</p>
+    <ul class="facts">
+      <li><span>Best time</span>{{ today_post.best_time }}</li>
+      <li><span>Budget</span>{{ today_post.cost }}</li>
+      <li><span>Getting there</span>{{ today_post.getting_there }}</li>
+    </ul>
+    <a class="btn btn-navy" href="{{ today_post.url }}">Read the {{ today_post.name }} guide</a>
+  </div>
+  <aside class="pass">
+    <div class="pass-top">
+      <span>{{ origin }}</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 13l7 1 5 7h2l-2-7 6-1c1.5 0 2-1 2-1.5S21.5 10 20 10l-6-1 2-7h-2L9 9l-7 1z" fill="currentColor"/></svg>
+      <span>{{ today_post.iata }}</span>
+    </div>
+    <div class="pass-body">
+      <p>Book {{ today_post.name }}</p>
+      <a class="btn btn-gold block" rel="sponsored nofollow noopener" target="_blank" href="{{ today_post.deals.weekend.booking }}">Hotels this weekend</a>
+      {% if today_post.deals.flights %}<a class="btn btn-line block" rel="sponsored nofollow noopener" target="_blank" href="{{ today_post.deals.flights }}">Flights on {{ today_post.deals.fly_date }}</a>{% endif %}
+      <p class="fine">Opens a live search with dates filled in.</p>
+    </div>
+  </aside>
+</section>
+
+{% if india %}{{ row("Explore India", india, "/destinations/?where=india", "All Indian destinations") }}{% endif %}
+
+<section class="wrap moods">
+  <h2>Pick a mood</h2>
+  <div class="mood-grid">
+    {% for m in moods %}
+    <a class="mood" href="/destinations/?mood={{ m.key }}">
+      {{ photo(m.cover) }}
+      <span class="mood-label"><strong>{{ m.label }}</strong><em>{{ m.count }} places</em></span>
+    </a>
+    {% endfor %}
   </div>
 </section>
 
-<section class="wrap section">
-  <div class="section-head"><h2>Featured today</h2><a href="/destinations/">All destinations →</a></div>
-  <div class="grid">{% for p in featured %}{{ card(p) }}{% endfor %}</div>
-</section>
+{% if abroad %}{{ row("Go abroad", abroad, "/destinations/?where=abroad", "All international trips") }}{% endif %}
 
-<section class="band">
-  <div class="wrap section">
-    <div class="section-head"><h2>Today's deal searches</h2><a href="/deals/">More deals →</a></div>
-    <p class="muted">Live searches with dates already filled in — click through to see current prices.</p>
-    <div class="deals">{% for p in deals %}{{ deal(p) }}{% endfor %}</div>
+<section class="deals-band">
+  <div class="wrap">
+    <div class="rail-head">
+      <h2>Today's deal searches</h2>
+      <a href="/deals/">See all deals</a>
+    </div>
+    <p class="muted">Live hotel and flight searches with dates already filled in. Prices on the partner site are the real, current prices.</p>
+    <div class="deal-list">{% for p in deals %}{{ deal(p) }}{% endfor %}</div>
   </div>
 </section>
 
-{% if recent %}
-<section class="wrap section">
-  <div class="section-head"><h2>Recently published</h2></div>
-  <div class="grid">{% for p in recent %}{{ card(p, label=p.featured_on) }}{% endfor %}</div>
+{% if latest %}
+<section class="wrap latest">
+  <div class="rail-head"><h2>Recently added</h2><a href="/destinations/">Browse everything</a></div>
+  <div class="grid">{% for p in latest %}{{ ticket(p) }}{% endfor %}</div>
 </section>
 {% endif %}
 {% endblock %}

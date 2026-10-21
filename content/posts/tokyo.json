@@ -1,0 +1,105 @@
+{
+  "slug": "tokyo",
+  "name": "Tokyo",
+  "country": "Japan",
+  "region": "East Asia",
+  "iata": "TYO",
+  "wiki": "Shibuya Crossing",
+  "tags": [
+    "city",
+    "food",
+    "culture"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Neon, temples and the world's best food scene",
+  "best_time": "March to May and October to November",
+  "highlights": [
+    "Shibuya Crossing",
+    "Senso-ji in Asakusa",
+    "Meiji Shrine",
+    "Day trip to Mount Fuji area"
+  ],
+  "food": [
+    "Sushi",
+    "Ramen",
+    "Tempura"
+  ],
+  "stay_areas": [
+    "Shinjuku for transport",
+    "Asakusa for tradition",
+    "Shibuya for nightlife"
+  ],
+  "getting_there": "Direct flights from Delhi and Mumbai.",
+  "tip": "A prepaid IC card (Suica or Pasmo) makes trains effortless.",
+  "intro": "Looking for your next escape? Tokyo delivers: neon, temples and the world's best food scene. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Tokyo",
+      "paragraphs": [
+        "Tokyo (East Asia) is known for its city, food and culture experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to May and October to November."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Shibuya Crossing",
+        "Senso-ji in Asakusa",
+        "Meiji Shrine",
+        "Day trip to Mount Fuji area"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Sushi",
+        "Ramen",
+        "Tempura"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from Delhi and Mumbai."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Shinjuku for transport",
+        "Asakusa for tradition",
+        "Shibuya for nightlife"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "A prepaid IC card (Suica or Pasmo) makes trains effortless."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Tokyo?",
+      "a": "March to May and October to November."
+    },
+    {
+      "q": "How do I reach Tokyo?",
+      "a": "Direct flights from Delhi and Mumbai."
+    },
+    {
+      "q": "Where should I stay in Tokyo?",
+      "a": "Popular choices: Shinjuku for transport; Asakusa for tradition; Shibuya for nightlife."
+    }
+  ],
+  "source": "template",
+  "title": "Tokyo Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Neon, temples and the world's best food scene. Plan your Tokyo trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "coorg",
+  "name": "Coorg",
+  "country": "India",
+  "region": "Karnataka",
+  "iata": "IXE",
+  "tags": [
+    "hills",
+    "coffee",
+    "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "Misty coffee estates in the Kodagu hills",
+  "best_time": "October to March",
+  "highlights": [
+    "Abbey Falls",
+    "Raja's Seat at sunset",
+    "Dubare Elephant Camp",
+    "Coffee plantation walks"
+  ],
+  "food": [
+    "Pandi curry with akki rotti",
+    "Kodava-style rice dumplings",
+    "Estate-fresh coffee"
+  ],
+  "stay_areas": [
+    "Madikeri for convenience",
+    "Plantation homestays",
+    "Virajpet for quieter estates"
+  ],
+  "getting_there": "Mangaluru and Bengaluru are the nearest airports; Mysuru is about 3 hours by road.",
+  "tip": "Stay in a plantation homestay — the home-cooked Kodava food is the highlight.",
+  "wiki": "Abbey Falls",
+  "intro": "Coorg is one of those places that stays with you long after the trip ends. Misty coffee estates in the Kodagu hills — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Coorg",
+      "paragraphs": [
+        "Coorg (Karnataka) is known for its hills, coffee and nature experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Abbey Falls",
+        "Raja's Seat at sunset",
+        "Dubare Elephant Camp",
+        "Coffee plantation walks"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Pandi curry with akki rotti",
+        "Kodava-style rice dumplings",
+        "Estate-fresh coffee"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Mangaluru and Bengaluru are the nearest airports; Mysuru is about 3 hours by road."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Madikeri for convenience",
+        "Plantation homestays",
+        "Virajpet for quieter estates"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Stay in a plantation homestay — the home-cooked Kodava food is the highlight."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Coorg?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Coorg?",
+      "a": "Mangaluru and Bengaluru are the nearest airports; Mysuru is about 3 hours by road."
+    },
+    {
+      "q": "Where should I stay in Coorg?",
+      "a": "Popular choices: Madikeri for convenience; Plantation homestays; Virajpet for quieter estates."
+    }
+  ],
+  "source": "template",
+  "title": "Coorg Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Misty coffee estates in the Kodagu hills. Plan your Coorg trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

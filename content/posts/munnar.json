@@ -1,0 +1,105 @@
+{
+  "slug": "munnar",
+  "name": "Munnar",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "COK",
+  "tags": [
+    "hills",
+    "nature",
+    "tea"
+  ],
+  "cost": "₹₹",
+  "tagline": "Rolling tea estates in the Western Ghats",
+  "best_time": "September to March",
+  "highlights": [
+    "Tea museum and estate walks",
+    "Eravikulam National Park",
+    "Mattupetty Dam and Echo Point",
+    "Sunrise at Kolukkumalai"
+  ],
+  "food": [
+    "Kerala sadya",
+    "Appam with stew",
+    "Fresh cardamom tea"
+  ],
+  "stay_areas": [
+    "Munnar town for convenience",
+    "Chithirapuram for tea-estate resorts",
+    "Pallivasal for valley views"
+  ],
+  "getting_there": "Kochi airport is about 4 hours away by road.",
+  "tip": "Combine Munnar with Alleppey and Kochi for a classic Kerala loop.",
+  "wiki": "Munnar",
+  "intro": "Looking for your next escape? Munnar delivers: rolling tea estates in the Western Ghats. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Munnar",
+      "paragraphs": [
+        "Munnar (Kerala) is known for its hills, nature and tea experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is September to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Tea museum and estate walks",
+        "Eravikulam National Park",
+        "Mattupetty Dam and Echo Point",
+        "Sunrise at Kolukkumalai"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Kerala sadya",
+        "Appam with stew",
+        "Fresh cardamom tea"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Kochi airport is about 4 hours away by road."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Munnar town for convenience",
+        "Chithirapuram for tea-estate resorts",
+        "Pallivasal for valley views"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Combine Munnar with Alleppey and Kochi for a classic Kerala loop."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Munnar?",
+      "a": "September to March."
+    },
+    {
+      "q": "How do I reach Munnar?",
+      "a": "Kochi airport is about 4 hours away by road."
+    },
+    {
+      "q": "Where should I stay in Munnar?",
+      "a": "Popular choices: Munnar town for convenience; Chithirapuram for tea-estate resorts; Pallivasal for valley views."
+    }
+  ],
+  "source": "template",
+  "title": "Munnar Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Rolling tea estates in the Western Ghats. Plan your Munnar trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

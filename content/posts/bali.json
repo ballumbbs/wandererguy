@@ -1,0 +1,105 @@
+{
+  "slug": "bali",
+  "name": "Bali",
+  "country": "Indonesia",
+  "region": "Southeast Asia",
+  "iata": "DPS",
+  "tags": [
+    "beach",
+    "island",
+    "romantic"
+  ],
+  "cost": "₹₹",
+  "tagline": "Rice terraces, temples and surf beaches",
+  "best_time": "April to October (dry season)",
+  "highlights": [
+    "Tegallalang rice terraces near Ubud",
+    "Uluwatu Temple and Kecak dance at sunset",
+    "Snorkelling at Nusa Penida",
+    "Sunrise trek on Mount Batur"
+  ],
+  "food": [
+    "Nasi goreng and mie goreng",
+    "Babi guling",
+    "Smoothie bowls in Canggu"
+  ],
+  "stay_areas": [
+    "Ubud for culture and nature",
+    "Seminyak / Canggu for beach clubs",
+    "Uluwatu for cliffs and surf"
+  ],
+  "getting_there": "Fly into Ngurah Rai International Airport (Denpasar); there are direct flights from some Indian cities.",
+  "tip": "Traffic is heavy — base yourself in two areas rather than doing day trips from one.",
+  "wiki": "Tegallalang",
+  "intro": "Bali is one of those places that stays with you long after the trip ends. Rice terraces, temples and surf beaches — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Bali",
+      "paragraphs": [
+        "Bali (Southeast Asia) is known for its beach, island and romantic experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is April to October (dry season)."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Tegallalang rice terraces near Ubud",
+        "Uluwatu Temple and Kecak dance at sunset",
+        "Snorkelling at Nusa Penida",
+        "Sunrise trek on Mount Batur"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Nasi goreng and mie goreng",
+        "Babi guling",
+        "Smoothie bowls in Canggu"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly into Ngurah Rai International Airport (Denpasar); there are direct flights from some Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Ubud for culture and nature",
+        "Seminyak / Canggu for beach clubs",
+        "Uluwatu for cliffs and surf"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Traffic is heavy — base yourself in two areas rather than doing day trips from one."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Bali?",
+      "a": "April to October (dry season)."
+    },
+    {
+      "q": "How do I reach Bali?",
+      "a": "Fly into Ngurah Rai International Airport (Denpasar); there are direct flights from some Indian cities."
+    },
+    {
+      "q": "Where should I stay in Bali?",
+      "a": "Popular choices: Ubud for culture and nature; Seminyak / Canggu for beach clubs; Uluwatu for cliffs and surf."
+    }
+  ],
+  "source": "template",
+  "title": "Bali Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Rice terraces, temples and surf beaches. Plan your Bali trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "hanoi",
+  "name": "Hanoi & Ha Long Bay",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "iata": "HAN",
+  "tags": [
+    "city",
+    "food",
+    "nature"
+  ],
+  "cost": "₹",
+  "tagline": "Old Quarter streets and limestone bays",
+  "best_time": "October to April",
+  "highlights": [
+    "Walking Hanoi's Old Quarter",
+    "Overnight cruise on Ha Long or Lan Ha Bay",
+    "Train Street café stop",
+    "Ninh Binh's river caves"
+  ],
+  "food": [
+    "Pho",
+    "Bun cha",
+    "Egg coffee"
+  ],
+  "stay_areas": [
+    "Old Quarter for atmosphere",
+    "Hoan Kiem Lake area",
+    "A cruise boat for one night"
+  ],
+  "getting_there": "Fly into Noi Bai International Airport; direct flights operate from India.",
+  "tip": "Pick a Lan Ha Bay cruise for fewer boats than central Ha Long.",
+  "wiki": "Ha Long Bay",
+  "intro": "Hanoi & Ha Long Bay is one of those places that stays with you long after the trip ends. Old Quarter streets and limestone bays — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Hanoi & Ha Long Bay",
+      "paragraphs": [
+        "Hanoi & Ha Long Bay (Southeast Asia) is known for its city, food and nature experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Walking Hanoi's Old Quarter",
+        "Overnight cruise on Ha Long or Lan Ha Bay",
+        "Train Street café stop",
+        "Ninh Binh's river caves"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Pho",
+        "Bun cha",
+        "Egg coffee"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly into Noi Bai International Airport; direct flights operate from India."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Old Quarter for atmosphere",
+        "Hoan Kiem Lake area",
+        "A cruise boat for one night"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Pick a Lan Ha Bay cruise for fewer boats than central Ha Long."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Hanoi & Ha Long Bay?",
+      "a": "October to April."
+    },
+    {
+      "q": "How do I reach Hanoi & Ha Long Bay?",
+      "a": "Fly into Noi Bai International Airport; direct flights operate from India."
+    },
+    {
+      "q": "Where should I stay in Hanoi & Ha Long Bay?",
+      "a": "Popular choices: Old Quarter for atmosphere; Hoan Kiem Lake area; A cruise boat for one night."
+    }
+  ],
+  "source": "template",
+  "title": "Hanoi & Ha Long Bay Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Old Quarter streets and limestone bays. Plan your Hanoi & Ha Long Bay trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

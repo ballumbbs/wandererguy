@@ -1,0 +1,105 @@
+{
+  "slug": "leh-ladakh",
+  "name": "Leh-Ladakh",
+  "country": "India",
+  "region": "Ladakh",
+  "iata": "IXL",
+  "tags": [
+    "mountain",
+    "adventure",
+    "roadtrip"
+  ],
+  "cost": "₹₹",
+  "tagline": "High passes, blue lakes and Buddhist monasteries",
+  "best_time": "May to September",
+  "highlights": [
+    "Pangong Tso lake",
+    "Nubra Valley via Khardung La",
+    "Thiksey and Hemis monasteries",
+    "Magnetic Hill and the Sangam"
+  ],
+  "food": [
+    "Thukpa",
+    "Momos",
+    "Butter tea and skyu"
+  ],
+  "stay_areas": [
+    "Leh town near the Main Bazaar",
+    "Changspa for quieter guesthouses",
+    "Camps at Pangong and Nubra"
+  ],
+  "getting_there": "Fly into Leh, or drive via the Manali–Leh or Srinagar–Leh highways in summer.",
+  "tip": "Spend your first 48 hours in Leh resting to acclimatise to the altitude.",
+  "wiki": "Pangong Tso",
+  "intro": "High passes, blue lakes and Buddhist monasteries. That is Leh-Ladakh in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Leh-Ladakh",
+      "paragraphs": [
+        "Leh-Ladakh (Ladakh) is known for its mountain, adventure and roadtrip experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is May to September."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Pangong Tso lake",
+        "Nubra Valley via Khardung La",
+        "Thiksey and Hemis monasteries",
+        "Magnetic Hill and the Sangam"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Thukpa",
+        "Momos",
+        "Butter tea and skyu"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly into Leh, or drive via the Manali–Leh or Srinagar–Leh highways in summer."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Leh town near the Main Bazaar",
+        "Changspa for quieter guesthouses",
+        "Camps at Pangong and Nubra"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Spend your first 48 hours in Leh resting to acclimatise to the altitude."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Leh-Ladakh?",
+      "a": "May to September."
+    },
+    {
+      "q": "How do I reach Leh-Ladakh?",
+      "a": "Fly into Leh, or drive via the Manali–Leh or Srinagar–Leh highways in summer."
+    },
+    {
+      "q": "Where should I stay in Leh-Ladakh?",
+      "a": "Popular choices: Leh town near the Main Bazaar; Changspa for quieter guesthouses; Camps at Pangong and Nubra."
+    }
+  ],
+  "source": "template",
+  "title": "Leh-Ladakh Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "High passes, blue lakes and Buddhist monasteries. Plan your Leh-Ladakh trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

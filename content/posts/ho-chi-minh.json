@@ -1,0 +1,103 @@
+{
+  "slug": "ho-chi-minh",
+  "name": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "iata": "SGN",
+  "wiki": "Saigon Notre-Dame Basilica",
+  "tags": [
+    "city",
+    "food",
+    "culture"
+  ],
+  "cost": "₹",
+  "tagline": "Scooters, street food and the Mekong Delta",
+  "best_time": "December to April",
+  "highlights": [
+    "War Remnants Museum",
+    "Ben Thanh Market",
+    "Cu Chi Tunnels",
+    "Mekong Delta day trip"
+  ],
+  "food": [
+    "Pho",
+    "Banh mi",
+    "Com tam"
+  ],
+  "stay_areas": [
+    "District 1 for sights",
+    "District 3 for local life"
+  ],
+  "getting_there": "Direct and one-stop flights from India.",
+  "tip": "Cross streets slowly and steadily — scooters flow around you.",
+  "intro": "If Ho Chi Minh City has been on your list, consider this your sign. Scooters, street food and the Mekong Delta, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Ho Chi Minh City",
+      "paragraphs": [
+        "Ho Chi Minh City (Southeast Asia) is known for its city, food and culture experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is December to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "War Remnants Museum",
+        "Ben Thanh Market",
+        "Cu Chi Tunnels",
+        "Mekong Delta day trip"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Pho",
+        "Banh mi",
+        "Com tam"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct and one-stop flights from India."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "District 1 for sights",
+        "District 3 for local life"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Cross streets slowly and steadily — scooters flow around you."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Ho Chi Minh City?",
+      "a": "December to April."
+    },
+    {
+      "q": "How do I reach Ho Chi Minh City?",
+      "a": "Direct and one-stop flights from India."
+    },
+    {
+      "q": "Where should I stay in Ho Chi Minh City?",
+      "a": "Popular choices: District 1 for sights; District 3 for local life."
+    }
+  ],
+  "source": "template",
+  "title": "Ho Chi Minh City Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Scooters, street food and the Mekong Delta. Plan your Ho Chi Minh City trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

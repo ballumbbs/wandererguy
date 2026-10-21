@@ -1,0 +1,105 @@
+{
+  "slug": "kathmandu",
+  "name": "Kathmandu",
+  "country": "Nepal",
+  "region": "South Asia",
+  "iata": "KTM",
+  "tags": [
+    "culture",
+    "mountain",
+    "spiritual"
+  ],
+  "cost": "₹",
+  "tagline": "Ancient squares and the gateway to the Himalaya",
+  "best_time": "October to November and March to April",
+  "highlights": [
+    "Boudhanath Stupa",
+    "Swayambhunath (Monkey Temple)",
+    "Bhaktapur Durbar Square",
+    "Mountain flight or a trip to Nagarkot"
+  ],
+  "food": [
+    "Momos",
+    "Dal bhat",
+    "Newari khaja set"
+  ],
+  "stay_areas": [
+    "Thamel for travellers",
+    "Boudha for calm",
+    "Patan for heritage"
+  ],
+  "getting_there": "Short flights from Delhi and other Indian cities.",
+  "tip": "Add Pokhara for lakes and easy Annapurna views.",
+  "wiki": "Boudhanath",
+  "intro": "Ancient squares and the gateway to the Himalaya. That is Kathmandu in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Kathmandu",
+      "paragraphs": [
+        "Kathmandu (South Asia) is known for its culture, mountain and spiritual experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to November and March to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Boudhanath Stupa",
+        "Swayambhunath (Monkey Temple)",
+        "Bhaktapur Durbar Square",
+        "Mountain flight or a trip to Nagarkot"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Momos",
+        "Dal bhat",
+        "Newari khaja set"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Short flights from Delhi and other Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Thamel for travellers",
+        "Boudha for calm",
+        "Patan for heritage"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Add Pokhara for lakes and easy Annapurna views."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Kathmandu?",
+      "a": "October to November and March to April."
+    },
+    {
+      "q": "How do I reach Kathmandu?",
+      "a": "Short flights from Delhi and other Indian cities."
+    },
+    {
+      "q": "Where should I stay in Kathmandu?",
+      "a": "Popular choices: Thamel for travellers; Boudha for calm; Patan for heritage."
+    }
+  ],
+  "source": "template",
+  "title": "Kathmandu Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Ancient squares and the gateway to the Himalaya. Plan your Kathmandu trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

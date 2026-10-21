@@ -1,0 +1,105 @@
+{
+  "slug": "dubai",
+  "name": "Dubai",
+  "country": "UAE",
+  "region": "Middle East",
+  "iata": "DXB",
+  "tags": [
+    "city",
+    "shopping",
+    "luxury"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Skyscrapers, desert safaris and souks",
+  "best_time": "November to March",
+  "highlights": [
+    "Burj Khalifa observation deck",
+    "Desert safari with dinner",
+    "Old Dubai: abra ride and the Gold Souk",
+    "Dubai Marina walk"
+  ],
+  "food": [
+    "Shawarma",
+    "Emirati machboos",
+    "Luqaimat"
+  ],
+  "stay_areas": [
+    "Downtown for landmarks",
+    "Dubai Marina / JBR for beach",
+    "Deira for budget and souks"
+  ],
+  "getting_there": "Many direct flights from India to Dubai International.",
+  "tip": "The Metro is clean, cheap and connects most major sights.",
+  "wiki": "Burj Khalifa",
+  "intro": "If Dubai has been on your list, consider this your sign. Skyscrapers, desert safaris and souks, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Dubai",
+      "paragraphs": [
+        "Dubai (Middle East) is known for its city, shopping and luxury experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Burj Khalifa observation deck",
+        "Desert safari with dinner",
+        "Old Dubai: abra ride and the Gold Souk",
+        "Dubai Marina walk"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Shawarma",
+        "Emirati machboos",
+        "Luqaimat"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Many direct flights from India to Dubai International."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Downtown for landmarks",
+        "Dubai Marina / JBR for beach",
+        "Deira for budget and souks"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "The Metro is clean, cheap and connects most major sights."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Dubai?",
+      "a": "November to March."
+    },
+    {
+      "q": "How do I reach Dubai?",
+      "a": "Many direct flights from India to Dubai International."
+    },
+    {
+      "q": "Where should I stay in Dubai?",
+      "a": "Popular choices: Downtown for landmarks; Dubai Marina / JBR for beach; Deira for budget and souks."
+    }
+  ],
+  "source": "template",
+  "title": "Dubai Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Skyscrapers, desert safaris and souks. Plan your Dubai trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

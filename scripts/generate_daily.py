@@ -113,19 +113,11 @@ def claude_post(dest, cfg):
 
 
 # ---------------------------------------------------------------- main
-def main():
-    cfg = load_config()
-    date = today().isoformat()
-    state = load_json(STATE_FILE, {"published": []})
+def publish_one(cfg, state, date, use_ai, allow_refresh=True):
+    """Writes one post. Returns the slug, or None if nothing could be written."""
     published = {p["slug"]: p for p in state["published"]}
-
-    if any(p.get("last_featured") == date for p in state["published"]):
-        print(f"Already published for {date}; nothing to do.")
-        return 0
-
     curated = load_json(DATA / "destinations.json", [])
     extra = load_json(DATA / "extra_destinations.json", [])
-    use_ai = bool(os.environ.get("ANTHROPIC_API_KEY"))
 
     dest, refresh = None, False
     for d in curated:
@@ -137,10 +129,11 @@ def main():
             if slugify(d["name"]) not in published:
                 dest = {**d, "slug": slugify(d["name"])}
                 break
-    if dest is None:  # everything covered → refresh the oldest guide
-        oldest = min(state["published"], key=lambda p: p["last_featured"])
-        old = load_json(POSTS / f"{oldest['slug']}.json")
-        dest, refresh = old, True
+    if dest is None and not allow_refresh:
+        return None
+    if dest is None:  # everything covered -> refresh the oldest guide
+        oldest = min(state["published"], key=lambda p: (p["last_featured"], p.get("seq", 0)))
+        dest, refresh = load_json(POSTS / f"{oldest['slug']}.json"), True
 
     print(f"{date}: {'refreshing' if refresh else 'writing'} {dest['name']} ({'Claude' if use_ai else 'template'})")
 
@@ -153,7 +146,7 @@ def main():
     if body is None:
         if not dest.get("highlights"):
             print("No data available for this destination without the API; skipping.", file=sys.stderr)
-            return 0
+            return None
         body = template_post(dest, date)
 
     base = {k: v for k, v in dest.items() if k not in ("intro", "sections", "faq", "source")}
@@ -164,6 +157,7 @@ def main():
     post.setdefault("region", post.get("country", ""))
     post.setdefault("tags", ["travel"])
     post.setdefault("cost", "₹₹")
+    post.setdefault("wiki", dest.get("wiki") or post["name"])
     post["slug"] = dest["slug"]
     post["title"] = f"{post['name']} Travel Guide: Best Time, Things to Do & Where to Stay"
     post["description"] = f"{post['tagline']}. Plan your {post['name']} trip: best time to visit, top sights, food, and hotel and flight deals."
@@ -171,9 +165,31 @@ def main():
     post["updated"] = date
 
     save_json(POSTS / f"{dest['slug']}.json", post)
-    published[dest["slug"]] = {"slug": dest["slug"], "published": post["published"], "last_featured": date}
-    state["published"] = sorted(published.values(), key=lambda p: p["last_featured"])
-    save_json(STATE_FILE, state)
+    seq = max([p.get("seq", 0) for p in state["published"]] + [0]) + 1
+    published[dest["slug"]] = {"slug": dest["slug"], "published": post["published"], "last_featured": date, "seq": seq}
+    state["published"] = sorted(published.values(), key=lambda p: (p["last_featured"], p.get("seq", 0)))
+    return dest["slug"]
+
+
+def main():
+    """BACKFILL=N publishes up to N guides in one run (used once at launch)."""
+    cfg = load_config()
+    date = today().isoformat()
+    state = load_json(STATE_FILE, {"published": []})
+    backfill = int(os.environ.get("BACKFILL", "0") or 0)
+
+    if not backfill and any(p.get("last_featured") == date for p in state["published"]):
+        print(f"Already published for {date}; nothing new to write.")
+    else:
+        use_ai = bool(os.environ.get("ANTHROPIC_API_KEY"))
+        for _ in range(max(backfill, 1)):
+            if publish_one(cfg, state, date, use_ai, allow_refresh=not backfill) is None:
+                break
+            save_json(STATE_FILE, state)
+
+    if not os.environ.get("SKIP_PHOTOS"):
+        import fetch_photos  # find free photos for any guide that lacks one
+        fetch_photos.main()
     return 0
 
 

@@ -1,33 +1,53 @@
-{% macro card(p, label=None) -%}
-<a class="card" href="{{ p.url }}">
-  <div class="card-art" style="--c1:{{ p.c1 }};--c2:{{ p.c2 }}"><span>{{ p.icon }}</span></div>
-  <div class="card-body">
-    {% if label %}<span class="kicker">{{ label }}</span>{% endif %}
+{% macro photo(p, big=False, eager=False) -%}
+{% if p.photo -%}
+<img src="{{ p.photo.url if big else p.photo.small }}" alt="{{ p.name }}, {{ p.country }}" {% if not eager %}loading="lazy" {% endif %}decoding="async">
+{%- else -%}
+<div class="art" style="--c1:{{ p.c1 }};--c2:{{ p.c2 }}" aria-hidden="true"><span>{{ p.name[:1] }}</span></div>
+{%- endif %}
+{%- endmacro %}
+
+{% macro ticket(p) -%}
+<a class="ticket" href="{{ p.url }}">
+  <div class="ticket-img">{{ photo(p) }}</div>
+  <div class="ticket-body">
     <h3>{{ p.name }}</h3>
-    <p class="muted">{{ p.country }} · {{ p.cost }}</p>
-    <p>{{ p.tagline }}</p>
+    <p class="where">{{ p.region if not p.abroad else p.country }}</p>
+    <p class="line">{{ p.tagline }}</p>
+  </div>
+  <div class="ticket-stub">
+    {% if p.route %}<span class="route">{{ p.route }}</span>{% else %}<span class="route">By road / rail</span>{% endif %}
+    <span class="cost" title="Budget level">{{ p.cost }}</span>
   </div>
 </a>
 {%- endmacro %}
 
 {% macro deal(p) -%}
-<div class="deal">
-  <div class="deal-head" style="--c1:{{ p.c1 }};--c2:{{ p.c2 }}">
-    <span class="deal-icon">{{ p.icon }}</span>
-    <div><h3><a href="{{ p.url }}">{{ p.name }}</a></h3><p>{{ p.country }}</p></div>
+<article class="deal">
+  <a class="deal-img" href="{{ p.url }}">{{ photo(p) }}</a>
+  <div class="deal-main">
+    <h3><a href="{{ p.url }}">{{ p.name }}</a></h3>
+    <p class="muted">{{ p.country }}</p>
+    <dl>
+      <div><dt>Stay</dt><dd>{{ p.deals.weekend.label }}</dd></div>
+      {% if p.deals.flights %}<div><dt>Fly</dt><dd>{{ p.route }}, {{ p.deals.fly_date }}</dd></div>{% endif %}
+    </dl>
   </div>
-  <div class="deal-row">
-    <span class="muted">This weekend · {{ p.deals.weekend.label }}</span>
-    <div class="btns">
-      <a class="btn" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.weekend.booking }}">Booking.com</a>
-      <a class="btn ghost" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.weekend.agoda }}">Agoda</a>
-    </div>
+  <div class="deal-actions">
+    <a class="btn btn-gold" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.weekend.booking }}">Hotels on Booking.com</a>
+    <a class="btn btn-line" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.weekend.agoda }}">Agoda</a>
+    {% if p.deals.flights %}<a class="btn btn-line" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.flights }}">Flight prices</a>{% endif %}
   </div>
-  {% if p.deals.flights %}
-  <div class="deal-row">
-    <span class="muted">Flights · {{ p.deals.flight_label }}</span>
-    <div class="btns"><a class="btn accent" rel="sponsored nofollow noopener" target="_blank" href="{{ p.deals.flights }}">Compare fares</a></div>
+</article>
+{%- endmacro %}
+
+{% macro row(title, items, more_url, more_label) -%}
+<section class="rail">
+  <div class="wrap rail-head">
+    <h2>{{ title }}</h2>
+    <a href="{{ more_url }}">{{ more_label }}</a>
   </div>
-  {% endif %}
-</div>
+  <div class="rail-track wrap">
+    {% for p in items %}{{ ticket(p) }}{% endfor %}
+  </div>
+</section>
 {%- endmacro %}

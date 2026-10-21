@@ -1,0 +1,103 @@
+{
+  "slug": "pushkar",
+  "name": "Pushkar",
+  "country": "India",
+  "region": "Rajasthan",
+  "iata": "JAI",
+  "wiki": "Pushkar Lake",
+  "tags": [
+    "spiritual",
+    "culture",
+    "backpacking"
+  ],
+  "cost": "₹",
+  "tagline": "A holy lake town on the edge of the desert",
+  "best_time": "October to March",
+  "highlights": [
+    "Pushkar Lake ghats at sunset",
+    "Brahma Temple",
+    "Savitri Temple hilltop sunrise",
+    "Pushkar Camel Fair (usually Oct/Nov)"
+  ],
+  "food": [
+    "Malpua",
+    "Falafel and café food",
+    "Rabri"
+  ],
+  "stay_areas": [
+    "Around the lake for atmosphere",
+    "Outskirts for quiet resorts"
+  ],
+  "getting_there": "About 15 km from Ajmer railway station; Jaipur airport is about 3 hours away.",
+  "tip": "Pushkar is a holy town — alcohol and meat are not served.",
+  "intro": "Looking for your next escape? Pushkar delivers: a holy lake town on the edge of the desert. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Pushkar",
+      "paragraphs": [
+        "Pushkar (Rajasthan) is known for its spiritual, culture and backpacking experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Pushkar Lake ghats at sunset",
+        "Brahma Temple",
+        "Savitri Temple hilltop sunrise",
+        "Pushkar Camel Fair (usually Oct/Nov)"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Malpua",
+        "Falafel and café food",
+        "Rabri"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 15 km from Ajmer railway station; Jaipur airport is about 3 hours away."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Around the lake for atmosphere",
+        "Outskirts for quiet resorts"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Pushkar is a holy town — alcohol and meat are not served."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Pushkar?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Pushkar?",
+      "a": "About 15 km from Ajmer railway station; Jaipur airport is about 3 hours away."
+    },
+    {
+      "q": "Where should I stay in Pushkar?",
+      "a": "Popular choices: Around the lake for atmosphere; Outskirts for quiet resorts."
+    }
+  ],
+  "source": "template",
+  "title": "Pushkar Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "A holy lake town on the edge of the desert. Plan your Pushkar trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

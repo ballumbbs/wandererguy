@@ -1,0 +1,105 @@
+{
+  "slug": "andaman",
+  "name": "Andaman Islands",
+  "country": "India",
+  "region": "Andaman & Nicobar",
+  "iata": "IXZ",
+  "tags": [
+    "beach",
+    "diving",
+    "island"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Turquoise water, coral reefs and white sand",
+  "best_time": "November to April",
+  "highlights": [
+    "Radhanagar Beach on Havelock (Swaraj Dweep)",
+    "Scuba diving or snorkelling",
+    "Cellular Jail light and sound show",
+    "Natural Bridge on Neil Island"
+  ],
+  "food": [
+    "Fresh grilled seafood",
+    "Coconut-based fish curry",
+    "Tropical fruit from local markets"
+  ],
+  "stay_areas": [
+    "Havelock for beaches and diving",
+    "Neil for slow island life",
+    "Port Blair for transit nights"
+  ],
+  "getting_there": "Fly to Port Blair, then take a ferry to Havelock and Neil.",
+  "tip": "Book inter-island ferries early in peak season — they sell out.",
+  "wiki": "Radhanagar Beach",
+  "intro": "Turquoise water, coral reefs and white sand. That is Andaman Islands in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Andaman Islands",
+      "paragraphs": [
+        "Andaman Islands (Andaman & Nicobar) is known for its beach, diving and island experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Radhanagar Beach on Havelock (Swaraj Dweep)",
+        "Scuba diving or snorkelling",
+        "Cellular Jail light and sound show",
+        "Natural Bridge on Neil Island"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Fresh grilled seafood",
+        "Coconut-based fish curry",
+        "Tropical fruit from local markets"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly to Port Blair, then take a ferry to Havelock and Neil."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Havelock for beaches and diving",
+        "Neil for slow island life",
+        "Port Blair for transit nights"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book inter-island ferries early in peak season — they sell out."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Andaman Islands?",
+      "a": "November to April."
+    },
+    {
+      "q": "How do I reach Andaman Islands?",
+      "a": "Fly to Port Blair, then take a ferry to Havelock and Neil."
+    },
+    {
+      "q": "Where should I stay in Andaman Islands?",
+      "a": "Popular choices: Havelock for beaches and diving; Neil for slow island life; Port Blair for transit nights."
+    }
+  ],
+  "source": "template",
+  "title": "Andaman Islands Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Turquoise water, coral reefs and white sand. Plan your Andaman Islands trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

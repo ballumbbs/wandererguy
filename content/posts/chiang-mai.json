@@ -1,0 +1,103 @@
+{
+  "slug": "chiang-mai",
+  "name": "Chiang Mai",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "iata": "CNX",
+  "wiki": "Wat Phra That Doi Suthep",
+  "tags": [
+    "culture",
+    "food",
+    "nature"
+  ],
+  "cost": "₹",
+  "tagline": "Temples, night markets and mountain air",
+  "best_time": "November to February",
+  "highlights": [
+    "Doi Suthep temple",
+    "Old City temples",
+    "Sunday Walking Street market",
+    "Ethical elephant sanctuaries"
+  ],
+  "food": [
+    "Khao soi",
+    "Sai ua sausage",
+    "Mango sticky rice"
+  ],
+  "stay_areas": [
+    "Old City for temples",
+    "Nimman for cafés"
+  ],
+  "getting_there": "Fly from Bangkok (about an hour) or take the overnight train.",
+  "tip": "Choose elephant sanctuaries that don't offer riding.",
+  "intro": "Temples, night markets and mountain air. That is Chiang Mai in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Chiang Mai",
+      "paragraphs": [
+        "Chiang Mai (Southeast Asia) is known for its culture, food and nature experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to February."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Doi Suthep temple",
+        "Old City temples",
+        "Sunday Walking Street market",
+        "Ethical elephant sanctuaries"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Khao soi",
+        "Sai ua sausage",
+        "Mango sticky rice"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly from Bangkok (about an hour) or take the overnight train."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Old City for temples",
+        "Nimman for cafés"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Choose elephant sanctuaries that don't offer riding."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Chiang Mai?",
+      "a": "November to February."
+    },
+    {
+      "q": "How do I reach Chiang Mai?",
+      "a": "Fly from Bangkok (about an hour) or take the overnight train."
+    },
+    {
+      "q": "Where should I stay in Chiang Mai?",
+      "a": "Popular choices: Old City for temples; Nimman for cafés."
+    }
+  ],
+  "source": "template",
+  "title": "Chiang Mai Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Temples, night markets and mountain air. Plan your Chiang Mai trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

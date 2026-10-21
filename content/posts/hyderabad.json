@@ -1,0 +1,105 @@
+{
+  "slug": "hyderabad",
+  "name": "Hyderabad",
+  "country": "India",
+  "region": "Telangana",
+  "iata": "HYD",
+  "wiki": "Charminar",
+  "tags": [
+    "city",
+    "food",
+    "heritage"
+  ],
+  "cost": "₹₹",
+  "tagline": "Biryani, pearls and Nizami palaces",
+  "best_time": "October to February",
+  "highlights": [
+    "Charminar and Laad Bazaar",
+    "Golconda Fort",
+    "Chowmahalla Palace",
+    "Ramoji Film City"
+  ],
+  "food": [
+    "Hyderabadi biryani",
+    "Haleem (during Ramzan)",
+    "Irani chai with Osmania biscuits"
+  ],
+  "stay_areas": [
+    "Banjara Hills for upscale stays",
+    "Old City for heritage",
+    "HITEC City for business"
+  ],
+  "getting_there": "Rajiv Gandhi International Airport has flights from across India.",
+  "tip": "Go to Golconda in the late afternoon and stay for the views at sunset.",
+  "intro": "If Hyderabad has been on your list, consider this your sign. Biryani, pearls and Nizami palaces, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Hyderabad",
+      "paragraphs": [
+        "Hyderabad (Telangana) is known for its city, food and heritage experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to February."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Charminar and Laad Bazaar",
+        "Golconda Fort",
+        "Chowmahalla Palace",
+        "Ramoji Film City"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Hyderabadi biryani",
+        "Haleem (during Ramzan)",
+        "Irani chai with Osmania biscuits"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Rajiv Gandhi International Airport has flights from across India."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Banjara Hills for upscale stays",
+        "Old City for heritage",
+        "HITEC City for business"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Go to Golconda in the late afternoon and stay for the views at sunset."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Hyderabad?",
+      "a": "October to February."
+    },
+    {
+      "q": "How do I reach Hyderabad?",
+      "a": "Rajiv Gandhi International Airport has flights from across India."
+    },
+    {
+      "q": "Where should I stay in Hyderabad?",
+      "a": "Popular choices: Banjara Hills for upscale stays; Old City for heritage; HITEC City for business."
+    }
+  ],
+  "source": "template",
+  "title": "Hyderabad Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Biryani, pearls and Nizami palaces. Plan your Hyderabad trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}
