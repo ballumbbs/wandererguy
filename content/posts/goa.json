@@ -1,0 +1,104 @@
+{
+  "slug": "goa",
+  "name": "Goa",
+  "country": "India",
+  "region": "West India",
+  "iata": "GOI",
+  "tags": [
+    "beach",
+    "nightlife",
+    "food"
+  ],
+  "cost": "₹₹",
+  "tagline": "Beaches, Portuguese lanes and long lazy sunsets",
+  "best_time": "November to February, when the weather is dry and pleasant",
+  "highlights": [
+    "Sunset at Vagator or Chapora Fort",
+    "Walking the Latin Quarter of Fontainhas in Panaji",
+    "The quieter beaches of South Goa like Palolem and Agonda",
+    "Spice plantations and old churches around Old Goa"
+  ],
+  "food": [
+    "Goan fish curry with rice",
+    "Pork vindaloo and xacuti",
+    "Bebinca, the layered coconut dessert"
+  ],
+  "stay_areas": [
+    "Anjuna / Vagator for cafés and nightlife",
+    "Palolem / Agonda for calm beaches",
+    "Panaji for heritage and easy transfers"
+  ],
+  "getting_there": "Fly into Goa (Dabolim or Mopa) or take an overnight train to Madgaon or Thivim.",
+  "tip": "Rent a scooter for the day — beaches are spread out and taxis add up quickly.",
+  "intro": "If Goa has been on your list, consider this your sign. Beaches, Portuguese lanes and long lazy sunsets, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Goa",
+      "paragraphs": [
+        "Goa (West India) is known for its beach, nightlife and food experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to February, when the weather is dry and pleasant."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sunset at Vagator or Chapora Fort",
+        "Walking the Latin Quarter of Fontainhas in Panaji",
+        "The quieter beaches of South Goa like Palolem and Agonda",
+        "Spice plantations and old churches around Old Goa"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Goan fish curry with rice",
+        "Pork vindaloo and xacuti",
+        "Bebinca, the layered coconut dessert"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly into Goa (Dabolim or Mopa) or take an overnight train to Madgaon or Thivim."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Anjuna / Vagator for cafés and nightlife",
+        "Palolem / Agonda for calm beaches",
+        "Panaji for heritage and easy transfers"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Rent a scooter for the day — beaches are spread out and taxis add up quickly."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Goa?",
+      "a": "November to February, when the weather is dry and pleasant."
+    },
+    {
+      "q": "How do I reach Goa?",
+      "a": "Fly into Goa (Dabolim or Mopa) or take an overnight train to Madgaon or Thivim."
+    },
+    {
+      "q": "Where should I stay in Goa?",
+      "a": "Popular choices: Anjuna / Vagator for cafés and nightlife; Palolem / Agonda for calm beaches; Panaji for heritage and easy transfers."
+    }
+  ],
+  "source": "template",
+  "title": "Goa Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Beaches, Portuguese lanes and long lazy sunsets. Plan your Goa trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}
