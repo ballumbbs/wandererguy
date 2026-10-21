@@ -1,0 +1,72 @@
+name: Daily update & deploy
+
+on:
+  schedule:
+    - cron: "30 0 * * *"      # 00:30 UTC = 06:00 IST, every day
+  workflow_dispatch:          # "Run workflow" button for manual runs
+  push:
+    branches: [main]          # redeploy when you edit the site yourself
+
+permissions:
+  contents: write             # commit the new post back to the repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Write today's destination post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional — leave unset for template mode
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: python scripts/generate_daily.py
+
+      - name: Save the post to the repo
+        run: |
+          git config user.name  "wandererguy-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content data/state.json
+          if git diff --cached --quiet; then
+            echo "No new content."
+          else
+            git commit -m "Daily post: $(TZ=Asia/Kolkata date +%F)"
+            git push
+          fi
+
+      - name: Build site (fresh deals + featured rotation)
+        env:
+          BOOKING_AID: ${{ vars.BOOKING_AID }}
+          AGODA_CID:   ${{ vars.AGODA_CID }}
+          AMAZON_TAG:  ${{ vars.AMAZON_TAG }}
+          TP_MARKER:   ${{ vars.TP_MARKER }}
+          HOME_AIRPORT: ${{ vars.HOME_AIRPORT }}
+        run: python scripts/build.py
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
