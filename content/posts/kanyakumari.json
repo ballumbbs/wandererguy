@@ -1,0 +1,101 @@
+{
+  "slug": "kanyakumari",
+  "name": "Kanyakumari",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "TRV",
+  "wiki": "Vivekananda Rock Memorial",
+  "tags": [
+    "spiritual",
+    "beach",
+    "culture"
+  ],
+  "cost": "₹",
+  "tagline": "India's southern tip, where three seas meet",
+  "best_time": "October to March",
+  "highlights": [
+    "Sunrise at the southern tip",
+    "Vivekananda Rock Memorial",
+    "Thiruvalluvar Statue",
+    "Padmanabhapuram Palace nearby"
+  ],
+  "food": [
+    "South Indian meals",
+    "Fresh coconut",
+    "Banana chips"
+  ],
+  "stay_areas": [
+    "Near the sea front for sunrise views"
+  ],
+  "getting_there": "About 2 hours from Thiruvananthapuram airport; trains run from many cities.",
+  "tip": "On full-moon evenings you can see sunset and moonrise at the same time.",
+  "intro": "Kanyakumari is one of those places that stays with you long after the trip ends. India's southern tip, where three seas meet — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Kanyakumari",
+      "paragraphs": [
+        "Kanyakumari (Tamil Nadu) is known for its spiritual, beach and culture experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sunrise at the southern tip",
+        "Vivekananda Rock Memorial",
+        "Thiruvalluvar Statue",
+        "Padmanabhapuram Palace nearby"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "South Indian meals",
+        "Fresh coconut",
+        "Banana chips"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 2 hours from Thiruvananthapuram airport; trains run from many cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near the sea front for sunrise views"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "On full-moon evenings you can see sunset and moonrise at the same time."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Kanyakumari?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Kanyakumari?",
+      "a": "About 2 hours from Thiruvananthapuram airport; trains run from many cities."
+    },
+    {
+      "q": "Where should I stay in Kanyakumari?",
+      "a": "Popular choices: Near the sea front for sunrise views."
+    }
+  ],
+  "source": "template",
+  "title": "Kanyakumari Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "India's southern tip, where three seas meet. Plan your Kanyakumari trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-22",
+  "updated": "2026-10-22"
+}

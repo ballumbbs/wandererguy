@@ -439,5 +439,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Udaipur_Lake_India.JPG",
     "wiki": "Lake Pichola"
+  },
+  "kanyakumari": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/RockMemorial.jpg/1280px-RockMemorial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/RockMemorial.jpg/500px-RockMemorial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Gan13166",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RockMemorial.jpg",
+    "wiki": "Vivekananda Rock Memorial"
   }
 }
