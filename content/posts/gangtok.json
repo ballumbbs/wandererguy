@@ -1,0 +1,103 @@
+{
+  "slug": "gangtok",
+  "name": "Gangtok",
+  "country": "India",
+  "region": "Sikkim",
+  "iata": "IXB",
+  "tags": [
+    "mountain",
+    "nature",
+    "culture"
+  ],
+  "cost": "₹₹",
+  "tagline": "Monasteries, mountain lakes and Himalayan views",
+  "best_time": "March to May and October to December",
+  "highlights": [
+    "MG Marg evening walk",
+    "Tsomgo Lake and Nathula (permit required)",
+    "Rumtek Monastery",
+    "Ropeway views over the valley"
+  ],
+  "food": [
+    "Momos",
+    "Thukpa and phagshapa",
+    "Sel roti"
+  ],
+  "stay_areas": [
+    "Near MG Marg for convenience",
+    "Tadong for quieter hotels"
+  ],
+  "getting_there": "Fly to Bagdogra or take a train to New Jalpaiguri, then about 4 hours by road.",
+  "tip": "Permits for Nathula and North Sikkim are arranged through registered agents — book a day ahead.",
+  "wiki": "Tsomgo Lake",
+  "intro": "Monasteries, mountain lakes and Himalayan views. That is Gangtok in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Gangtok",
+      "paragraphs": [
+        "Gangtok (Sikkim) is known for its mountain, nature and culture experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to May and October to December."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "MG Marg evening walk",
+        "Tsomgo Lake and Nathula (permit required)",
+        "Rumtek Monastery",
+        "Ropeway views over the valley"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Momos",
+        "Thukpa and phagshapa",
+        "Sel roti"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly to Bagdogra or take a train to New Jalpaiguri, then about 4 hours by road."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near MG Marg for convenience",
+        "Tadong for quieter hotels"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Permits for Nathula and North Sikkim are arranged through registered agents — book a day ahead."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Gangtok?",
+      "a": "March to May and October to December."
+    },
+    {
+      "q": "How do I reach Gangtok?",
+      "a": "Fly to Bagdogra or take a train to New Jalpaiguri, then about 4 hours by road."
+    },
+    {
+      "q": "Where should I stay in Gangtok?",
+      "a": "Popular choices: Near MG Marg for convenience; Tadong for quieter hotels."
+    }
+  ],
+  "source": "template",
+  "title": "Gangtok Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Monasteries, mountain lakes and Himalayan views. Plan your Gangtok trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-23",
+  "updated": "2026-10-23"
+}
