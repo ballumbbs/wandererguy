@@ -1,0 +1,101 @@
+{
+  "slug": "madurai",
+  "name": "Madurai",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "IXM",
+  "wiki": "Meenakshi Temple",
+  "tags": [
+    "spiritual",
+    "heritage",
+    "culture"
+  ],
+  "cost": "₹",
+  "tagline": "A living temple city of towering gopurams",
+  "best_time": "October to March",
+  "highlights": [
+    "Meenakshi Amman Temple",
+    "Thirumalai Nayak Palace",
+    "Night ceremony at the temple",
+    "Gandhi Memorial Museum"
+  ],
+  "food": [
+    "Jigarthanda",
+    "Kari dosa",
+    "Parotta"
+  ],
+  "stay_areas": [
+    "Near the temple for walkability"
+  ],
+  "getting_there": "Madurai has an airport and is well connected by rail.",
+  "tip": "Dress modestly and leave phones at the counter — they aren't allowed inside the temple.",
+  "intro": "Looking for your next escape? Madurai delivers: a living temple city of towering gopurams. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Madurai",
+      "paragraphs": [
+        "Madurai (Tamil Nadu) is known for its spiritual, heritage and culture experiences. Overall it is budget-friendly — hostels, homestays and local food keep costs low."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Meenakshi Amman Temple",
+        "Thirumalai Nayak Palace",
+        "Night ceremony at the temple",
+        "Gandhi Memorial Museum"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Jigarthanda",
+        "Kari dosa",
+        "Parotta"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Madurai has an airport and is well connected by rail."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near the temple for walkability"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Dress modestly and leave phones at the counter — they aren't allowed inside the temple."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Madurai?",
+      "a": "October to March."
+    },
+    {
+      "q": "How do I reach Madurai?",
+      "a": "Madurai has an airport and is well connected by rail."
+    },
+    {
+      "q": "Where should I stay in Madurai?",
+      "a": "Popular choices: Near the temple for walkability."
+    }
+  ],
+  "source": "template",
+  "title": "Madurai Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "A living temple city of towering gopurams. Plan your Madurai trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-24",
+  "updated": "2026-10-24"
+}
