@@ -1,0 +1,105 @@
+{
+  "slug": "seoul",
+  "name": "Seoul",
+  "country": "South Korea",
+  "region": "East Asia",
+  "iata": "SEL",
+  "wiki": "Gyeongbokgung",
+  "tags": [
+    "city",
+    "food",
+    "culture"
+  ],
+  "cost": "₹₹",
+  "tagline": "Palaces, K-culture and late-night food",
+  "best_time": "April to June and September to November",
+  "highlights": [
+    "Gyeongbokgung Palace",
+    "Bukchon Hanok Village",
+    "N Seoul Tower",
+    "Myeongdong street food"
+  ],
+  "food": [
+    "Korean BBQ",
+    "Bibimbap",
+    "Tteokbokki"
+  ],
+  "stay_areas": [
+    "Myeongdong for shopping",
+    "Hongdae for nightlife",
+    "Insadong for culture"
+  ],
+  "getting_there": "One-stop flights from India.",
+  "tip": "Rent a hanbok — entry to the main palaces is often free when you wear one.",
+  "intro": "Palaces, K-culture and late-night food. That is Seoul in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Seoul",
+      "paragraphs": [
+        "Seoul (East Asia) is known for its city, food and culture experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is April to June and September to November."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Gyeongbokgung Palace",
+        "Bukchon Hanok Village",
+        "N Seoul Tower",
+        "Myeongdong street food"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Korean BBQ",
+        "Bibimbap",
+        "Tteokbokki"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "One-stop flights from India."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Myeongdong for shopping",
+        "Hongdae for nightlife",
+        "Insadong for culture"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Rent a hanbok — entry to the main palaces is often free when you wear one."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Seoul?",
+      "a": "April to June and September to November."
+    },
+    {
+      "q": "How do I reach Seoul?",
+      "a": "One-stop flights from India."
+    },
+    {
+      "q": "Where should I stay in Seoul?",
+      "a": "Popular choices: Myeongdong for shopping; Hongdae for nightlife; Insadong for culture."
+    }
+  ],
+  "source": "template",
+  "title": "Seoul Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Palaces, K-culture and late-night food. Plan your Seoul trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-25",
+  "updated": "2026-10-25"
+}
