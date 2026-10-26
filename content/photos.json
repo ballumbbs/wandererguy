@@ -475,5 +475,14 @@
     "license_url": "http://www.kogl.or.kr/info/licenseType1.do",
     "source": "https://commons.wikimedia.org/wiki/File:%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg",
     "wiki": "Gyeongbokgung"
+  },
+  "abu-dhabi": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Sheikh_Zayed_Mosque_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "small": "https://upload.wikimedia.org/wikipedia/en/7/7d/Sheikh_Zayed_Mosque_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Wikiemirati",
+    "license": "CC-BY-SA-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://en.wikipedia.org/wiki/File:Sheikh_Zayed_Mosque_view.jpg",
+    "wiki": "Sheikh Zayed Grand Mosque"
   }
 }

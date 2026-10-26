@@ -1,0 +1,105 @@
+{
+  "slug": "abu-dhabi",
+  "name": "Abu Dhabi",
+  "country": "UAE",
+  "region": "Middle East",
+  "iata": "AUH",
+  "wiki": "Sheikh Zayed Grand Mosque",
+  "tags": [
+    "city",
+    "luxury",
+    "family"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Grand mosques, museums and theme parks",
+  "best_time": "November to March",
+  "highlights": [
+    "Sheikh Zayed Grand Mosque",
+    "Louvre Abu Dhabi",
+    "Ferrari World and Yas Island",
+    "Corniche beach"
+  ],
+  "food": [
+    "Machboos",
+    "Shawarma",
+    "Arabic sweets"
+  ],
+  "stay_areas": [
+    "Corniche for the city",
+    "Yas Island for theme parks",
+    "Saadiyat for beaches"
+  ],
+  "getting_there": "Direct flights from many Indian cities.",
+  "tip": "Dress modestly for the Grand Mosque — robes are provided if needed.",
+  "intro": "Abu Dhabi is one of those places that stays with you long after the trip ends. Grand mosques, museums and theme parks — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Abu Dhabi",
+      "paragraphs": [
+        "Abu Dhabi (Middle East) is known for its city, luxury and family experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to March."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sheikh Zayed Grand Mosque",
+        "Louvre Abu Dhabi",
+        "Ferrari World and Yas Island",
+        "Corniche beach"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Machboos",
+        "Shawarma",
+        "Arabic sweets"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from many Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Corniche for the city",
+        "Yas Island for theme parks",
+        "Saadiyat for beaches"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Dress modestly for the Grand Mosque — robes are provided if needed."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Abu Dhabi?",
+      "a": "November to March."
+    },
+    {
+      "q": "How do I reach Abu Dhabi?",
+      "a": "Direct flights from many Indian cities."
+    },
+    {
+      "q": "Where should I stay in Abu Dhabi?",
+      "a": "Popular choices: Corniche for the city; Yas Island for theme parks; Saadiyat for beaches."
+    }
+  ],
+  "source": "template",
+  "title": "Abu Dhabi Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Grand mosques, museums and theme parks. Plan your Abu Dhabi trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-26",
+  "updated": "2026-10-26"
+}
