@@ -1,0 +1,105 @@
+{
+  "slug": "srinagar",
+  "name": "Srinagar",
+  "country": "India",
+  "region": "Jammu & Kashmir",
+  "iata": "SXR",
+  "tags": [
+    "lakes",
+    "mountain",
+    "romantic"
+  ],
+  "cost": "₹₹",
+  "tagline": "Houseboats, shikaras and Mughal gardens",
+  "best_time": "April to October, and winter for snow",
+  "highlights": [
+    "Shikara ride on Dal Lake",
+    "Nishat and Shalimar Bagh",
+    "Day trips to Gulmarg and Pahalgam",
+    "Old city and Jamia Masjid"
+  ],
+  "food": [
+    "Wazwan feast",
+    "Kahwa",
+    "Noon chai with girda bread"
+  ],
+  "stay_areas": [
+    "Houseboats on Dal or Nigeen Lake",
+    "Boulevard Road hotels",
+    "Rajbagh for quieter stays"
+  ],
+  "getting_there": "Fly directly to Srinagar from major Indian cities.",
+  "tip": "Nigeen Lake houseboats are calmer than the busy parts of Dal Lake.",
+  "wiki": "Dal Lake",
+  "intro": "If Srinagar has been on your list, consider this your sign. Houseboats, shikaras and Mughal gardens, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Srinagar",
+      "paragraphs": [
+        "Srinagar (Jammu & Kashmir) is known for its lakes, mountain and romantic experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is April to October, and winter for snow."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Shikara ride on Dal Lake",
+        "Nishat and Shalimar Bagh",
+        "Day trips to Gulmarg and Pahalgam",
+        "Old city and Jamia Masjid"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Wazwan feast",
+        "Kahwa",
+        "Noon chai with girda bread"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly directly to Srinagar from major Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Houseboats on Dal or Nigeen Lake",
+        "Boulevard Road hotels",
+        "Rajbagh for quieter stays"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Nigeen Lake houseboats are calmer than the busy parts of Dal Lake."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Srinagar?",
+      "a": "April to October, and winter for snow."
+    },
+    {
+      "q": "How do I reach Srinagar?",
+      "a": "Fly directly to Srinagar from major Indian cities."
+    },
+    {
+      "q": "Where should I stay in Srinagar?",
+      "a": "Popular choices: Houseboats on Dal or Nigeen Lake; Boulevard Road hotels; Rajbagh for quieter stays."
+    }
+  ],
+  "source": "template",
+  "title": "Srinagar Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Houseboats, shikaras and Mughal gardens. Plan your Srinagar trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-29",
+  "updated": "2026-10-29"
+}
