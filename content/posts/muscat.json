@@ -1,0 +1,103 @@
+{
+  "slug": "muscat",
+  "name": "Muscat",
+  "country": "Oman",
+  "region": "Middle East",
+  "iata": "MCT",
+  "wiki": "Sultan Qaboos Grand Mosque",
+  "tags": [
+    "city",
+    "nature",
+    "culture"
+  ],
+  "cost": "₹₹",
+  "tagline": "Mountains, wadis and a calm Arabian coast",
+  "best_time": "October to April",
+  "highlights": [
+    "Sultan Qaboos Grand Mosque",
+    "Mutrah Souq and Corniche",
+    "Wadi Shab",
+    "Bimmah Sinkhole"
+  ],
+  "food": [
+    "Shuwa",
+    "Omani halwa",
+    "Kahwa with dates"
+  ],
+  "stay_areas": [
+    "Qurum for beaches",
+    "Mutrah for the old town"
+  ],
+  "getting_there": "Short direct flights from many Indian cities.",
+  "tip": "Rent a car — Oman's best sights are outside the city.",
+  "intro": "If Muscat has been on your list, consider this your sign. Mountains, wadis and a calm Arabian coast, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Muscat",
+      "paragraphs": [
+        "Muscat (Middle East) is known for its city, nature and culture experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to April."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Sultan Qaboos Grand Mosque",
+        "Mutrah Souq and Corniche",
+        "Wadi Shab",
+        "Bimmah Sinkhole"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Shuwa",
+        "Omani halwa",
+        "Kahwa with dates"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Short direct flights from many Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Qurum for beaches",
+        "Mutrah for the old town"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Rent a car — Oman's best sights are outside the city."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Muscat?",
+      "a": "October to April."
+    },
+    {
+      "q": "How do I reach Muscat?",
+      "a": "Short direct flights from many Indian cities."
+    },
+    {
+      "q": "Where should I stay in Muscat?",
+      "a": "Popular choices: Qurum for beaches; Mutrah for the old town."
+    }
+  ],
+  "source": "template",
+  "title": "Muscat Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Mountains, wadis and a calm Arabian coast. Plan your Muscat trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-30",
+  "updated": "2026-10-30"
+}

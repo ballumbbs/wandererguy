@@ -511,5 +511,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Dal_Lake_Hazratbal_Srinagar.jpg",
     "wiki": "Dal Lake"
+  },
+  "muscat": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5b/Sultan_Qaboos_Grand_Mosque_RB.jpg/1280px-Sultan_Qaboos_Grand_Mosque_RB.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "small": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5b/Sultan_Qaboos_Grand_Mosque_RB.jpg/500px-Sultan_Qaboos_Grand_Mosque_RB.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Richard Bartz",
+    "license": "CC-BY-SA-3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://en.wikipedia.org/wiki/File:Sultan_Qaboos_Grand_Mosque_RB.jpg",
+    "wiki": "Sultan Qaboos Grand Mosque"
   }
 }
