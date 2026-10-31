@@ -520,5 +520,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
     "source": "https://en.wikipedia.org/wiki/File:Sultan_Qaboos_Grand_Mosque_RB.jpg",
     "wiki": "Sultan Qaboos Grand Mosque"
+  },
+  "baku": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/1280px-Flame_towers_baku.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "small": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/500px-Flame_towers_baku.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Viceskeeni2",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://en.wikipedia.org/wiki/File:Flame_towers_baku.jpg",
+    "wiki": "Flame Towers"
   }
 }

@@ -1,0 +1,103 @@
+{
+  "slug": "baku",
+  "name": "Baku",
+  "country": "Azerbaijan",
+  "region": "Caucasus",
+  "iata": "GYD",
+  "wiki": "Flame Towers",
+  "tags": [
+    "city",
+    "heritage",
+    "food"
+  ],
+  "cost": "₹₹",
+  "tagline": "Old walls and Flame Towers on the Caspian",
+  "best_time": "April to June and September to October",
+  "highlights": [
+    "Icherisheher Old City",
+    "Flame Towers at night",
+    "Heydar Aliyev Center",
+    "Gobustan and mud volcanoes"
+  ],
+  "food": [
+    "Plov",
+    "Dolma",
+    "Qutab"
+  ],
+  "stay_areas": [
+    "Old City for charm",
+    "Boulevard area for views"
+  ],
+  "getting_there": "Direct and one-stop flights from Delhi.",
+  "tip": "Take the funicular to Highland Park for the city view.",
+  "intro": "Looking for your next escape? Baku delivers: old walls and Flame Towers on the Caspian. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Baku",
+      "paragraphs": [
+        "Baku (Caucasus) is known for its city, heritage and food experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is April to June and September to October."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Icherisheher Old City",
+        "Flame Towers at night",
+        "Heydar Aliyev Center",
+        "Gobustan and mud volcanoes"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Plov",
+        "Dolma",
+        "Qutab"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct and one-stop flights from Delhi."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Old City for charm",
+        "Boulevard area for views"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Take the funicular to Highland Park for the city view."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Baku?",
+      "a": "April to June and September to October."
+    },
+    {
+      "q": "How do I reach Baku?",
+      "a": "Direct and one-stop flights from Delhi."
+    },
+    {
+      "q": "Where should I stay in Baku?",
+      "a": "Popular choices: Old City for charm; Boulevard area for views."
+    }
+  ],
+  "source": "template",
+  "title": "Baku Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Old walls and Flame Towers on the Caspian. Plan your Baku trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-31",
+  "updated": "2026-10-31"
+}
