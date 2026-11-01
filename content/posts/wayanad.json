@@ -1,0 +1,103 @@
+{
+  "slug": "wayanad",
+  "name": "Wayanad",
+  "country": "India",
+  "region": "Kerala",
+  "iata": "CCJ",
+  "wiki": "Edakkal Caves",
+  "tags": [
+    "nature",
+    "hills",
+    "trek"
+  ],
+  "cost": "₹₹",
+  "tagline": "Misty forests, caves and waterfalls",
+  "best_time": "October to May",
+  "highlights": [
+    "Edakkal Caves",
+    "Chembra Peak trek",
+    "Banasura Sagar Dam",
+    "Soochipara Falls"
+  ],
+  "food": [
+    "Bamboo rice dishes",
+    "Kerala sadya",
+    "Spiced tea"
+  ],
+  "stay_areas": [
+    "Kalpetta as a central base",
+    "Treehouse and jungle resorts"
+  ],
+  "getting_there": "About 3 hours by road from Kozhikode (Calicut) airport.",
+  "tip": "Trek permits for Chembra Peak are limited — start early.",
+  "intro": "Wayanad is one of those places that stays with you long after the trip ends. Misty forests, caves and waterfalls — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Wayanad",
+      "paragraphs": [
+        "Wayanad (Kerala) is known for its nature, hills and trek experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to May."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Edakkal Caves",
+        "Chembra Peak trek",
+        "Banasura Sagar Dam",
+        "Soochipara Falls"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Bamboo rice dishes",
+        "Kerala sadya",
+        "Spiced tea"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 3 hours by road from Kozhikode (Calicut) airport."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Kalpetta as a central base",
+        "Treehouse and jungle resorts"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Trek permits for Chembra Peak are limited — start early."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Wayanad?",
+      "a": "October to May."
+    },
+    {
+      "q": "How do I reach Wayanad?",
+      "a": "About 3 hours by road from Kozhikode (Calicut) airport."
+    },
+    {
+      "q": "Where should I stay in Wayanad?",
+      "a": "Popular choices: Kalpetta as a central base; Treehouse and jungle resorts."
+    }
+  ],
+  "source": "template",
+  "title": "Wayanad Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Misty forests, caves and waterfalls. Plan your Wayanad trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-01",
+  "updated": "2026-11-01"
+}
