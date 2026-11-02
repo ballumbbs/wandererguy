@@ -1,0 +1,103 @@
+{
+  "slug": "ooty",
+  "name": "Ooty",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "iata": "CJB",
+  "tags": [
+    "hills",
+    "family",
+    "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Nilgiris' classic hill station",
+  "best_time": "October to June",
+  "highlights": [
+    "Nilgiri Mountain Railway",
+    "Government Botanical Garden",
+    "Doddabetta Peak",
+    "Pykara Lake and falls"
+  ],
+  "food": [
+    "Homemade chocolates",
+    "Varkey biscuits",
+    "Hot filter coffee"
+  ],
+  "stay_areas": [
+    "Near Charing Cross for convenience",
+    "Coonoor for quieter heritage stays"
+  ],
+  "getting_there": "Coimbatore airport is about 3 hours away; the toy train runs from Mettupalayam.",
+  "tip": "Book the toy train seats well ahead — they fill up fast.",
+  "wiki": "Nilgiri Mountain Railway",
+  "intro": "If Ooty has been on your list, consider this your sign. The Nilgiris' classic hill station, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Ooty",
+      "paragraphs": [
+        "Ooty (Tamil Nadu) is known for its hills, family and nature experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to June."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Nilgiri Mountain Railway",
+        "Government Botanical Garden",
+        "Doddabetta Peak",
+        "Pykara Lake and falls"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Homemade chocolates",
+        "Varkey biscuits",
+        "Hot filter coffee"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Coimbatore airport is about 3 hours away; the toy train runs from Mettupalayam."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Near Charing Cross for convenience",
+        "Coonoor for quieter heritage stays"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book the toy train seats well ahead — they fill up fast."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Ooty?",
+      "a": "October to June."
+    },
+    {
+      "q": "How do I reach Ooty?",
+      "a": "Coimbatore airport is about 3 hours away; the toy train runs from Mettupalayam."
+    },
+    {
+      "q": "Where should I stay in Ooty?",
+      "a": "Popular choices: Near Charing Cross for convenience; Coonoor for quieter heritage stays."
+    }
+  ],
+  "source": "template",
+  "title": "Ooty Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The Nilgiris' classic hill station. Plan your Ooty trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-02",
+  "updated": "2026-11-02"
+}

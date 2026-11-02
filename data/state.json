@@ -395,6 +395,12 @@
       "published": "2026-11-01",
       "last_featured": "2026-11-01",
       "seq": 67
+    },
+    {
+      "slug": "ooty",
+      "published": "2026-11-02",
+      "last_featured": "2026-11-02",
+      "seq": 68
     }
   ]
 }
