@@ -1,0 +1,105 @@
+{
+  "slug": "lakshadweep",
+  "name": "Lakshadweep",
+  "country": "India",
+  "region": "Lakshadweep",
+  "iata": "AGX",
+  "wiki": "Agatti Island",
+  "tags": [
+    "beach",
+    "island",
+    "diving"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "India's coral islands in the Arabian Sea",
+  "best_time": "October to May",
+  "highlights": [
+    "Snorkelling over coral lagoons",
+    "Scuba diving",
+    "Kayaking in clear lagoons",
+    "Island-hopping"
+  ],
+  "food": [
+    "Coconut-based fish curries",
+    "Tuna dishes",
+    "Fresh coconut"
+  ],
+  "stay_areas": [
+    "Agatti",
+    "Bangaram",
+    "Kadmat"
+  ],
+  "getting_there": "Fly from Kochi to Agatti, or take a ship from Kochi.",
+  "tip": "An entry permit is required — check the current rules with the Lakshadweep administration before booking.",
+  "intro": "Looking for your next escape? Lakshadweep delivers: india's coral islands in the Arabian Sea. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Lakshadweep",
+      "paragraphs": [
+        "Lakshadweep (Lakshadweep) is known for its beach, island and diving experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is October to May."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Snorkelling over coral lagoons",
+        "Scuba diving",
+        "Kayaking in clear lagoons",
+        "Island-hopping"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Coconut-based fish curries",
+        "Tuna dishes",
+        "Fresh coconut"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly from Kochi to Agatti, or take a ship from Kochi."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Agatti",
+        "Bangaram",
+        "Kadmat"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "An entry permit is required — check the current rules with the Lakshadweep administration before booking."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Lakshadweep?",
+      "a": "October to May."
+    },
+    {
+      "q": "How do I reach Lakshadweep?",
+      "a": "Fly from Kochi to Agatti, or take a ship from Kochi."
+    },
+    {
+      "q": "Where should I stay in Lakshadweep?",
+      "a": "Popular choices: Agatti; Bangaram; Kadmat."
+    }
+  ],
+  "source": "template",
+  "title": "Lakshadweep Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "India's coral islands in the Arabian Sea. Plan your Lakshadweep trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-03",
+  "updated": "2026-11-03"
+}
