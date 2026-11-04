@@ -1,0 +1,101 @@
+{
+  "slug": "almaty",
+  "name": "Almaty",
+  "country": "Kazakhstan",
+  "region": "Central Asia",
+  "iata": "ALA",
+  "wiki": "Big Almaty Lake",
+  "tags": [
+    "mountain",
+    "city",
+    "nature"
+  ],
+  "cost": "₹₹",
+  "tagline": "A green city at the foot of snowy peaks",
+  "best_time": "May to September, or December to March for skiing",
+  "highlights": [
+    "Big Almaty Lake",
+    "Shymbulak ski resort",
+    "Charyn Canyon",
+    "Kok Tobe hill"
+  ],
+  "food": [
+    "Beshbarmak",
+    "Plov",
+    "Baursak"
+  ],
+  "stay_areas": [
+    "City centre near Panfilov Park"
+  ],
+  "getting_there": "Direct flights from Delhi.",
+  "tip": "Kolsai and Kaindy lakes make a great two-day trip.",
+  "intro": "Looking for your next escape? Almaty delivers: a green city at the foot of snowy peaks. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Almaty",
+      "paragraphs": [
+        "Almaty (Central Asia) is known for its mountain, city and nature experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is May to September, or December to March for skiing."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Big Almaty Lake",
+        "Shymbulak ski resort",
+        "Charyn Canyon",
+        "Kok Tobe hill"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Beshbarmak",
+        "Plov",
+        "Baursak"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from Delhi."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "City centre near Panfilov Park"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Kolsai and Kaindy lakes make a great two-day trip."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Almaty?",
+      "a": "May to September, or December to March for skiing."
+    },
+    {
+      "q": "How do I reach Almaty?",
+      "a": "Direct flights from Delhi."
+    },
+    {
+      "q": "Where should I stay in Almaty?",
+      "a": "Popular choices: City centre near Panfilov Park."
+    }
+  ],
+  "source": "template",
+  "title": "Almaty Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "A green city at the foot of snowy peaks. Plan your Almaty trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-04",
+  "updated": "2026-11-04"
+}
