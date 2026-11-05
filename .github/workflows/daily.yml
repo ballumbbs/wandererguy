@@ -50,6 +50,7 @@ jobs:
       - name: Build site (fresh deals + featured rotation)
         env:
           BOOKING_AID: ${{ vars.BOOKING_AID }}
+          BOOKING_TP_LINK: ${{ vars.BOOKING_TP_LINK }}
           AGODA_CID:   ${{ vars.AGODA_CID }}
           AMAZON_TAG:  ${{ vars.AMAZON_TAG }}
           TP_MARKER:   ${{ vars.TP_MARKER }}
