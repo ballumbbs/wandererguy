@@ -1,0 +1,105 @@
+{
+  "slug": "mauritius",
+  "name": "Mauritius",
+  "country": "Mauritius",
+  "region": "Indian Ocean",
+  "iata": "MRU",
+  "wiki": "Le Morne Brabant",
+  "tags": [
+    "beach",
+    "island",
+    "romantic"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Lagoons, mountains and a familiar Indian touch",
+  "best_time": "May to December",
+  "highlights": [
+    "Le Morne beach",
+    "Île aux Cerfs",
+    "Chamarel Seven Coloured Earth",
+    "Black River Gorges"
+  ],
+  "food": [
+    "Dholl puri",
+    "Mauritian curries",
+    "Gateaux piments"
+  ],
+  "stay_areas": [
+    "North for nightlife (Grand Baie)",
+    "East for beaches",
+    "South-west for Le Morne"
+  ],
+  "getting_there": "Direct flights from Mumbai and other Indian cities.",
+  "tip": "Rent a car — the island is easy to drive and distances are short.",
+  "intro": "Mauritius is one of those places that stays with you long after the trip ends. Lagoons, mountains and a familiar Indian touch — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Mauritius",
+      "paragraphs": [
+        "Mauritius (Indian Ocean) is known for its beach, island and romantic experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is May to December."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Le Morne beach",
+        "Île aux Cerfs",
+        "Chamarel Seven Coloured Earth",
+        "Black River Gorges"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Dholl puri",
+        "Mauritian curries",
+        "Gateaux piments"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from Mumbai and other Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "North for nightlife (Grand Baie)",
+        "East for beaches",
+        "South-west for Le Morne"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Rent a car — the island is easy to drive and distances are short."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Mauritius?",
+      "a": "May to December."
+    },
+    {
+      "q": "How do I reach Mauritius?",
+      "a": "Direct flights from Mumbai and other Indian cities."
+    },
+    {
+      "q": "Where should I stay in Mauritius?",
+      "a": "Popular choices: North for nightlife (Grand Baie); East for beaches; South-west for Le Morne."
+    }
+  ],
+  "source": "template",
+  "title": "Mauritius Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Lagoons, mountains and a familiar Indian touch. Plan your Mauritius trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05"
+}
