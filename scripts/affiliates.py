@@ -4,7 +4,7 @@ Every link is generated at build time, so dates in hotel/flight searches
 are always in the future, no matter how old the post is.
 """
 import datetime as dt
-from urllib.parse import quote_plus, urlencode
+from urllib.parse import parse_qsl, quote_plus, urlencode, urlsplit, urlunsplit
 
 
 class Links:
@@ -29,9 +29,33 @@ class Links:
             params["checkin"] = checkin.isoformat()
             params["checkout"] = (checkin + dt.timedelta(days=nights)).isoformat()
         params["group_adults"] = 2
-        if self.aff.get("BOOKING_AID"):
+        if self.aff.get("BOOKING_AID"):  # direct Booking.com partner account
             params["aid"] = self.aff["BOOKING_AID"]
-        return "https://www.booking.com/searchresults.html?" + urlencode(params)
+        url = "https://www.booking.com/searchresults.html?" + urlencode(params)
+        if not self.aff.get("BOOKING_AID"):
+            url = self.via_travelpayouts(url, self.aff.get("BOOKING_TP_LINK", ""))
+        return url
+
+    # ---------- Travelpayouts deep links ----------
+    @staticmethod
+    def via_travelpayouts(target, template):
+        """Wrap `target` in a Travelpayouts tracking link.
+
+        `template` is ONE long link copied from the Travelpayouts dashboard
+        (Tools -> Links, "short link" OFF), e.g.
+        https://tp.media/r?marker=793264&trs=...&p=...&u=https%3A%2F%2Fwww.booking.com&campaign_id=...
+        We keep every tracking parameter and only swap the destination (`u`).
+        Short links (*.tp.st/...) can't be re-pointed, so they're ignored.
+        """
+        template = (template or "").strip()
+        if not template:
+            return target
+        parts = urlsplit(template)
+        query = parse_qsl(parts.query, keep_blank_values=True)
+        if not any(k == "u" for k, _ in query):
+            return target
+        query = [(k, target if k == "u" else v) for k, v in query]
+        return urlunsplit(parts._replace(query=urlencode(query)))
 
     def agoda(self, place, checkin=None, nights=2):
         params = {"textToSearch": place, "adults": 2, "rooms": 1}
@@ -62,4 +86,7 @@ class Links:
         return url
 
     def missing(self):
-        return [k for k in ("BOOKING_AID", "AGODA_CID", "AMAZON_TAG", "TP_MARKER") if not self.aff.get(k)]
+        missing = [k for k in ("AGODA_CID", "AMAZON_TAG", "TP_MARKER") if not self.aff.get(k)]
+        if not (self.aff.get("BOOKING_AID") or "u=" in self.aff.get("BOOKING_TP_LINK", "")):
+            missing.insert(0, "BOOKING_TP_LINK (or BOOKING_AID)")
+        return missing

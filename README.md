@@ -30,13 +30,21 @@ Repo → **Settings → Secrets and variables → Actions → Variables tab → 
 
 | Name | Where to find it | Example |
 |---|---|---|
-| `BOOKING_AID` | Booking.com Affiliate Partner dashboard → your affiliate ID | `1234567` |
+| `BOOKING_TP_LINK` | Booking.com **through Travelpayouts** — see below | `https://tp.media/r?marker=…&u=…` |
+| `BOOKING_AID` | Only if you have a *direct* Booking.com partner account (overrides the line above) | `1234567` |
 | `AGODA_CID` | Agoda Partners → your site ID (CID) | `1891234` |
 | `AMAZON_TAG` | Amazon Associates India → your tracking ID | `wandererguy-21` |
 | `TP_MARKER` | Travelpayouts → profile → your marker | `512345` |
 | `HOME_AIRPORT` *(optional)* | Departure airport for flight links (default `DEL`) | `BOM` |
 
 Links work even before you add IDs — they just won't earn until you do.
+
+**Booking.com via Travelpayouts (`BOOKING_TP_LINK`):**
+1. Travelpayouts → **Programs** → find **Booking.com** → **Join** (approval takes up to 3 business days).
+2. Once approved: **Tools → Links**, choose Booking.com, paste `https://www.booking.com/` as the page, and **turn OFF "Short link"**.
+3. Copy the long link (starts with `https://tp.media/r?marker=793264…`) and save it as the `BOOKING_TP_LINK` variable.
+
+The site swaps in each destination's own hotel search (with dates) while keeping your tracking. A short `….tp.st/…` link won't work here — it must be the long one.
 
 ### 4. (Optional, recommended) Better articles with Claude
 Repo → **Settings → Secrets and variables → Actions → Secrets tab → New repository secret**
@@ -56,6 +64,15 @@ At your domain registrar (GoDaddy, Hostinger, BigRock, etc.) → DNS settings:
 | CNAME | www | `YOUR-GITHUB-USERNAME.github.io` |
 
 Delete any other A record for `@`. Then in **Settings → Pages**, enter `wandererguy.in` as the custom domain and tick **Enforce HTTPS** once it becomes available (DNS can take a few hours).
+
+### 5b. Point wandererguy.com at the site
+GitHub Pages serves one domain per site, so `wandererguy.in` stays the main address and `wandererguy.com` forwards to it.
+GoDaddy → **My Products → wandererguy.com → DNS → Forwarding → Add forwarding**:
+- Forward to: `https://wandererguy.in`
+- Redirect type: **Permanent (301)** — this passes Google ranking to the .in site
+- Settings: **Forward only** (not masking)
+
+Add the same forwarding for the `www` subdomain. Wait up to an hour, then open `wandererguy.com` — it should land on `https://wandererguy.in`.
 
 ### 6. Launch
 Repo → **Actions → Daily update & deploy → Run workflow**. In ~1 minute your first guide is live. From then on it runs itself every morning.

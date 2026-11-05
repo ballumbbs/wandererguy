@@ -12,6 +12,7 @@
   "_affiliate_note": "Leave these empty here and set them as GitHub repository Variables instead (Settings → Secrets and variables → Actions → Variables). Environment variables override this file.",
   "affiliates": {
     "BOOKING_AID": "",
+    "BOOKING_TP_LINK": "",
     "AGODA_CID": "",
     "AMAZON_TAG": "",
     "TP_MARKER": ""
