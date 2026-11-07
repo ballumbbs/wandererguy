@@ -1,0 +1,103 @@
+{
+  "slug": "kaziranga",
+  "name": "Kaziranga",
+  "country": "India",
+  "region": "Assam",
+  "iata": "GAU",
+  "wiki": "Kaziranga National Park",
+  "tags": [
+    "nature",
+    "wildlife",
+    "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "One-horned rhinos on the Brahmaputra floodplains",
+  "best_time": "November to April (park closed in monsoon)",
+  "highlights": [
+    "Jeep safari in the Central Range",
+    "Elephant grass landscapes",
+    "Birdwatching",
+    "Tea gardens nearby"
+  ],
+  "food": [
+    "Assamese thali",
+    "Masor tenga (sour fish curry)",
+    "Assam tea"
+  ],
+  "stay_areas": [
+    "Kohora for the central range",
+    "Eco-lodges near Bagori"
+  ],
+  "getting_there": "About 4–5 hours by road from Guwahati; Jorhat airport is closer.",
+  "tip": "Book the morning safari — the light and animal sightings are best then.",
+  "intro": "Looking for your next escape? Kaziranga delivers: one-horned rhinos on the Brahmaputra floodplains. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Kaziranga",
+      "paragraphs": [
+        "Kaziranga (Assam) is known for its nature, wildlife and adventure experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is November to April (park closed in monsoon)."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Jeep safari in the Central Range",
+        "Elephant grass landscapes",
+        "Birdwatching",
+        "Tea gardens nearby"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Assamese thali",
+        "Masor tenga (sour fish curry)",
+        "Assam tea"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 4–5 hours by road from Guwahati; Jorhat airport is closer."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Kohora for the central range",
+        "Eco-lodges near Bagori"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book the morning safari — the light and animal sightings are best then."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Kaziranga?",
+      "a": "November to April (park closed in monsoon)."
+    },
+    {
+      "q": "How do I reach Kaziranga?",
+      "a": "About 4–5 hours by road from Guwahati; Jorhat airport is closer."
+    },
+    {
+      "q": "Where should I stay in Kaziranga?",
+      "a": "Popular choices: Kohora for the central range; Eco-lodges near Bagori."
+    }
+  ],
+  "source": "template",
+  "title": "Kaziranga Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "One-horned rhinos on the Brahmaputra floodplains. Plan your Kaziranga trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-07",
+  "updated": "2026-11-07"
+}
