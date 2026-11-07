@@ -592,5 +592,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Beauty_of_Kaziranga_National_Park.jpg",
     "wiki": "Kaziranga National Park"
+  },
+  "everest-base-camp-trek": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Khumbutse.jpg/1280px-Khumbutse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Khumbutse.jpg/500px-Khumbutse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Peellden",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Khumbutse.jpg",
+    "wiki": "Everest base camps"
   }
 }
