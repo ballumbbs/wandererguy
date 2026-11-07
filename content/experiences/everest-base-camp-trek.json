@@ -1,0 +1,317 @@
+{
+  "slug": "everest-base-camp-trek",
+  "name": "Everest Base Camp Trek",
+  "title": "Everest Base Camp Trek in 14 days: my day-by-day itinerary and honest experience",
+  "description": "My 14-day Everest Base Camp trek from Kathmandu: the full day-by-day itinerary, altitudes, walking hours, costs in rupees for Indians, permits, packing and what altitude really feels like.",
+  "tagline": "14 days, 130 km and one very cold sunrise at 5,545 metres",
+  "country": "Nepal",
+  "region": "Khumbu, Nepal",
+  "iata": "KTM",
+  "base_city": "Kathmandu",
+  "base_guide": "kathmandu",
+  "wiki": "Everest base camps",
+  "tags": ["trek", "mountain", "snow", "adventure"],
+  "search_keywords": ["Everest", "EBC", "Everest Base Camp", "Kala Patthar", "Kala Pathar", "Namche Bazaar", "Lukla", "Khumbu", "Sagarmatha", "Tengboche Monastery", "Gorak Shep", "Ramechhap", "Manthali", "Phakding", "Dingboche", "Lobuche", "Pheriche", "Khumbu Glacier", "Base Camp"],
+  "published": "2026-11-07",
+  "updated": "2026-11-07",
+  "youtube_video": "",
+  "stats": [
+    {"label": "Duration", "value": "14 days (Kathmandu to Kathmandu)"},
+    {"label": "Highest point", "value": "5,545 m at Kala Patthar"},
+    {"label": "Distance", "value": "About 130 km on foot, return"},
+    {"label": "Difficulty", "value": "Moderate to hard: altitude is the real test"},
+    {"label": "Best months", "value": "March to May, late September to November"},
+    {"label": "My budget", "value": "₹1.1 to 1.6 lakh per person, from Delhi"}
+  ],
+  "intro": [
+    "I had seen Everest a hundred times in photos, but nothing prepares you for the moment it finally appears above the ridge after Namche Bazaar: a black pyramid with a white plume of snow blowing off the summit. That is the moment the trek stopped being a plan on my phone and became real.",
+    "This is the exact 14-day plan I followed, with the altitude I slept at every night, how many hours we walked, what each day actually felt like, and what I would do differently. It is written for Indian travellers, so costs are in rupees and Nepali rupees, and the logistics start from Delhi.",
+    "Short version: you do not need to be an athlete. You need decent stamina, patience with the altitude, two proper acclimatisation days, and buffer days for the Lukla flight. Rush it and the mountains will send you back down."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Arrive in Kathmandu, permits and last-minute shopping",
+      "from": "Delhi",
+      "to": "Kathmandu",
+      "sleep_m": 1400,
+      "max_m": 1400,
+      "hours": "Flight about 1.5 h",
+      "distance": "",
+      "story": [
+        "The flight from Delhi to Kathmandu is barely an hour and a half, and if you sit on the left side you might catch the Himalaya floating above the clouds. Indian citizens don't need a visa for Nepal; I carried my passport (voter ID also works) and it was the smoothest immigration of my life.",
+        "I stayed in Thamel, which is noisy but perfect for trek prep. Every second shop sells down jackets, trekking poles and sleeping bags. I rented a -15°C sleeping bag and a down jacket instead of buying them, and bought a local SIM, a few Diamox tablets on my doctor's advice, and enough Nepali rupees in cash for the whole trek. In the evening I met my guide, went through the plan and packed my duffel to stay under the Lukla weight limit."
+      ],
+      "tip": "Lukla flights allow roughly 10 kg checked plus 5 kg hand baggage, and they actually weigh it. Leave everything else at your Kathmandu hotel."
+    },
+    {
+      "day": 2,
+      "title": "Fly to Lukla, trek to Phakding",
+      "from": "Kathmandu",
+      "to": "Phakding",
+      "sleep_m": 2610,
+      "max_m": 2860,
+      "hours": "Drive 4 to 5 h, flight 20 min, walk 3 to 4 h",
+      "distance": "8 km on foot",
+      "story": [
+        "The alarm went off at 1:30 am. In peak season, Lukla flights leave from Manthali airport in Ramechhap instead of Kathmandu, so we drove through the dark for about four and a half hours, dozing in the back of a jeep. The tiny airport was packed with trekkers holding their breath and staring at the sky, because these flights only go when the weather is clear.",
+        "Our 15-seater took off around 8 am. The flight is about 20 minutes, and the landing at Lukla (2,860 m) on that short, uphill runway that ends in a mountain wall is something I will never forget. Everyone clapped.",
+        "From Lukla the trail goes gently downhill along the Dudh Koshi river to Phakding. Prayer wheels, mani stones carved with mantras, yak trains with bells. It was an easy first day, which is exactly the point: you sleep lower than Lukla to help your body adjust."
+      ],
+      "tip": "Always walk to the left of mani walls and chortens, and stand on the mountain side when yaks pass, never the cliff side."
+    },
+    {
+      "day": 3,
+      "title": "Phakding to Namche Bazaar, the first big climb",
+      "from": "Phakding",
+      "to": "Namche Bazaar",
+      "sleep_m": 3440,
+      "max_m": 3440,
+      "hours": "6 to 7 h",
+      "distance": "10 to 11 km",
+      "story": [
+        "This is the day that humbles everyone. The morning is pleasant, crossing suspension bridges back and forth over the turquoise river. At Monjo we showed our permits and entered Sagarmatha National Park.",
+        "Then comes the high Hillary suspension bridge, strung with prayer flags, and after it a long, steep, dusty climb of about 600 metres to Namche. I counted my steps, stopped every few minutes and drank water constantly. Halfway up there is a spot where, on a clear day, you get your first glimpse of Everest. My guide pointed at it and I honestly thought he was joking: it looked so small and far away.",
+        "Namche Bazaar is built like an amphitheatre on the mountain side. It has bakeries, real coffee, ATMs, gear shops and Wi-Fi. After that climb, a hot shower and a plate of dal bhat felt like five-star luxury."
+      ],
+      "tip": "Go slower than you think you need to. Everyone who races up to Namche pays for it later."
+    },
+    {
+      "day": 4,
+      "title": "Acclimatisation day in Namche: Everest View Hotel",
+      "from": "Namche Bazaar",
+      "to": "Namche Bazaar",
+      "sleep_m": 3440,
+      "max_m": 3880,
+      "hours": "3 to 4 h hike",
+      "distance": "5 km loop",
+      "story": [
+        "Rest day does not mean lying in bed. The rule in the mountains is climb high, sleep low, so we hiked up to the Everest View Hotel at about 3,880 m. From the terrace we had our first proper view of Everest, Lhotse and the beautiful Ama Dablam, which became my favourite mountain on the whole trek.",
+        "In the afternoon I visited the Sherpa culture museum and wandered around the bazaar. My appetite had dropped and I had a light headache in the evening, which my guide said was normal at this height. Lots of water, garlic soup and an early night fixed it."
+      ],
+      "tip": "Namche has the last reliable ATMs and shops on the route. Top up cash, snacks and toilet paper here."
+    },
+    {
+      "day": 5,
+      "title": "Namche Bazaar to Tengboche Monastery",
+      "from": "Namche Bazaar",
+      "to": "Tengboche",
+      "sleep_m": 3867,
+      "max_m": 3867,
+      "hours": "5 to 6 h",
+      "distance": "9 to 10 km",
+      "story": [
+        "The first two hours were the most beautiful walking of the whole trek: a nearly flat trail cut into the hillside, with Everest and Ama Dablam straight ahead the entire time. Then the trail drops all the way down to the river at Phunki Tenga, and you have to win all that height back with a steep two-hour climb through rhododendron forest.",
+        "Tengboche Monastery sits on a ridge with mountains in every direction. I sat in on the afternoon prayers, monks chanting with long horns and drums, and it was one of the calmest hours of my life. That night was the first truly cold one: ice inside the window of the teahouse room by morning."
+      ],
+      "tip": "Ask your guide when the monastery's prayer session starts, and keep your camera away inside the hall."
+    },
+    {
+      "day": 6,
+      "title": "Tengboche to Dingboche",
+      "from": "Tengboche",
+      "to": "Dingboche",
+      "sleep_m": 4410,
+      "max_m": 4410,
+      "hours": "5 to 6 h",
+      "distance": "11 to 12 km",
+      "story": [
+        "After Pangboche the trees disappear. The landscape becomes wide and brown, with stone walls dividing small potato fields and the Imja river rushing below. It is a gradual climb, but above 4,000 metres everything feels slower; even tying my shoelaces left me breathless.",
+        "Dingboche is a windy village in a wide valley, with Island Peak and Lhotse's giant south face towering above it. From here on, food prices go up because every single thing is carried up by porters or yaks. You understand why a Coke costs what it does when you see a porter carrying 60 kg on his back."
+      ],
+      "tip": "Your water bottles can freeze at night from here on. Fill them with hot water and keep them inside your sleeping bag."
+    },
+    {
+      "day": 7,
+      "title": "Acclimatisation day in Dingboche: Nangkartshang hike",
+      "from": "Dingboche",
+      "to": "Dingboche",
+      "sleep_m": 4410,
+      "max_m": 5083,
+      "hours": "4 to 5 h hike",
+      "distance": "5 km return",
+      "story": [
+        "Our second rest day, and again, not really a rest. We climbed the ridge behind the village towards Nangkartshang Peak and reached a viewpoint at around 5,083 metres. For the first time in my life I was above 5,000 m. From up there Makalu, the fifth highest mountain in the world, appears in the distance.",
+        "Going up was slow and painful, coming down felt amazing. In the afternoon I just sat in the sun with a cup of ginger lemon honey tea, read, and charged my phone (charging and Wi-Fi cost extra up here)."
+      ],
+      "tip": "Don't skip this day to save time. It is the single best thing you can do for your chances of reaching Base Camp."
+    },
+    {
+      "day": 8,
+      "title": "Dingboche to Lobuche, past the memorials",
+      "from": "Dingboche",
+      "to": "Lobuche",
+      "sleep_m": 4940,
+      "max_m": 4940,
+      "hours": "5 to 6 h",
+      "distance": "8 to 9 km",
+      "story": [
+        "A gentle walk across a high plateau leads to Thukla (Dughla), and then comes a steep climb up the Thukla pass. At the top are dozens of stone memorials and prayer flags for climbers and Sherpas who died on Everest. Everyone goes quiet there. It reminds you this is not a theme park.",
+        "Lobuche is a cold, basic stop. I slept badly: at almost 5,000 metres it is normal to wake up suddenly gasping for breath. I had a dull headache but no nausea or dizziness, so after checking my oxygen level with my guide's oximeter we decided to continue."
+      ],
+      "tip": "Know the danger signs of altitude sickness: a headache that painkillers don't fix, vomiting, confusion or stumbling. If you have them, go down. No summit selfie is worth it."
+    },
+    {
+      "day": 9,
+      "title": "Lobuche to Gorak Shep and Everest Base Camp",
+      "from": "Lobuche",
+      "to": "Gorak Shep",
+      "sleep_m": 5164,
+      "max_m": 5364,
+      "hours": "7 to 8 h in total",
+      "distance": "about 12 km",
+      "story": [
+        "The big day. We left early and walked alongside the Khumbu Glacier, a sea of grey rubble and ice, over rocky moraine to Gorak Shep, a cluster of teahouses at 5,164 m. Dropped the bags, ate quickly and set off for Base Camp.",
+        "The last two hours are rough: up and down over loose rocks, with the Khumbu Icefall slowly coming into view. And then you see it, the big rock covered in prayer flags with 'Everest Base Camp 5364m' painted on it. I sat down and, honestly, I cried a little. All the early mornings, the cold, the breathlessness, it was all for this moment.",
+        "A note so you're not disappointed: you can't actually see the summit of Everest from Base Camp itself, because the nearby peaks block it. The best view comes tomorrow morning. In the autumn season the camp is mostly empty; in April and May it is filled with yellow expedition tents."
+      ],
+      "tip": "Carry chocolate, dry fruits and a full litre of water for the Base Camp walk. There is nothing to buy between Gorak Shep and Base Camp."
+    },
+    {
+      "day": 10,
+      "title": "Sunrise on Kala Patthar, then down to Pheriche",
+      "from": "Gorak Shep",
+      "to": "Pheriche",
+      "sleep_m": 4371,
+      "max_m": 5545,
+      "hours": "8 to 9 h",
+      "distance": "about 14 km",
+      "story": [
+        "4 am, minus fifteen degrees, headlamps on. Kala Patthar is a steep, dark hill just above Gorak Shep, and climbing it in the dark at that altitude was the hardest two hours of the trek. Every ten steps I stopped to breathe.",
+        "Then the sun hit the summit of Everest and turned it gold, while everything around us was still blue and frozen. From 5,545 metres you see Everest, Nuptse, Changtse, the Khumbu Icefall and the glacier all in one frame. This, not Base Camp, is the photo everyone goes home with. My fingers were too cold to work my phone properly, and I didn't care.",
+        "After breakfast at Gorak Shep, we started descending. It is a long day, but with every hundred metres down you can feel the oxygen coming back. By Pheriche I was hungry again for the first time in days."
+      ],
+      "tip": "Put your phone and power bank inside your jacket, close to your body. The cold drains batteries in minutes."
+    },
+    {
+      "day": 11,
+      "title": "Pheriche back to Namche Bazaar",
+      "from": "Pheriche",
+      "to": "Namche Bazaar",
+      "sleep_m": 3440,
+      "max_m": 4371,
+      "hours": "6 to 7 h",
+      "distance": "about 18 km",
+      "story": [
+        "Walking back through Pangboche and Tengboche felt like visiting old friends. Trees, birds and green fields again. With full lungs I was suddenly walking twice as fast as on the way up.",
+        "Back in Namche we celebrated with pizza, apple pie and a proper coffee at the bakery. That was the best food I had in two weeks, or at least it felt like it."
+      ],
+      "tip": "Knees take the beating on the way down. Use both trekking poles and shorten them a little for descents."
+    },
+    {
+      "day": 12,
+      "title": "Namche Bazaar to Lukla, the last day on foot",
+      "from": "Namche Bazaar",
+      "to": "Lukla",
+      "sleep_m": 2860,
+      "max_m": 3440,
+      "hours": "6 to 7 h",
+      "distance": "about 18 km",
+      "story": [
+        "The long descent from Namche, the Hillary bridge one last time, and then the river trail back. The final climb up to Lukla at the end of the day felt unfair, but then it was over.",
+        "In Lukla that evening there was a little party at our teahouse. We tipped our guide and porter (this is their main income, be generous) and thanked them for everything. Without my porter carrying my duffel, I honestly don't think I would have made it."
+      ],
+      "tip": "Tipping is customary. Around 10 to 15 percent of what you paid the guide and porter is common, given directly at the end."
+    },
+    {
+      "day": 13,
+      "title": "Fly Lukla to Ramechhap, drive back to Kathmandu",
+      "from": "Lukla",
+      "to": "Kathmandu",
+      "sleep_m": 1400,
+      "max_m": 2860,
+      "hours": "Flight 20 min, drive 4 to 5 h",
+      "distance": "",
+      "story": [
+        "We were lucky: the morning was clear and our flight left on time. Many trekkers aren't. Fog can ground Lukla flights for a day or two, which is why I kept a spare day before my flight home.",
+        "Back in Kathmandu, a long hot shower and a real bed. I returned the rented gear in Thamel and slept for eleven hours."
+      ],
+      "tip": "Book your flight home for at least one day after your planned return from Lukla. Two days is safer in winter or monsoon."
+    },
+    {
+      "day": 14,
+      "title": "Buffer day in Kathmandu and fly home",
+      "from": "Kathmandu",
+      "to": "Delhi",
+      "sleep_m": 1400,
+      "max_m": 1400,
+      "hours": "",
+      "distance": "",
+      "story": [
+        "Since the weather had been kind to us, I used my buffer day to see Boudhanath Stupa and walk around Patan Durbar Square before the evening flight to Delhi.",
+        "Two weeks earlier I had arrived in this city nervous and unsure if my body could handle it. I left with sore legs, cracked lips, a phone full of photos, and the quiet confidence that comes from doing something hard, one slow step at a time."
+      ],
+      "tip": "If your flight from Lukla is delayed, this is the day that saves your trip. Don't treat it as optional."
+    }
+  ],
+  "sections": [
+    {
+      "id": "cost",
+      "heading": "How much it cost me (from Delhi, per person)",
+      "intro": "Prices change every season, so treat these as a realistic range, not a quote. 1 Indian rupee is 1.6 Nepali rupees, and prices go up the higher you climb.",
+      "table": [
+        ["Delhi to Kathmandu return flight", "₹12,000 to ₹22,000", "Cheapest when booked 1 to 2 months ahead"],
+        ["Kathmandu–Ramechhap jeep + Lukla flights (return)", "₹30,000 to ₹35,000", "Around USD 175 to 190 each way from Ramechhap, plus the drive"],
+        ["Permits (Sagarmatha National Park + Khumbu local permit)", "NPR 4,500 (about ₹2,800)", "Indians pay the lower SAARC rate for the national park"],
+        ["Guide (11 trekking days)", "₹28,000 to ₹35,000", "Licensed guide, wages, food and lodging included"],
+        ["Porter (shared or private)", "₹20,000 to ₹25,000", "Optional, but I'm very glad I had one"],
+        ["Teahouse rooms and three meals a day", "₹2,000 to ₹3,500 per day", "Cheap low down, expensive above Dingboche"],
+        ["Hot showers, charging, Wi-Fi, snacks", "₹5,000 to ₹8,000 in total", "Everything is extra above Namche"],
+        ["Gear rental in Kathmandu", "₹2,000 to ₹3,500", "Sleeping bag and down jacket for two weeks"],
+        ["Tips for guide and porter", "₹6,000 to ₹10,000", "Customary at the end of the trek"]
+      ],
+      "paragraphs": [
+        "All in, expect roughly ₹1.1 to 1.6 lakh per person with your own guide and porter, a bit less if you share them with a friend. Agency packages from Kathmandu usually cost USD 1,200 to 1,800 and bundle all of this together; just check whether flights, permits and the porter are included."
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits and paperwork for Indians",
+      "list": [
+        "No visa needed for Indian citizens. Carry your passport (or voter ID) and a few passport photos.",
+        "Sagarmatha National Park entry permit: NPR 1,500 for SAARC nationals including Indians (NPR 3,000 for others). You can buy it in Kathmandu or at the Monjo checkpoint.",
+        "Khumbu Pasang Lhamu Rural Municipality permit: bought in Lukla. It was NPR 2,000 for years and several 2026 sources list NPR 3,000, so carry enough cash.",
+        "Rules on solo trekking and mandatory guides in Nepal have changed several times since 2023. Check the current rule before you go; I'd recommend a licensed guide on your first high-altitude trek anyway.",
+        "Get travel insurance that specifically covers trekking up to 6,000 m and helicopter evacuation. Many standard Indian policies don't."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paragraphs": [
+        "Mid-October to mid-November is my pick: crystal clear skies, stable weather, and cold but manageable nights. March to May is the other great window, a bit hazier but warmer, with rhododendrons in bloom and the expedition tents up at Base Camp in April and May.",
+        "December to February is possible if you're ready for -20°C nights and some closed teahouses. June to August is monsoon: clouds, leeches low down and frequent flight cancellations."
+      ]
+    },
+    {
+      "id": "fitness",
+      "heading": "How fit do you need to be?",
+      "paragraphs": [
+        "You'll walk 5 to 8 hours a day for 11 days, mostly uphill on the way in. If you can climb 10 floors of stairs without stopping and walk 10 to 12 km with a light backpack, you can train up to this in two or three months. I did stair climbs and long weekend walks with a loaded backpack for eight weeks before the trip.",
+        "Fitness helps, but it does not protect you from altitude sickness. Very fit people who rush get sick; slow and steady people make it. The two acclimatisation days in this itinerary are not optional."
+      ]
+    },
+    {
+      "id": "packing",
+      "heading": "What I packed",
+      "list": [
+        "Broken-in waterproof trekking boots (the most important item of all)",
+        "Thermal base layers, a fleece, a down jacket and a waterproof shell jacket",
+        "Two trekking trousers, warm hat, sun hat, buff, liner gloves and thick gloves",
+        "Sleeping bag rated to -15°C (rented in Thamel)",
+        "Two 1-litre water bottles and purification tablets (bottled water gets expensive up high)",
+        "Headlamp, power bank, sunglasses with UV protection, SPF 50 sunscreen and lip balm",
+        "Personal medicines, ORS sachets and a small first-aid kit; talk to your doctor about altitude medicine before you go",
+        "Trekking poles, a 30 to 40 litre daypack, and a duffel bag for the porter"
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "How many days do you need for the Everest Base Camp trek?", "a": "Plan 12 days of trekking from Lukla back to Lukla, which with Kathmandu days and a buffer for flights makes 14 days in Nepal. Itineraries shorter than this usually cut an acclimatisation day, which raises the risk of altitude sickness."},
+    {"q": "Can Indians do the Everest Base Camp trek without a visa?", "a": "Yes. Indian citizens don't need a visa for Nepal and pay the lower SAARC rate for the Sagarmatha National Park permit. You still need the national park permit and the Khumbu local permit."},
+    {"q": "How much does the Everest Base Camp trek cost from India?", "a": "Roughly ₹1.1 to 1.6 lakh per person from Delhi with your own guide and porter, including flights, permits, food and lodging. Sharing a guide and porter with a friend brings it down."},
+    {"q": "Can you see Everest from Everest Base Camp?", "a": "Not really. The summit is hidden behind nearby peaks from the camp itself. The famous view is from Kala Patthar (5,545 m), a short but steep climb above Gorak Shep, best at sunrise."},
+    {"q": "Is the Everest Base Camp trek dangerous?", "a": "The trail itself is not technical, but altitude is serious. Walk slowly, take the acclimatisation days, drink plenty of water, and go down if symptoms get worse. Travel insurance that covers helicopter evacuation is a must."},
+    {"q": "Why do Lukla flights leave from Ramechhap?", "a": "During the busy spring and autumn seasons, flights to Lukla move to Manthali airport in Ramechhap to ease congestion at Kathmandu. That means a 4 to 5 hour drive that usually starts around 1 or 2 am."}
+  ]
+}

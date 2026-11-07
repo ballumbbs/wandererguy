@@ -80,7 +80,8 @@ def find_photo(title):
 def main():
     photos = load_json(PHOTOS, {})
     added = 0
-    for f in sorted(POSTS.glob("*.json")):
+    files = sorted(POSTS.glob("*.json")) + sorted((POSTS.parent / "experiences").glob("*.json"))
+    for f in files:  # destination guides + your own experience pages
         post = load_json(f)
         slug = post["slug"]
         if slug in photos:

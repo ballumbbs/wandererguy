@@ -52,6 +52,20 @@
   </aside>
 </section>
 
+{% if experiences %}{% set e = experiences[0] %}
+<section class="wrap home-exp">
+  <a class="exp-card" href="{{ e.url }}">
+    <div class="exp-card-img">{{ photo(e) }}</div>
+    <div class="exp-card-body">
+      <span class="exp-badge">My experience · {{ e.days|length }}-day itinerary</span>
+      <h2>{{ e.name }}</h2>
+      <p>{{ e.tagline }}. The full route, costs in rupees, and what each day really felt like.</p>
+      <span class="btn btn-navy">Read my trek story</span>
+    </div>
+  </a>
+</section>
+{% endif %}
+
 {% if india %}{{ row("Explore India", india, "/destinations/?where=india", "All Indian destinations") }}{% endif %}
 
 <section class="wrap moods">

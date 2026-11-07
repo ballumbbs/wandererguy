@@ -8,6 +8,7 @@ import sys
 from xml.sax.saxutils import escape
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup
 
 from affiliates import Links
 from posters import make_poster
@@ -15,6 +16,7 @@ from common import DATA, POSTS, ROOT, STATE_FILE, load_config, load_json, today
 
 OUT = ROOT / "public"
 PHOTOS = POSTS.parent / "photos.json"
+EXPERIENCES = POSTS.parent / "experiences"  # content/experiences/*.json — your own trips, written by hand
 
 # fallback art when a guide has no photo yet
 PALETTES = [("#13294b", "#2f6f8f"), ("#3b2a5a", "#c76b8f"), ("#0e4d64", "#4fb3a9"), ("#2c4a2e", "#9bbf6a"),
@@ -37,6 +39,60 @@ def gear_for(post, gear, n=4):
     general = [g for g in gear if "all" in g["tags"]]
     random.Random(post["slug"]).shuffle(general)
     return (specific + general)[:n]
+
+
+def altitude_chart(days):
+    """Small SVG altitude profile (sleeping altitude + highest point each day)."""
+    pts = [(d["day"], d.get("sleep_m") or 0, d.get("max_m") or d.get("sleep_m") or 0) for d in days]
+    if not pts:
+        return ""
+    w, h, pl, pr, pt, pb = 720, 240, 46, 14, 16, 30
+    top = max(m for _, _, m in pts)
+    top = (top // 1000 + 1) * 1000
+    xs = lambda i: pl + (w - pl - pr) * (i / max(1, len(pts) - 1))
+    ys = lambda m: pt + (h - pt - pb) * (1 - m / top)
+    sleep = " ".join(f"{xs(i):.1f},{ys(sl):.1f}" for i, (_, sl, _) in enumerate(pts))
+    area = f"{xs(0):.1f},{ys(0):.1f} " + sleep + f" {xs(len(pts) - 1):.1f},{ys(0):.1f}"
+    grid = "".join(f'<line x1="{pl}" x2="{w - pr}" y1="{ys(m):.1f}" y2="{ys(m):.1f}" class="g"/>'
+                   f'<text x="{pl - 8}" y="{ys(m) + 4:.1f}" text-anchor="end">{m:,}</text>' for m in range(0, top + 1, 1000))
+    peaks = "".join(f'<line x1="{xs(i):.1f}" x2="{xs(i):.1f}" y1="{ys(sl):.1f}" y2="{ys(mx):.1f}" class="pk"/>'
+                    f'<circle cx="{xs(i):.1f}" cy="{ys(mx):.1f}" r="3.5" class="pkd"><title>Day {d}: up to {mx:,} m</title></circle>'
+                    for i, (d, sl, mx) in enumerate(pts) if mx > sl)
+    dots = "".join(f'<circle cx="{xs(i):.1f}" cy="{ys(sl):.1f}" r="4" class="d"><title>Day {d}: sleep at {sl:,} m</title></circle>'
+                   f'<text x="{xs(i):.1f}" y="{h - 10}" text-anchor="middle">{d}</text>' for i, (d, sl, _) in enumerate(pts))
+    return Markup(f'<svg class="alt-chart" viewBox="0 0 {w} {h}" role="img" aria-label="Altitude by day, highest point {top:,} metres scale">'
+                  f'{grid}<polygon points="{area}" class="a"/><polyline points="{sleep}" class="l"/>{peaks}{dots}'
+                  f"<text x=\"{pl - 8}\" y=\"{h - 10}\" text-anchor=\"end\" class=\"cap\">Day</text></svg>")
+
+
+def load_experiences(photos, links, gear, origin):
+    out = []
+    if not EXPERIENCES.exists():
+        return out
+    for f in sorted(EXPERIENCES.glob("*.json")):
+        e = load_json(f)
+        e["url"] = f"/experiences/{e['slug']}/"
+        e["c1"], e["c2"] = palette(e["slug"])
+        e["photo"] = photos.get(e["slug"])
+        e["poster"] = f"/posters/{e['slug']}.svg"
+        e["abroad"] = e.get("country") != "India"
+        e["kind"] = "experience"
+        e["chart"] = altitude_chart(e.get("days", []))
+        base = e.get("base_city") or e["name"]
+        start, nights = links.in_weeks(4, 3)
+        e["deals"] = {
+            "label": f"{start:%d %b} to {(start + dt.timedelta(days=nights)):%d %b}",
+            "booking": links.booking(base, e.get("country", ""), start, nights),
+            "agoda": links.agoda(base, start, nights),
+            "flights": links.flights(e.get("iata"), start),
+            "fly_date": f"{start:%d %b}",
+            "base": base,
+        }
+        e["route"] = f"{origin} → {e['iata']}" if e.get("iata") and e.get("iata") != origin else None
+        e["gear"] = [{**g, "url": links.amazon(g["keyword"])} for g in gear_for(e, gear, n=6)]
+        out.append(e)
+    out.sort(key=lambda e: e.get("published", ""), reverse=True)
+    return out
 
 
 def main():
@@ -69,6 +125,7 @@ def main():
         print("No posts yet — run scripts/generate_daily.py first.")
         return 1
     posts.sort(key=lambda p: (p["featured_on"], p["seq"]), reverse=True)
+    experiences = load_experiences(photos, links, gear, origin)
 
     weekend, wk_nights = links.next_weekend()
     later, later_nights = links.in_weeks(3, 3)
@@ -102,14 +159,17 @@ def main():
             moods.append({"key": key, "label": label, "tags": tags, "count": len(items), "cover": cover})
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html"]))
-    env.globals.update(site=cfg, today=d, year=d.year, origin=origin, moods=moods, total=len(posts))
+    plain = links.booking("__Q__", "", weekend, wk_nights)
+    search_cfg = {"booking": plain, "enc": 2 if plain.startswith("https://tp.media") else 1}
+    env.globals.update(site=cfg, today=d, year=d.year, origin=origin, moods=moods, total=len(posts),
+                       experiences=experiences, search_cfg=search_cfg)
 
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
     shutil.copytree(ROOT / "static", OUT / "static")
     (OUT / "posters").mkdir()
-    for p in posts:  # illustrated poster for every guide (used when there's no photo)
+    for p in posts + experiences:  # illustrated poster for every guide (used when there's no photo)
         (OUT / "posters" / f"{p['slug']}.svg").write_text(make_poster(p), encoding="utf-8")
 
     def render(tpl, path, **ctx):
@@ -126,6 +186,10 @@ def main():
     by_name = sorted(posts, key=lambda p: p["name"])
     render("destinations.html", "destinations/index.html", posts=by_name, page_url="/destinations/")
     render("search.html", "search/index.html", page_url="/search/")
+    for e in experiences:
+        render("experience.html", f"experiences/{e['slug']}/index.html", exp=e, page_url=e["url"],
+               base_guide=next((p for p in posts if p["slug"] == e.get("base_guide")), None))
+    render("experiences.html", "experiences/index.html", page_url="/experiences/")
     render("deals.html", "deals/index.html", deals=deals, weekend=weekend, page_url="/deals/")
     render("page_about.html", "about/index.html", page_url="/about/")
     render("page_disclosure.html", "disclosure/index.html", page_url="/disclosure/")
@@ -133,15 +197,26 @@ def main():
     render("404.html", "404.html", page_url="/404.html")
 
     # search index used by the search box on every page
-    index = [{"n": p["name"], "c": p["country"], "r": p.get("region", ""), "t": p.get("tags", []),
-              "g": p.get("tagline", ""), "u": p["url"], "i": (p["photo"] or {}).get("small") or p["poster"],
-              "a": p["abroad"], "c1": p["c1"], "c2": p["c2"]} for p in by_name]
+    def keywords(p):  # landmarks, areas and other names, so "Taj Mahal" or "Thamel" lands on the right page
+        kws = list(p.get("search_keywords", []))
+        for item in p.get("highlights", []) + p.get("stay_areas", []):
+            kws.append(item.split(" for ")[0].split(" (")[0].split(":")[0].strip())
+            kws += [x.strip(" )") for x in item.split("(")[1:]]
+        return [k for k in dict.fromkeys(kws) if k]
+
+    def entry(p, kind):
+        return {"n": p["name"], "c": p["country"], "r": p.get("region", ""), "t": p.get("tags", []),
+                "g": p.get("tagline", ""), "u": p["url"], "i": (p["photo"] or {}).get("small") or p["poster"],
+                "a": p["abroad"], "c1": p["c1"], "c2": p["c2"], "h": keywords(p), "k": kind}
+
+    index = [entry(e, "experience") for e in experiences] + [entry(p, "guide") for p in by_name]
     (OUT / "search-index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
 
     # SEO + feeds
     base = cfg["base_url"].rstrip("/")
-    urls = [(u, d.isoformat()) for u in ("/", "/destinations/", "/deals/", "/about/", "/disclosure/")]
+    urls = [(u, d.isoformat()) for u in ("/", "/destinations/", "/deals/", "/experiences/", "/about/", "/disclosure/")]
     urls += [(p["url"], p["updated"]) for p in posts]
+    urls += [(e["url"], e.get("updated", e.get("published", d.isoformat()))) for e in experiences]
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{base}{u}</loc><lastmod>{m}</lastmod></url>\n" for u, m in urls)

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% from "_macros.html" import photo %}
+{% block title %}My Experience: treks and trips I've done | {{ site.site_name }}{% endblock %}
+{% block description %}First-hand trip reports with full day-by-day itineraries, real costs in rupees and honest tips, starting with the Everest Base Camp trek.{% endblock %}
+{% block content %}
+<section class="page-head">
+  <div class="wrap">
+    <h1>My Experience</h1>
+    <p class="hero-sub">Trips I've actually done, written up day by day: the route, the costs, what went wrong and what I'd do again.</p>
+  </div>
+</section>
+<section class="wrap exp-list">
+  {% for e in experiences %}
+  <a class="exp-card" href="{{ e.url }}">
+    <div class="exp-card-img">{{ photo(e) }}</div>
+    <div class="exp-card-body">
+      <span class="exp-badge">{{ e.days|length }}-day itinerary · {{ e.country }}</span>
+      <h2>{{ e.name }}</h2>
+      <p>{{ e.tagline }}</p>
+      <ul class="day-meta">
+        {% for s in e.stats[:3] %}<li><b>{{ s.label }}:</b> {{ s.value }}</li>{% endfor %}
+      </ul>
+      <span class="btn btn-navy">Read the full story</span>
+    </div>
+  </a>
+  {% else %}
+  <p class="muted">Trip reports are coming soon.</p>
+  {% endfor %}
+
+  {% if site.youtube_url %}
+  <div class="yt-card yt-band">
+    <div class="yt-text">
+      <strong>Follow my travels</strong>
+      <span>Trek videos and travel shorts on YouTube ({{ site.youtube_name }}){% if site.instagram_url %}, photos and stories on Instagram (@{{ site.instagram_name }}){% endif %}.</span>
+    </div>
+    <div class="social-btns"><a class="btn btn-yt" href="{{ site.youtube_url }}{{ '?sub_confirmation=1' if '?' not in site.youtube_url else '' }}" target="_blank" rel="noopener">Subscribe to {{ site.youtube_name }}</a>{% if site.instagram_url %}<a class="btn btn-ig" href="{{ site.instagram_url }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.6" cy="6.4" r="1.3" fill="currentColor"/></svg> Follow @{{ site.instagram_name }}</a>{% endif %}</div>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

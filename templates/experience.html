@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+{% from "_macros.html" import photo, ticket %}
+{% block title %}{{ exp.title }} | {{ site.site_name }}{% endblock %}
+{% block description %}{{ exp.description }}{% endblock %}
+{% block ogtype %}article{% endblock %}
+{% block ogimage %}{% if exp.photo %}<meta property="og:image" content="{{ exp.photo.url }}">{% endif %}{% endblock %}
+{% block head %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":{{ exp.title|tojson }},"description":{{ exp.description|tojson }},
+ "datePublished":"{{ exp.published }}","dateModified":"{{ exp.updated }}","author":{"@type":"Person","name":{{ site.author|tojson }}{% if site.youtube_url %},"sameAs":[{{ site.youtube_url|tojson }}{% if site.instagram_url %},{{ site.instagram_url|tojson }}{% endif %}]{% endif %}},
+ {% if exp.photo %}"image":{{ exp.photo.url|tojson }},{% endif %}
+ "mainEntityOfPage":"{{ site.base_url }}{{ exp.url }}"}
+</script>
+{% if exp.faq %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for f in exp.faq %}{"@type":"Question","name":{{ f.q|tojson }},"acceptedAnswer":{"@type":"Answer","text":{{ f.a|tojson }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<section class="post-hero exp-hero">
+  <div class="hero-media">{{ photo(exp, big=True, eager=True) }}</div>
+  <div class="hero-shade"></div>
+  <div class="wrap post-hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/experiences/">My Experience</a> / <span>{{ exp.name }}</span></nav>
+    <span class="exp-badge">My experience · {{ exp.days|length }}-day itinerary</span>
+    <h1>{{ exp.name }}</h1>
+    <p class="hero-sub">{{ exp.tagline }}</p>
+    <p class="post-meta">{{ exp.region }}. Updated {{ exp.updated }}</p>
+  </div>
+  {% if exp.photo %}<p class="hero-credit"><a href="{{ exp.photo.source }}" target="_blank" rel="noopener">Photo: {{ exp.photo.credit }}</a>, {% if exp.photo.license_url %}<a href="{{ exp.photo.license_url }}" target="_blank" rel="noopener">{{ exp.photo.license }}</a>{% else %}{{ exp.photo.license }}{% endif %}</p>{% endif %}
+</section>
+
+<div class="wrap article-layout">
+  <article class="article">
+    {% for para in exp.intro %}<p class="{{ 'lede' if loop.first else '' }}">{{ para }}</p>{% endfor %}
+
+    <dl class="stat-grid">
+      {% for s in exp.stats %}<div><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>{% endfor %}
+    </dl>
+
+    {% if site.youtube_url %}
+    <div class="yt-card">
+      {% if exp.youtube_video %}
+      <div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/{{ exp.youtube_video }}" title="{{ exp.name }} video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      {% endif %}
+      <div class="yt-text">
+        <strong>Watch the trek on YouTube</strong>
+        <span>Videos from the trail, the Lukla landing and the Kala Patthar sunrise are on my YouTube channel, <b>{{ site.youtube_name }}</b>{% if site.instagram_url %}, and photos are on Instagram{% endif %}.</span>
+      </div>
+      <div class="social-btns"><a class="btn btn-yt" href="{{ site.youtube_url }}{{ '?sub_confirmation=1' if '?' not in site.youtube_url else '' }}" target="_blank" rel="noopener">Subscribe to {{ site.youtube_name }}</a>{% if site.instagram_url %}<a class="btn btn-ig" href="{{ site.instagram_url }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.6" cy="6.4" r="1.3" fill="currentColor"/></svg> Follow @{{ site.instagram_name }}</a>{% endif %}</div>
+    </div>
+    {% endif %}
+
+    <h2 id="itinerary">The {{ exp.days|length }}-day itinerary at a glance</h2>
+    <figure class="alt-fig">
+      {{ exp.chart }}
+      <figcaption><span class="key k-sleep"></span> Where I slept each night <span class="key k-peak"></span> Highest point that day</figcaption>
+    </figure>
+    <div class="table-wrap">
+      <table class="itin-table">
+        <thead><tr><th>Day</th><th>Route</th><th>Sleep at</th><th>Walking</th></tr></thead>
+        <tbody>
+          {% for d in exp.days %}
+          <tr><td><a href="#day-{{ d.day }}">{{ d.day }}</a></td><td>{% if d.from != d.to %}{{ d.from }} → {{ d.to }}{% else %}{{ d.to }} (acclimatise){% endif %}</td>
+            <td>{{ "{:,}".format(d.sleep_m) }} m</td><td>{{ d.hours or "–" }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Day by day: what it was really like</h2>
+    <ol class="timeline">
+      {% for d in exp.days %}
+      <li class="day" id="day-{{ d.day }}">
+        <div class="day-num"><span>Day</span>{{ d.day }}</div>
+        <div class="day-body">
+          <h3>{{ d.title }}</h3>
+          <ul class="day-meta">
+            <li><b>{{ "{:,}".format(d.sleep_m) }} m</b> sleep</li>
+            {% if d.max_m and d.max_m > d.sleep_m %}<li><b>{{ "{:,}".format(d.max_m) }} m</b> high point</li>{% endif %}
+            {% if d.hours %}<li>{{ d.hours }}</li>{% endif %}
+            {% if d.distance %}<li>{{ d.distance }}</li>{% endif %}
+          </ul>
+          {% for para in d.story %}<p>{{ para }}</p>{% endfor %}
+          {% if d.tip %}<p class="day-tip"><strong>Tip:</strong> {{ d.tip }}</p>{% endif %}
+        </div>
+      </li>
+      {% if d.day == 5 %}
+      <li class="inline-cta">
+        <p><strong>Planning your own trek?</strong> Book your Kathmandu hotel for the nights before and after the trail ({{ exp.deals.label }}).</p>
+        <div class="btn-row">
+          <a class="btn btn-gold" rel="sponsored nofollow noopener" target="_blank" href="{{ exp.deals.booking }}">Kathmandu on Booking.com</a>
+          <a class="btn btn-line" rel="sponsored nofollow noopener" target="_blank" href="{{ exp.deals.agoda }}">Agoda</a>
+        </div>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ol>
+
+    {% for s in exp.sections %}
+      <h2 id="{{ s.id }}">{{ s.heading }}</h2>
+      {% if s.intro %}<p>{{ s.intro }}</p>{% endif %}
+      {% if s.table %}
+      <div class="table-wrap"><table class="itin-table cost-table"><tbody>
+        {% for row in s.table %}<tr><th scope="row">{{ row[0] }}</th><td class="amt">{{ row[1] }}</td><td class="note">{{ row[2] }}</td></tr>{% endfor %}
+      </tbody></table></div>
+      {% endif %}
+      {% for para in s.paragraphs or [] %}<p>{{ para }}</p>{% endfor %}
+      {% if s.list %}<ul>{% for item in s.list %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
+      {% if s.id == "packing" and exp.gear %}
+      <div class="gear">
+        {% for g in exp.gear %}
+        <a class="gear-item" rel="sponsored nofollow noopener" target="_blank" href="{{ g.url }}">
+          <strong>{{ g.name }}</strong><span>{{ g.why }}</span><em>View on Amazon</em>
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    {% endfor %}
+
+    {% if exp.faq %}
+    <h2>Questions people ask me about EBC</h2>
+    {% for f in exp.faq %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+    {% endif %}
+
+    <p class="fine">This page contains affiliate links. Permit fees, flight routes and trekking rules in Nepal change often, so confirm them with the Nepal Tourism Board or a registered agency before you go. This is my personal experience, not medical advice: speak to a doctor about altitude before a high trek.</p>
+  </article>
+
+  <aside class="side">
+    <div class="pass sticky">
+      <div class="pass-top">
+        <span>{{ origin }}</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 13l7 1 5 7h2l-2-7 6-1c1.5 0 2-1 2-1.5S21.5 10 20 10l-6-1 2-7h-2L9 9l-7 1z" fill="currentColor"/></svg>
+        <span>{{ exp.iata }}</span>
+      </div>
+      <div class="pass-body">
+        <p>Start in {{ exp.deals.base }}, {{ exp.deals.label }}</p>
+        <a class="btn btn-gold block" rel="sponsored nofollow noopener" target="_blank" href="{{ exp.deals.booking }}">Hotels on Booking.com</a>
+        <a class="btn btn-line block" rel="sponsored nofollow noopener" target="_blank" href="{{ exp.deals.agoda }}">Hotels on Agoda</a>
+        {% if exp.deals.flights %}
+        <p>Fly {{ exp.route }} on {{ exp.deals.fly_date }}</p>
+        <a class="btn btn-navy block" rel="sponsored nofollow noopener" target="_blank" href="{{ exp.deals.flights }}">Compare flight prices</a>
+        {% endif %}
+        <p class="fine">Opens a live search with dates filled in. Change them on the next page.</p>
+        <nav class="jump" aria-label="On this page">
+          <a href="#itinerary">Itinerary</a>{% for s in exp.sections %}<a href="#{{ s.id }}">{{ s.heading.split(' (')[0].split(' for ')[0] }}</a>{% endfor %}
+        </nav>
+      </div>
+    </div>
+  </aside>
+</div>
+
+{% if base_guide %}
+<section class="wrap latest">
+  <div class="rail-head"><h2>Before and after the trek</h2><a href="/destinations/?where=abroad">More trips abroad</a></div>
+  <div class="grid">{{ ticket(base_guide) }}</div>
+</section>
+{% endif %}
+{% endblock %}

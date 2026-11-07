@@ -86,6 +86,9 @@ Repo → **Actions → Daily update & deploy → Run workflow**. In ~1 minute yo
 - **Change the posting time:** edit the `cron` line in `.github/workflows/daily.yml` (it's in UTC; IST = UTC + 5:30).
 - **Change the look:** `static/style.css` and `templates/`.
 - **Edit a published post:** edit its file in `content/posts/` — the site redeploys automatically.
+- **My Experience pages:** each file in `content/experiences/` becomes a page under `/experiences/` (the Everest Base Camp trek is the first). Copy it to add another trip. Put a YouTube video ID in `"youtube_video"` to embed that video on the page.
+- **YouTube channel link:** set `youtube_url` and `youtube_name` in `config.json`.
+- **Search:** typing a place, landmark (e.g. "Taj Mahal", "Thamel") or close spelling ("manli") and pressing Enter opens that page directly. Landmarks come from each guide's highlights and stay areas; add extra words with `"search_keywords"`. Places without a guide fall back to a Booking.com hotel search with your tracking.
 
 ## Test it on your computer (optional)
 ```bash
