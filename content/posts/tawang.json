@@ -1,0 +1,101 @@
+{
+  "slug": "tawang",
+  "name": "Tawang",
+  "country": "India",
+  "region": "Arunachal Pradesh",
+  "iata": "GAU",
+  "wiki": "Tawang Monastery",
+  "tags": [
+    "mountain",
+    "spiritual",
+    "roadtrip"
+  ],
+  "cost": "₹₹",
+  "tagline": "High-altitude monasteries and frozen lakes",
+  "best_time": "March to June and September to November",
+  "highlights": [
+    "Tawang Monastery",
+    "Sela Pass",
+    "Madhuri (Sangetsar) Lake",
+    "Bum La Pass (permit needed)"
+  ],
+  "food": [
+    "Thukpa",
+    "Momos",
+    "Butter tea"
+  ],
+  "stay_areas": [
+    "Tawang town"
+  ],
+  "getting_there": "A long scenic drive from Guwahati or Tezpur, usually over two days via Dirang.",
+  "tip": "Indian visitors need an Inner Line Permit — apply online before you go.",
+  "intro": "If Tawang has been on your list, consider this your sign. High-altitude monasteries and frozen lakes, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Tawang",
+      "paragraphs": [
+        "Tawang (Arunachal Pradesh) is known for its mountain, spiritual and roadtrip experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to June and September to November."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Tawang Monastery",
+        "Sela Pass",
+        "Madhuri (Sangetsar) Lake",
+        "Bum La Pass (permit needed)"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Thukpa",
+        "Momos",
+        "Butter tea"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "A long scenic drive from Guwahati or Tezpur, usually over two days via Dirang."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Tawang town"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Indian visitors need an Inner Line Permit — apply online before you go."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Tawang?",
+      "a": "March to June and September to November."
+    },
+    {
+      "q": "How do I reach Tawang?",
+      "a": "A long scenic drive from Guwahati or Tezpur, usually over two days via Dirang."
+    },
+    {
+      "q": "Where should I stay in Tawang?",
+      "a": "Popular choices: Tawang town."
+    }
+  ],
+  "source": "template",
+  "title": "Tawang Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "High-altitude monasteries and frozen lakes. Plan your Tawang trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-08",
+  "updated": "2026-11-08"
+}

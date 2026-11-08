@@ -601,5 +601,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Khumbutse.jpg",
     "wiki": "Everest base camps"
+  },
+  "tawang": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/TawangMonastery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "small": "https://upload.wikimedia.org/wikipedia/commons/9/92/TawangMonastery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Rumelade",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TawangMonastery.jpg",
+    "wiki": "Tawang Monastery"
   }
 }
