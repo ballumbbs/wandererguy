@@ -610,5 +610,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:TawangMonastery.jpg",
     "wiki": "Tawang Monastery"
+  },
+  "seychelles": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/La_Digue_asv2024-10_img22_Union_Estate.jpg/1280px-La_Digue_asv2024-10_img22_Union_Estate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/La_Digue_asv2024-10_img22_Union_Estate.jpg/500px-La_Digue_asv2024-10_img22_Union_Estate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "A.Savin",
+    "license": "FAL",
+    "license_url": "http://artlibre.org/licence/lal/en",
+    "source": "https://commons.wikimedia.org/wiki/File:La_Digue_asv2024-10_img22_Union_Estate.jpg",
+    "wiki": "Anse Source d'Argent"
   }
 }

@@ -1,0 +1,103 @@
+{
+  "slug": "seychelles",
+  "name": "Seychelles",
+  "country": "Seychelles",
+  "region": "Indian Ocean",
+  "iata": "SEZ",
+  "wiki": "Anse Source d'Argent",
+  "tags": [
+    "beach",
+    "island",
+    "luxury"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Granite boulders and powder-white beaches",
+  "best_time": "April to May and October to November",
+  "highlights": [
+    "Anse Source d'Argent on La Digue",
+    "Vallée de Mai on Praslin",
+    "Beau Vallon on Mahé",
+    "Snorkelling at Sainte Anne Marine Park"
+  ],
+  "food": [
+    "Creole fish curry",
+    "Grilled fish",
+    "Fresh tropical fruit"
+  ],
+  "stay_areas": [
+    "Mahé for arrival",
+    "Praslin and La Digue for beaches"
+  ],
+  "getting_there": "Flights via the Gulf or direct seasonal flights from India.",
+  "tip": "Rent a bicycle on La Digue — it's the main way to get around.",
+  "intro": "Seychelles is one of those places that stays with you long after the trip ends. Granite boulders and powder-white beaches — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Seychelles",
+      "paragraphs": [
+        "Seychelles (Indian Ocean) is known for its beach, island and luxury experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is April to May and October to November."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Anse Source d'Argent on La Digue",
+        "Vallée de Mai on Praslin",
+        "Beau Vallon on Mahé",
+        "Snorkelling at Sainte Anne Marine Park"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Creole fish curry",
+        "Grilled fish",
+        "Fresh tropical fruit"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Flights via the Gulf or direct seasonal flights from India."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Mahé for arrival",
+        "Praslin and La Digue for beaches"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Rent a bicycle on La Digue — it's the main way to get around."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Seychelles?",
+      "a": "April to May and October to November."
+    },
+    {
+      "q": "How do I reach Seychelles?",
+      "a": "Flights via the Gulf or direct seasonal flights from India."
+    },
+    {
+      "q": "Where should I stay in Seychelles?",
+      "a": "Popular choices: Mahé for arrival; Praslin and La Digue for beaches."
+    }
+  ],
+  "source": "template",
+  "title": "Seychelles Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Granite boulders and powder-white beaches. Plan your Seychelles trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-09",
+  "updated": "2026-11-09"
+}
