@@ -1,0 +1,105 @@
+{
+  "slug": "paris",
+  "name": "Paris",
+  "country": "France",
+  "region": "Europe",
+  "iata": "PAR",
+  "wiki": "Eiffel Tower",
+  "tags": [
+    "city",
+    "romantic",
+    "culture"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Art, cafés and the Eiffel Tower",
+  "best_time": "April to June and September to October",
+  "highlights": [
+    "Eiffel Tower",
+    "The Louvre",
+    "Montmartre and Sacré-Cœur",
+    "Seine river cruise"
+  ],
+  "food": [
+    "Croissants",
+    "Crêpes",
+    "Macarons"
+  ],
+  "stay_areas": [
+    "Le Marais for charm",
+    "Saint-Germain for cafés",
+    "Near major Metro lines for convenience"
+  ],
+  "getting_there": "Direct flights from Delhi and Mumbai.",
+  "tip": "Book museum and Eiffel Tower tickets online to skip queues.",
+  "intro": "Art, cafés and the Eiffel Tower. That is Paris in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Paris",
+      "paragraphs": [
+        "Paris (Europe) is known for its city, romantic and culture experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is April to June and September to October."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Eiffel Tower",
+        "The Louvre",
+        "Montmartre and Sacré-Cœur",
+        "Seine river cruise"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Croissants",
+        "Crêpes",
+        "Macarons"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from Delhi and Mumbai."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Le Marais for charm",
+        "Saint-Germain for cafés",
+        "Near major Metro lines for convenience"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book museum and Eiffel Tower tickets online to skip queues."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Paris?",
+      "a": "April to June and September to October."
+    },
+    {
+      "q": "How do I reach Paris?",
+      "a": "Direct flights from Delhi and Mumbai."
+    },
+    {
+      "q": "Where should I stay in Paris?",
+      "a": "Popular choices: Le Marais for charm; Saint-Germain for cafés; Near major Metro lines for convenience."
+    }
+  ],
+  "source": "template",
+  "title": "Paris Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Art, cafés and the Eiffel Tower. Plan your Paris trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-10",
+  "updated": "2026-11-10"
+}
