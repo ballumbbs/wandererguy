@@ -1,0 +1,103 @@
+{
+  "slug": "spiti-valley",
+  "name": "Spiti Valley",
+  "country": "India",
+  "region": "Himachal Pradesh",
+  "iata": "KUU",
+  "wiki": "Key Monastery",
+  "tags": [
+    "mountain",
+    "adventure",
+    "roadtrip"
+  ],
+  "cost": "₹₹",
+  "tagline": "A cold desert of monasteries and moonscapes",
+  "best_time": "June to September",
+  "highlights": [
+    "Key Monastery",
+    "Chandratal Lake",
+    "Langza, Hikkim and Komic villages",
+    "Dhankar Monastery"
+  ],
+  "food": [
+    "Thukpa",
+    "Momos",
+    "Seabuckthorn tea"
+  ],
+  "stay_areas": [
+    "Kaza as the base",
+    "Homestays in Langza and Komic"
+  ],
+  "getting_there": "Drive via Shimla–Kinnaur (open most of the year) or via Manali when the passes are open.",
+  "tip": "Fuel stations are rare — fill up at Kaza and carry cash.",
+  "intro": "Looking for your next escape? Spiti Valley delivers: a cold desert of monasteries and moonscapes. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit Spiti Valley",
+      "paragraphs": [
+        "Spiti Valley (Himachal Pradesh) is known for its mountain, adventure and roadtrip experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is June to September."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Key Monastery",
+        "Chandratal Lake",
+        "Langza, Hikkim and Komic villages",
+        "Dhankar Monastery"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Thukpa",
+        "Momos",
+        "Seabuckthorn tea"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Drive via Shimla–Kinnaur (open most of the year) or via Manali when the passes are open."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Kaza as the base",
+        "Homestays in Langza and Komic"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Fuel stations are rare — fill up at Kaza and carry cash."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Spiti Valley?",
+      "a": "June to September."
+    },
+    {
+      "q": "How do I reach Spiti Valley?",
+      "a": "Drive via Shimla–Kinnaur (open most of the year) or via Manali when the passes are open."
+    },
+    {
+      "q": "Where should I stay in Spiti Valley?",
+      "a": "Popular choices: Kaza as the base; Homestays in Langza and Komic."
+    }
+  ],
+  "source": "template",
+  "title": "Spiti Valley Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "A cold desert of monasteries and moonscapes. Plan your Spiti Valley trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-11",
+  "updated": "2026-11-11"
+}

@@ -628,5 +628,14 @@
     "license_url": "",
     "source": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons_(cropped).jpg",
     "wiki": "Eiffel Tower"
+  },
+  "spiti-valley": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/1000_Year_loop.jpg/1280px-1000_Year_loop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/1000_Year_loop.jpg/500px-1000_Year_loop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Pranav perspective",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1000_Year_loop.jpg",
+    "wiki": "Key Monastery"
   }
 }
