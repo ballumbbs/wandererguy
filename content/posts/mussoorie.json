@@ -1,0 +1,103 @@
+{
+  "slug": "mussoorie",
+  "name": "Mussoorie",
+  "country": "India",
+  "region": "Uttarakhand",
+  "iata": "DED",
+  "wiki": "Mussoorie",
+  "tags": [
+    "hills",
+    "family",
+    "heritage"
+  ],
+  "cost": "₹₹",
+  "tagline": "The Queen of the Hills above Dehradun",
+  "best_time": "March to June and September to November",
+  "highlights": [
+    "Mall Road and Camel's Back Road",
+    "Gun Hill by ropeway",
+    "Landour's quiet lanes",
+    "Kempty Falls"
+  ],
+  "food": [
+    "Landour bakeries",
+    "Maggi at hill-top stalls",
+    "Garhwali dishes"
+  ],
+  "stay_areas": [
+    "Mall Road for convenience",
+    "Landour for heritage and calm"
+  ],
+  "getting_there": "About 1.5 hours by road from Dehradun.",
+  "tip": "Walk up to Landour for the hill station Mussoorie used to be.",
+  "intro": "The Queen of the Hills above Dehradun. That is Mussoorie in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
+  "sections": [
+    {
+      "heading": "Why visit Mussoorie",
+      "paragraphs": [
+        "Mussoorie (Uttarakhand) is known for its hills, family and heritage experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to June and September to November."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Mall Road and Camel's Back Road",
+        "Gun Hill by ropeway",
+        "Landour's quiet lanes",
+        "Kempty Falls"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Landour bakeries",
+        "Maggi at hill-top stalls",
+        "Garhwali dishes"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 1.5 hours by road from Dehradun."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Mall Road for convenience",
+        "Landour for heritage and calm"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Walk up to Landour for the hill station Mussoorie used to be."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Mussoorie?",
+      "a": "March to June and September to November."
+    },
+    {
+      "q": "How do I reach Mussoorie?",
+      "a": "About 1.5 hours by road from Dehradun."
+    },
+    {
+      "q": "Where should I stay in Mussoorie?",
+      "a": "Popular choices: Mall Road for convenience; Landour for heritage and calm."
+    }
+  ],
+  "source": "template",
+  "title": "Mussoorie Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The Queen of the Hills above Dehradun. Plan your Mussoorie trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-13",
+  "updated": "2026-11-13"
+}
