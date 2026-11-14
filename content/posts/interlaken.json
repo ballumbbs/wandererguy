@@ -1,0 +1,103 @@
+{
+  "slug": "interlaken",
+  "name": "Swiss Alps (Interlaken)",
+  "country": "Switzerland",
+  "region": "Europe",
+  "iata": "ZRH",
+  "wiki": "Interlaken",
+  "tags": [
+    "mountain",
+    "snow",
+    "adventure"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Lakes, trains and Alpine peaks",
+  "best_time": "June to September, or December to March for snow",
+  "highlights": [
+    "Jungfraujoch",
+    "Lauterbrunnen valley",
+    "Lake Brienz boat ride",
+    "Grindelwald First"
+  ],
+  "food": [
+    "Fondue",
+    "Rösti",
+    "Swiss chocolate"
+  ],
+  "stay_areas": [
+    "Interlaken as a base",
+    "Grindelwald or Lauterbrunnen for views"
+  ],
+  "getting_there": "Fly to Zurich, then about 2 hours by train.",
+  "tip": "Check rail passes — they can save a lot on mountain trains.",
+  "intro": "If Swiss Alps (Interlaken) has been on your list, consider this your sign. Lakes, trains and Alpine peaks, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Swiss Alps (Interlaken)",
+      "paragraphs": [
+        "Swiss Alps (Interlaken) (Europe) is known for its mountain, snow and adventure experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is June to September, or December to March for snow."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Jungfraujoch",
+        "Lauterbrunnen valley",
+        "Lake Brienz boat ride",
+        "Grindelwald First"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Fondue",
+        "Rösti",
+        "Swiss chocolate"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Fly to Zurich, then about 2 hours by train."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Interlaken as a base",
+        "Grindelwald or Lauterbrunnen for views"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Check rail passes — they can save a lot on mountain trains."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Swiss Alps (Interlaken)?",
+      "a": "June to September, or December to March for snow."
+    },
+    {
+      "q": "How do I reach Swiss Alps (Interlaken)?",
+      "a": "Fly to Zurich, then about 2 hours by train."
+    },
+    {
+      "q": "Where should I stay in Swiss Alps (Interlaken)?",
+      "a": "Popular choices: Interlaken as a base; Grindelwald or Lauterbrunnen for views."
+    }
+  ],
+  "source": "template",
+  "title": "Swiss Alps (Interlaken) Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Lakes, trains and Alpine peaks. Plan your Swiss Alps (Interlaken) trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-14",
+  "updated": "2026-11-14"
+}

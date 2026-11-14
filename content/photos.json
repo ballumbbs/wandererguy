@@ -655,5 +655,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Mussoorie_Snow_Over_Dehradun_(14831297545).jpg",
     "wiki": "Mussoorie"
+  },
+  "interlaken": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Goldswil-Viadukt_Panorama_mit_Interlaken_im_Hintergrund_2.jpg/1280px-Goldswil-Viadukt_Panorama_mit_Interlaken_im_Hintergrund_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Goldswil-Viadukt_Panorama_mit_Interlaken_im_Hintergrund_2.jpg/500px-Goldswil-Viadukt_Panorama_mit_Interlaken_im_Hintergrund_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Rectilinium",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Goldswil-Viadukt_Panorama_mit_Interlaken_im_Hintergrund_2.jpg",
+    "wiki": "Interlaken"
   }
 }
