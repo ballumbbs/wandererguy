@@ -1,0 +1,105 @@
+{
+  "slug": "amsterdam",
+  "name": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Europe",
+  "iata": "AMS",
+  "wiki": "Amsterdam",
+  "tags": [
+    "city",
+    "culture",
+    "romantic"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Canals, bikes and world-class museums",
+  "best_time": "April to May (tulip season) and June to September",
+  "highlights": [
+    "Canal cruise",
+    "Rijksmuseum and Van Gogh Museum",
+    "Anne Frank House",
+    "Keukenhof gardens in spring"
+  ],
+  "food": [
+    "Stroopwafels",
+    "Dutch pancakes",
+    "Herring (if you dare)"
+  ],
+  "stay_areas": [
+    "Canal Ring for charm",
+    "Jordaan for cafés",
+    "De Pijp for food"
+  ],
+  "getting_there": "Direct flights from Delhi and Mumbai.",
+  "tip": "Book the Anne Frank House online — tickets sell out weeks ahead.",
+  "intro": "If Amsterdam has been on your list, consider this your sign. Canals, bikes and world-class museums, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Amsterdam",
+      "paragraphs": [
+        "Amsterdam (Europe) is known for its city, culture and romantic experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is April to May (tulip season) and June to September."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Canal cruise",
+        "Rijksmuseum and Van Gogh Museum",
+        "Anne Frank House",
+        "Keukenhof gardens in spring"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Stroopwafels",
+        "Dutch pancakes",
+        "Herring (if you dare)"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Direct flights from Delhi and Mumbai."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Canal Ring for charm",
+        "Jordaan for cafés",
+        "De Pijp for food"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Book the Anne Frank House online — tickets sell out weeks ahead."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Amsterdam?",
+      "a": "April to May (tulip season) and June to September."
+    },
+    {
+      "q": "How do I reach Amsterdam?",
+      "a": "Direct flights from Delhi and Mumbai."
+    },
+    {
+      "q": "Where should I stay in Amsterdam?",
+      "a": "Popular choices: Canal Ring for charm; Jordaan for cafés; De Pijp for food."
+    }
+  ],
+  "source": "template",
+  "title": "Amsterdam Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Canals, bikes and world-class museums. Plan your Amsterdam trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-15",
+  "updated": "2026-11-15"
+}
