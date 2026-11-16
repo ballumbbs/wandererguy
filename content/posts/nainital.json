@@ -1,0 +1,103 @@
+{
+  "slug": "nainital",
+  "name": "Nainital",
+  "country": "India",
+  "region": "Uttarakhand",
+  "iata": "PGH",
+  "wiki": "Naini Lake",
+  "tags": [
+    "hills",
+    "lakes",
+    "family"
+  ],
+  "cost": "₹₹",
+  "tagline": "A lake town ringed by hills",
+  "best_time": "March to June and October to December",
+  "highlights": [
+    "Boating on Naini Lake",
+    "Snow View Point by ropeway",
+    "Tiffin Top walk",
+    "Day trip to Bhimtal and Sattal"
+  ],
+  "food": [
+    "Bal mithai",
+    "Bhatt ki churkani",
+    "Momos on the Mall"
+  ],
+  "stay_areas": [
+    "Mall Road for walkability",
+    "Bhimtal for quiet lakeside stays"
+  ],
+  "getting_there": "Kathgodam railway station is about 1.5 hours away; Pantnagar is the nearest airport.",
+  "tip": "Weekends get crowded — visit midweek if you can.",
+  "intro": "If Nainital has been on your list, consider this your sign. A lake town ringed by hills, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Nainital",
+      "paragraphs": [
+        "Nainital (Uttarakhand) is known for its hills, lakes and family experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is March to June and October to December."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Boating on Naini Lake",
+        "Snow View Point by ropeway",
+        "Tiffin Top walk",
+        "Day trip to Bhimtal and Sattal"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Bal mithai",
+        "Bhatt ki churkani",
+        "Momos on the Mall"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Kathgodam railway station is about 1.5 hours away; Pantnagar is the nearest airport."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Mall Road for walkability",
+        "Bhimtal for quiet lakeside stays"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Weekends get crowded — visit midweek if you can."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Nainital?",
+      "a": "March to June and October to December."
+    },
+    {
+      "q": "How do I reach Nainital?",
+      "a": "Kathgodam railway station is about 1.5 hours away; Pantnagar is the nearest airport."
+    },
+    {
+      "q": "Where should I stay in Nainital?",
+      "a": "Popular choices: Mall Road for walkability; Bhimtal for quiet lakeside stays."
+    }
+  ],
+  "source": "template",
+  "title": "Nainital Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "A lake town ringed by hills. Plan your Nainital trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-16",
+  "updated": "2026-11-16"
+}
