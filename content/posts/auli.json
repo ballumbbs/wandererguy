@@ -1,0 +1,103 @@
+{
+  "slug": "auli",
+  "name": "Auli",
+  "country": "India",
+  "region": "Uttarakhand",
+  "iata": "DED",
+  "wiki": "Auli, India",
+  "tags": [
+    "snow",
+    "mountain",
+    "adventure"
+  ],
+  "cost": "₹₹",
+  "tagline": "Ski slopes with Nanda Devi views",
+  "best_time": "December to March for snow, April to June for meadows",
+  "highlights": [
+    "Skiing and snow play",
+    "Gondola from Joshimath",
+    "Gorson Bugyal meadow trek",
+    "Views of Nanda Devi"
+  ],
+  "food": [
+    "Garhwali thali",
+    "Hot soups",
+    "Local rajma"
+  ],
+  "stay_areas": [
+    "Auli resorts",
+    "Joshimath for budget stays"
+  ],
+  "getting_there": "Rishikesh to Joshimath is a long mountain drive, then cable car or road to Auli.",
+  "tip": "Check road and ropeway status before travelling in winter.",
+  "intro": "If Auli has been on your list, consider this your sign. Ski slopes with Nanda Devi views, all within reach of a short holiday.",
+  "sections": [
+    {
+      "heading": "Why visit Auli",
+      "paragraphs": [
+        "Auli (Uttarakhand) is known for its snow, mountain and adventure experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is December to March for snow, April to June for meadows."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Skiing and snow play",
+        "Gondola from Joshimath",
+        "Gorson Bugyal meadow trek",
+        "Views of Nanda Devi"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Garhwali thali",
+        "Hot soups",
+        "Local rajma"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Rishikesh to Joshimath is a long mountain drive, then cable car or road to Auli."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Auli resorts",
+        "Joshimath for budget stays"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Check road and ropeway status before travelling in winter."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Auli?",
+      "a": "December to March for snow, April to June for meadows."
+    },
+    {
+      "q": "How do I reach Auli?",
+      "a": "Rishikesh to Joshimath is a long mountain drive, then cable car or road to Auli."
+    },
+    {
+      "q": "Where should I stay in Auli?",
+      "a": "Popular choices: Auli resorts; Joshimath for budget stays."
+    }
+  ],
+  "source": "template",
+  "title": "Auli Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Ski slopes with Nanda Devi views. Plan your Auli trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-17",
+  "updated": "2026-11-17"
+}
