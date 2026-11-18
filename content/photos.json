@@ -682,5 +682,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Auli_Himalayas.jpg",
     "wiki": "Auli, India"
+  },
+  "lonavala": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Tiger_Valley_Bridge_view_3.jpg/1280px-Tiger_Valley_Bridge_view_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Tiger_Valley_Bridge_view_3.jpg/500px-Tiger_Valley_Bridge_view_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Cppfront",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Tiger_Valley_Bridge_view_3.jpg",
+    "wiki": "Lonavala"
   }
 }

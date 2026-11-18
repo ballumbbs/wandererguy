@@ -1,0 +1,103 @@
+{
+  "slug": "lonavala",
+  "name": "Lonavala",
+  "country": "India",
+  "region": "Maharashtra",
+  "iata": "PNQ",
+  "wiki": "Lonavala",
+  "tags": [
+    "hills",
+    "nature",
+    "family"
+  ],
+  "cost": "₹₹",
+  "tagline": "Monsoon waterfalls between Mumbai and Pune",
+  "best_time": "June to September for the monsoon, October to February for pleasant weather",
+  "highlights": [
+    "Tiger's Leap viewpoint",
+    "Karla and Bhaja caves",
+    "Lohagad Fort trek",
+    "Pawna Lake camping"
+  ],
+  "food": [
+    "Chikki",
+    "Vada pav",
+    "Corn on the roadside"
+  ],
+  "stay_areas": [
+    "Lonavala town",
+    "Khandala for valley views"
+  ],
+  "getting_there": "About 2 hours from Mumbai and 1 hour from Pune by road or train.",
+  "tip": "Avoid monsoon weekends if you dislike crowds.",
+  "intro": "Lonavala is one of those places that stays with you long after the trip ends. Monsoon waterfalls between Mumbai and Pune — and it is easier to plan than you might think.",
+  "sections": [
+    {
+      "heading": "Why visit Lonavala",
+      "paragraphs": [
+        "Lonavala (Maharashtra) is known for its hills, nature and family experiences. Overall it is mid-range — comfortable stays and good food without overspending."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is June to September for the monsoon, October to February for pleasant weather."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Tiger's Leap viewpoint",
+        "Karla and Bhaja caves",
+        "Lohagad Fort trek",
+        "Pawna Lake camping"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Chikki",
+        "Vada pav",
+        "Corn on the roadside"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "About 2 hours from Mumbai and 1 hour from Pune by road or train."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "Lonavala town",
+        "Khandala for valley views"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Avoid monsoon weekends if you dislike crowds."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit Lonavala?",
+      "a": "June to September for the monsoon, October to February for pleasant weather."
+    },
+    {
+      "q": "How do I reach Lonavala?",
+      "a": "About 2 hours from Mumbai and 1 hour from Pune by road or train."
+    },
+    {
+      "q": "Where should I stay in Lonavala?",
+      "a": "Popular choices: Lonavala town; Khandala for valley views."
+    }
+  ],
+  "source": "template",
+  "title": "Lonavala Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Monsoon waterfalls between Mumbai and Pune. Plan your Lonavala trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-18",
+  "updated": "2026-11-18"
+}
