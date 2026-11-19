@@ -1,0 +1,105 @@
+{
+  "slug": "london",
+  "name": "London",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "iata": "LON",
+  "wiki": "Tower Bridge",
+  "tags": [
+    "city",
+    "culture",
+    "shopping"
+  ],
+  "cost": "₹₹₹",
+  "tagline": "Royal history, free museums and theatre",
+  "best_time": "May to September",
+  "highlights": [
+    "Tower of London and Tower Bridge",
+    "British Museum (free)",
+    "West End show",
+    "Borough Market"
+  ],
+  "food": [
+    "Fish and chips",
+    "Sunday roast",
+    "Brick Lane curries"
+  ],
+  "stay_areas": [
+    "South Bank for sights",
+    "Kensington for museums",
+    "King's Cross for transport"
+  ],
+  "getting_there": "Many direct flights from Indian cities.",
+  "tip": "Tap a contactless card on the Tube — daily fares are capped.",
+  "intro": "Looking for your next escape? London delivers: royal history, free museums and theatre. Here is everything you need to plan a trip.",
+  "sections": [
+    {
+      "heading": "Why visit London",
+      "paragraphs": [
+        "London (Europe) is known for its city, culture and shopping experiences. Overall it is on the premium side — worth saving up for, though budget options exist."
+      ]
+    },
+    {
+      "heading": "Best time to go",
+      "paragraphs": [
+        "The best time to visit is May to September."
+      ]
+    },
+    {
+      "heading": "Top things to do",
+      "list": [
+        "Tower of London and Tower Bridge",
+        "British Museum (free)",
+        "West End show",
+        "Borough Market"
+      ]
+    },
+    {
+      "heading": "What to eat",
+      "list": [
+        "Fish and chips",
+        "Sunday roast",
+        "Brick Lane curries"
+      ]
+    },
+    {
+      "heading": "How to get there",
+      "paragraphs": [
+        "Many direct flights from Indian cities."
+      ]
+    },
+    {
+      "heading": "Where to stay",
+      "list": [
+        "South Bank for sights",
+        "Kensington for museums",
+        "King's Cross for transport"
+      ]
+    },
+    {
+      "heading": "Insider tip",
+      "paragraphs": [
+        "Tap a contactless card on the Tube — daily fares are capped."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When is the best time to visit London?",
+      "a": "May to September."
+    },
+    {
+      "q": "How do I reach London?",
+      "a": "Many direct flights from Indian cities."
+    },
+    {
+      "q": "Where should I stay in London?",
+      "a": "Popular choices: South Bank for sights; Kensington for museums; King's Cross for transport."
+    }
+  ],
+  "source": "template",
+  "title": "London Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Royal history, free museums and theatre. Plan your London trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-11-19",
+  "updated": "2026-11-19"
+}
