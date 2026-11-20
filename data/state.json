@@ -1,12 +1,6 @@
 {
   "published": [
     {
-      "slug": "agra",
-      "published": "2026-10-21",
-      "last_featured": "2026-10-21",
-      "seq": 2
-    },
-    {
       "slug": "manali",
       "published": "2026-10-21",
       "last_featured": "2026-10-21",
@@ -503,6 +497,12 @@
       "published": "2026-11-19",
       "last_featured": "2026-11-19",
       "seq": 85
+    },
+    {
+      "slug": "agra",
+      "published": "2026-10-21",
+      "last_featured": "2026-11-20",
+      "seq": 86
     }
   ]
 }
