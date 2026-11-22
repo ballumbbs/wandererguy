@@ -1,12 +1,6 @@
 {
   "published": [
     {
-      "slug": "bali",
-      "published": "2026-10-21",
-      "last_featured": "2026-10-21",
-      "seq": 4
-    },
-    {
       "slug": "bangkok",
       "published": "2026-10-21",
       "last_featured": "2026-10-21",
@@ -503,6 +497,12 @@
       "published": "2026-10-21",
       "last_featured": "2026-11-21",
       "seq": 87
+    },
+    {
+      "slug": "bali",
+      "published": "2026-10-21",
+      "last_featured": "2026-11-22",
+      "seq": 88
     }
   ]
 }
