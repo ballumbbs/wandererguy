@@ -30,7 +30,11 @@
   ],
   "getting_there": "Cochin International Airport has direct flights from most Indian cities.",
   "tip": "Use the cheap public ferries between Ernakulam and Fort Kochi.",
-  "intro": "Looking for your next escape? Kochi delivers: chinese fishing nets, spice markets and colonial lanes. Here is everything you need to plan a trip.",
+  "title": "Kochi Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Chinese fishing nets, spice markets and colonial lanes. Plan your Kochi trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-11-24",
+  "intro": "Chinese fishing nets, spice markets and colonial lanes. That is Kochi in one line — but there is a lot more to it. This guide covers when to go, where to stay and what not to miss.",
   "sections": [
     {
       "heading": "Why visit Kochi",
@@ -95,9 +99,5 @@
       "a": "Popular choices: Fort Kochi for heritage homestays; Ernakulam for transit and shopping."
     }
   ],
-  "source": "template",
-  "title": "Kochi Travel Guide: Best Time, Things to Do & Where to Stay",
-  "description": "Chinese fishing nets, spice markets and colonial lanes. Plan your Kochi trip: best time to visit, top sights, food, and hotel and flight deals.",
-  "published": "2026-10-21",
-  "updated": "2026-10-21"
+  "source": "template"
 }

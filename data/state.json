@@ -1,12 +1,6 @@
 {
   "published": [
     {
-      "slug": "kochi",
-      "published": "2026-10-21",
-      "last_featured": "2026-10-21",
-      "seq": 6
-    },
-    {
       "slug": "jaipur",
       "published": "2026-10-21",
       "last_featured": "2026-10-21",
@@ -503,6 +497,12 @@
       "published": "2026-10-21",
       "last_featured": "2026-11-23",
       "seq": 89
+    },
+    {
+      "slug": "kochi",
+      "published": "2026-10-21",
+      "last_featured": "2026-11-24",
+      "seq": 90
     }
   ]
 }
