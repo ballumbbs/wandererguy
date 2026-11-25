@@ -1,12 +1,6 @@
 {
   "published": [
     {
-      "slug": "jaipur",
-      "published": "2026-10-21",
-      "last_featured": "2026-10-21",
-      "seq": 7
-    },
-    {
       "slug": "mumbai",
       "published": "2026-10-21",
       "last_featured": "2026-10-21",
@@ -503,6 +497,12 @@
       "published": "2026-10-21",
       "last_featured": "2026-11-24",
       "seq": 90
+    },
+    {
+      "slug": "jaipur",
+      "published": "2026-10-21",
+      "last_featured": "2026-11-25",
+      "seq": 91
     }
   ]
 }
