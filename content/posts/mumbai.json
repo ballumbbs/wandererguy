@@ -31,7 +31,11 @@
   ],
   "getting_there": "Mumbai's international airport and rail stations connect to the whole country.",
   "tip": "Use local trains outside rush hours — they're the fastest way across the city.",
-  "intro": "Mumbai is one of those places that stays with you long after the trip ends. The city of dreams, street food and sea-facing promenades — and it is easier to plan than you might think.",
+  "title": "Mumbai Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "The city of dreams, street food and sea-facing promenades. Plan your Mumbai trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-11-26",
+  "intro": "If Mumbai has been on your list, consider this your sign. The city of dreams, street food and sea-facing promenades, all within reach of a short holiday.",
   "sections": [
     {
       "heading": "Why visit Mumbai",
@@ -97,9 +101,5 @@
       "a": "Popular choices: Colaba for sights; Bandra for cafés and nightlife; Andheri for the airport."
     }
   ],
-  "source": "template",
-  "title": "Mumbai Travel Guide: Best Time, Things to Do & Where to Stay",
-  "description": "The city of dreams, street food and sea-facing promenades. Plan your Mumbai trip: best time to visit, top sights, food, and hotel and flight deals.",
-  "published": "2026-10-21",
-  "updated": "2026-10-21"
+  "source": "template"
 }
