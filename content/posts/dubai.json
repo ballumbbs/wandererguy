@@ -31,7 +31,11 @@
   "getting_there": "Many direct flights from India to Dubai International.",
   "tip": "The Metro is clean, cheap and connects most major sights.",
   "wiki": "Burj Khalifa",
-  "intro": "If Dubai has been on your list, consider this your sign. Skyscrapers, desert safaris and souks, all within reach of a short holiday.",
+  "title": "Dubai Travel Guide: Best Time, Things to Do & Where to Stay",
+  "description": "Skyscrapers, desert safaris and souks. Plan your Dubai trip: best time to visit, top sights, food, and hotel and flight deals.",
+  "published": "2026-10-21",
+  "updated": "2026-11-28",
+  "intro": "Dubai is one of those places that stays with you long after the trip ends. Skyscrapers, desert safaris and souks — and it is easier to plan than you might think.",
   "sections": [
     {
       "heading": "Why visit Dubai",
@@ -97,9 +101,5 @@
       "a": "Popular choices: Downtown for landmarks; Dubai Marina / JBR for beach; Deira for budget and souks."
     }
   ],
-  "source": "template",
-  "title": "Dubai Travel Guide: Best Time, Things to Do & Where to Stay",
-  "description": "Skyscrapers, desert safaris and souks. Plan your Dubai trip: best time to visit, top sights, food, and hotel and flight deals.",
-  "published": "2026-10-21",
-  "updated": "2026-10-21"
+  "source": "template"
 }
